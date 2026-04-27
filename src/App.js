@@ -194,7 +194,7 @@ export default function StripeClone() {
       <nav className={`nav${scrolled ? " scrolled" : ""}`}>
         <div className="nav-inner">
           <a href="/" className="nav-logo" aria-label="Code Curo home">
-            <img src="/code-curo-logo.svg" alt="Code Curo" />
+            <img src="/logo-code-curo.png" alt="Code Curo" />
           </a>
           <ul className="nav-links">
             <NavDropdown label="Services" items={siteData.services.slice(0, 8).map((item) => item.name)} />
