@@ -83,7 +83,7 @@ export default function DataEngineeringPage() {
                 <a className="btn-primary" href="mailto:sales@codecuro.in">Discuss your data platform</a>
                 <a
                   className="data-secondary-link"
-                  href="https://fiftyfivetech.io/data-management-platform/"
+                  href="https://codecuro.in/data-management-platform/"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -154,7 +154,7 @@ export default function MvpDevelopmentPage() {
               </p>
               <div className="mvp-hero-actions fade-up fade-up-d3">
                 <a className="btn-primary" href="mailto:sales@codecuro.in">Book a free POC</a>
-                <a className="mvp-secondary-link" href="https://fiftyfivetech.io/mvp/" target="_blank" rel="noreferrer">
+                <a className="mvp-secondary-link" href="https://codecuro.in/mvp/" target="_blank" rel="noreferrer">
                   View source page {"\u2192"}
                 </a>
               </div>

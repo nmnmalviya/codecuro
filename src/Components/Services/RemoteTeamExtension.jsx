@@ -78,7 +78,7 @@ export default function RemoteTeamExtensionPage() {
               </p>
               <div className="remote-hero-actions fade-up fade-up-d3">
                 <a className="btn-primary" href="mailto:sales@codecuro.in">Book a free POC</a>
-                <a className="remote-secondary-link" href="https://fiftyfivetech.io/remote/" target="_blank" rel="noreferrer">
+                <a className="remote-secondary-link" href="https://codecuro.in/remote/" target="_blank" rel="noreferrer">
                   View source page {"\u2192"}
                 </a>
               </div>

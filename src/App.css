@@ -2420,6 +2420,141 @@
     border: 1px solid rgba(255,255,255,.18);
     background: rgba(255,255,255,.08);
   }
+  .case-study-page .web-story-card,
+  .case-study-page .case-study-category-card {
+    text-decoration: none;
+  }
+  .case-study-service-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: auto;
+  }
+  .case-study-service-cloud span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 0 12px;
+    border-radius: 10px;
+    color: rgba(255,255,255,.82);
+    background: rgba(255,255,255,.07);
+    border: 1px solid rgba(255,255,255,.1);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .case-study-category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 52px;
+  }
+  .case-study-category-card {
+    position: relative;
+    overflow: hidden;
+    min-height: 332px;
+    border-radius: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(10,37,64,.09);
+    background: #fff;
+    box-shadow: 0 16px 38px rgba(10,37,64,.08);
+    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  }
+  .case-study-category-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(99,91,255,.25);
+    box-shadow: 0 26px 62px rgba(10,37,64,.14);
+  }
+  .case-study-category-media {
+    position: relative;
+    height: 166px;
+    overflow: hidden;
+    background: #0a2540;
+  }
+  .case-study-category-media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg, rgba(10,37,64,0) 36%, rgba(10,37,64,.32) 100%),
+      linear-gradient(135deg, rgba(0,184,217,.18), rgba(99,91,255,.1));
+    pointer-events: none;
+  }
+  .case-study-category-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transform: scale(1.01);
+    transition: transform .35s ease;
+  }
+  .case-study-category-card:hover .case-study-category-media img {
+    transform: scale(1.07);
+  }
+  .case-study-category-body {
+    min-height: 166px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background:
+      radial-gradient(circle at 90% 12%, rgba(0,184,217,.09), transparent 32%),
+      linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  }
+  .case-study-category-card strong {
+    color: var(--text);
+    font-size: 22px;
+    line-height: 1.25;
+    letter-spacing: -.25px;
+    margin-bottom: 12px;
+  }
+  .case-study-category-card p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.65;
+    margin: 0 0 20px;
+  }
+  .case-study-category-card em {
+    margin-top: auto;
+    color: var(--stripe-blue);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .case-study-card {
+    cursor: pointer;
+  }
+  .case-study-card-footer {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 22px;
+  }
+  .case-study-card-footer span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 0 10px;
+    border-radius: 8px;
+    color: #45697d;
+    background: rgba(10,37,64,.05);
+    border: 1px solid rgba(10,37,64,.07);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+  }
+  .case-study-card:nth-child(1) .case-study-card-footer span,
+  .case-study-card:nth-child(8) .case-study-card-footer span {
+    color: rgba(255,255,255,.78);
+    background: rgba(255,255,255,.09);
+    border-color: rgba(255,255,255,.12);
+  }
+  .case-study-cta {
+    padding-top: 96px;
+  }
   @media (max-width: 900px) {
     .mvp-story-grid,
     .web-story-grid {
@@ -2429,6 +2564,9 @@
     .web-story-card {
       grid-column: auto;
       min-height: auto;
+    }
+    .case-study-category-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   @media (max-width: 600px) {
@@ -2440,5 +2578,8 @@
     .web-story-card h3 {
       max-width: 100%;
       font-size: 22px;
+    }
+    .case-study-category-grid {
+      grid-template-columns: 1fr;
     }
   }

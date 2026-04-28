@@ -10,7 +10,7 @@
     "email": {
       "sales": "sales@codecuro.in",
       "hiring": "hiring@codecuro.in",
-      "uk_sales": "sales@fiftyfivetech.uk",
+      "uk_sales": "sales@codecuro.in",
       "sweden_sales": "paul.heveus@codecuro.in",
       "uae_sales": "abhishek@codecuro.in"
     },
@@ -64,7 +64,7 @@
       "name": "Automation & Prompt Engineering",
       "description": "Integrate AI-driven workflows, build custom GPT models, and unlock efficiency with intelligent automation.",
       "highlights": ["Customized Growth", "Faster Market Penetration"],
-      "url": "https://codecuro.in/artificial-intelligence-service/"
+      "url": "/automation-prompt-engineering"
     },
     {
       "name": "DevOps Services",
@@ -72,11 +72,17 @@
       "highlights": ["Industry-Ready Deployment", "Resource Efficiency"],
       "url": "/devops-services"
     },
+    { "name": "Remote Team", "url": "/remote-team" },
+    {
+      "name": "Back-End Development",
+      "description": "Build secure APIs, databases, authentication, integrations, and cloud-ready backend systems that scale with your product.",
+      "url": "/back-end-development"
+    },
     { "name": "Custom Software Development", "url": "https://codecuro.in/mvp/" },
-    { "name": "UI/UX Design", "url": "https://codecuro.in/ui-ux-design-services/" },
+    { "name": "UI/UX Design", "url": "/ui-ux" },
     { "name": "Web Development", "url": "/web-development" },
-    { "name": "Mobile Development", "url": "https://codecuro.in/custom-mobile-app/" },
-    { "name": "QA & Software Testing", "url": "https://codecuro.in/software-testing-qa/" }
+    { "name": "Mobile Development", "url": "/mobile-development" },
+    { "name": "QA & Software Testing", "url": "/QA-software-testing" }
   ],
   "hire_developers": {
     "frontend": [
@@ -223,7 +229,7 @@
       { "label": "Blog", "url": "https://codecuro.in/new-releases/" }
     ],
     "main": [
-      { "label": "Case Studies", "url": "https://codecuro.in/portfolio/" },
+      { "label": "Case Studies", "url": "/case-studies" },
       { "label": "Career", "url": "https://codecuro.in/careers/" },
       { "label": "Contact", "url": "https://codecuro.in/contact/" }
     ]

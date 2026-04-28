@@ -106,7 +106,7 @@ export default function DevOpsPage() {
               </p>
               <div className="web-hero-actions fade-up fade-up-d3">
                 <a className="btn-primary" href="mailto:sales@codecuro.in">Book a Free POC</a>
-                <a className="web-secondary-link" href="https://fiftyfivetech.io/devops-and-cloud/" target="_blank" rel="noreferrer">
+                <a className="web-secondary-link" href="https://codecuro.in/devops-and-cloud/" target="_blank" rel="noreferrer">
                   View source page {"\u2192"}
                 </a>
               </div>

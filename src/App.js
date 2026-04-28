@@ -7,7 +7,14 @@ import DataEngineeringPage from "./Components/Services/DataEngineering";
 import RemoteTeamExtensionPage from "./Components/Services/RemoteTeamExtension";
 import MvpDevelopmentPage from "./Components/Services/MvpDevelopment";
 import WebDevelopmentPage from "./Components/Services/WebDevelopment";
+import BackEndDevelopmentPage from "./Components/Services/BackEndDevelopment";
 import DevOpsPage from "./Components/Services/devops";
+import UiUxPage from "./Components/Services/Ui-Ux";
+import MobileDevelopmentPage from "./Components/Services/MobileDevelopment";
+import QaSoftwareTestingPage from "./Components/Services/QaSoftwareTesting";
+import AutomationPromptEngineeringPage from "./Components/Services/AutomationPromptEngineering";
+import RemoteTeamPage from "./Components/Services/RemoteTeam";
+import CaseStudyPage from "./Components/Resources/CaseStudy";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -409,9 +416,17 @@ export default function App() {
       <Route path="/ai-and-ml" element={<AiAndMlPage />} />
       <Route path="/data-engineering" element={<DataEngineeringPage />} />
       <Route path="/remote-team-extension" element={<RemoteTeamExtensionPage />} />
+      <Route path="/remote-team" element={<RemoteTeamPage />} />
       <Route path="/mvp-development" element={<MvpDevelopmentPage />} />
       <Route path="/web-development" element={<WebDevelopmentPage />} />
+      <Route path="/back-end-development" element={<BackEndDevelopmentPage />} />
       <Route path="/devops-services" element={<DevOpsPage />} />
+      <Route path="/ui-ux" element={<UiUxPage />} />
+      <Route path="/mobile-development" element={<MobileDevelopmentPage />} />
+      <Route path="/QA-software-testing" element={<QaSoftwareTestingPage />} />
+      <Route path="/qa-software-testing" element={<QaSoftwareTestingPage />} />
+      <Route path="/automation-prompt-engineering" element={<AutomationPromptEngineeringPage />} />
+      <Route path="/case-studies" element={<CaseStudyPage />} />
     </Routes>
   );
 }
