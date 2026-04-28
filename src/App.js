@@ -1,6 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import siteData from "./codeCuroData.json";
 import "./App.css";
+import AiAndMlPage from "./Components/Services/Ai&Ml";
+import DataEngineeringPage from "./Components/Services/DataEngineering";
+import RemoteTeamExtensionPage from "./Components/Services/RemoteTeamExtension";
+import MvpDevelopmentPage from "./Components/Services/MvpDevelopment";
+import WebDevelopmentPage from "./Components/Services/WebDevelopment";
+import DevOpsPage from "./Components/Services/devops";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 const statLabels = {
   it_professionals: "IT professionals",
@@ -21,16 +30,6 @@ const icons = [
   "\u{1F3A8}",
   "\u{1F578}\uFE0F"
 ];
-
-/* NAV DROPDOWN */
-const NavDropdown = ({ label, items }) => (
-  <li className="dropdown-wrap">
-    <button>{label} <span style={{ fontSize: "10px" }}>{"\u25BE"}</span></button>
-    <div className="dropdown-menu">
-      {items.map((item) => <a key={item} className="dropdown-item" href="#">{item}</a>)}
-    </div>
-  </li>
-);
 
 /* CODE BLOCK */
 const CodeBlock = () => (
@@ -150,17 +149,9 @@ const MockDashboard = ({ type }) => {
   return null;
 };
 
-/* MAIN APP */
-export default function StripeClone() {
-  const [scrolled, setScrolled] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
+/* HOME PAGE */
+function HomePage() {
   const [activeTab, setActiveTab] = useState(0);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   const dataTabs = siteData.case_studies.slice(0, 3).map((item, index) => ({
     label: item.category,
@@ -190,38 +181,7 @@ export default function StripeClone() {
 
   return (
     <>
-      {/* NAVBAR */}
-      <nav className={`nav${scrolled ? " scrolled" : ""}`}>
-        <div className="nav-inner">
-          <a href="/" className="nav-logo" aria-label="Code Curo home">
-            <img src="/logo-code-curo.png" alt="Code Curo" />
-          </a>
-          <ul className="nav-links">
-            <NavDropdown label="Services" items={siteData.services.slice(0, 8).map((item) => item.name)} />
-            <NavDropdown label="Industries" items={siteData.industries} />
-            <NavDropdown label="Developers" items={Object.values(siteData.hire_developers).flat().slice(0, 8).map((item) => item.role)} />
-            <NavDropdown label="Resources" items={[...siteData.navigation.about, ...siteData.navigation.main].map((item) => item.label)} />
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <div className="nav-actions">
-            <button className="btn-ghost">Careers</button>
-            <button className="btn-primary">Start a project {"\u2192"}</button>
-          </div>
-          <div className="hamburger" onClick={() => setMobileOpen(!mobileOpen)}>
-            <span /><span /><span />
-          </div>
-        </div>
-      </nav>
-
-      {/* Mobile menu */}
-      <div className={`mobile-menu${mobileOpen ? " open" : ""}`}>
-        {["Services", "Industries", "Developers", "Resources", "Contact"].map((item) => (
-          <a key={item} href="#" className="mobile-nav-item">{item}</a>
-        ))}
-        <div className="mobile-divider" />
-        <a href="#" className="mobile-nav-item" style={{ color: "var(--stripe-purple)", fontWeight: 700 }}>Careers</a>
-        <button className="btn-primary" style={{ marginTop: 8, padding: "14px", fontSize: 15 }}>Start a project {"\u2192"}</button>
-      </div>
+      <Header />
 
       {/* HERO */}
       <section className="hero">
@@ -303,14 +263,7 @@ export default function StripeClone() {
           <div className="section-label" style={{ color: "rgba(99,91,255,.8)" }}>Services</div>
           <h2 className="section-title" style={{ color: "#fff" }}>Everything you need to build and scale.</h2>
           <div className="products-grid">
-            {dataProducts.map((p, i) => (
-              <div className="product-card" key={i}>
-                <div className="product-icon">{p.icon}</div>
-                <h3>{p.name}</h3>
-                <p>{p.desc}</p>
-                <a className="product-link" href="#">Learn more {"\u2192"}</a>
-              </div>
-            ))}
+            
           </div>
         </div>
       </section>
@@ -443,40 +396,22 @@ export default function StripeClone() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="footer">
-        <div className="footer-inner">
-          <div className="footer-top">
-            <div className="footer-brand">
-              <div className="footer-logo"><img src="/code-curo-logo.svg" alt="Code Curo" /></div>
-              <p className="footer-tagline">{siteData.company.description}</p>
-            </div>
-            {[
-              { heading: "Services", links: siteData.services.slice(0, 10).map((item) => item.name) },
-              { heading: "Industries", links: siteData.industries },
-              { heading: "Developers", links: Object.values(siteData.hire_developers).flat().slice(0, 8).map((item) => item.role) },
-              { heading: "Company", links: [...siteData.navigation.about, ...siteData.navigation.main].map((item) => item.label) }
-            ].map((col) => (
-              <div className="footer-col" key={col.heading}>
-                <h4>{col.heading}</h4>
-                <ul>
-                  {col.links.map((link) => <li key={link}><a href="#">{link}</a></li>)}
-                </ul>
-              </div>
-            ))}
-          </div>
-          <div className="footer-bottom">
-            <div className="footer-copyright">{"\u00A9"} 2026 {siteData.company.name}. India (English)</div>
-            <div className="footer-legal">
-              <a href="#">Privacy</a>
-              <a href="#">Terms</a>
-              <a href="#">Licences</a>
-              <a href="#">Sitemap</a>
-              <a href="#">Cookie settings</a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
+  );
+}
+
+/* MAIN APP */
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/ai-and-ml" element={<AiAndMlPage />} />
+      <Route path="/data-engineering" element={<DataEngineeringPage />} />
+      <Route path="/remote-team-extension" element={<RemoteTeamExtensionPage />} />
+      <Route path="/mvp-development" element={<MvpDevelopmentPage />} />
+      <Route path="/web-development" element={<WebDevelopmentPage />} />
+      <Route path="/devops-services" element={<DevOpsPage />} />
+    </Routes>
   );
 }

@@ -43,27 +43,22 @@
     {
       "name": "AI & ML",
       "description": "Scale your engineering capacity fast with vetted offshore teams that integrate into your workflow from day one.",
-      "url": "https://codecuro.in/remote/"
+      "url": "/ai-and-ml"
     },
     {
       "name": "Data Engineering",
       "description": "Scale your engineering capacity fast with vetted offshore teams that integrate into your workflow from day one.",
-      "url": "https://codecuro.in/remote/"
+      "url": "/data-engineering"
     },
     {
       "name": "Remote Team Extension",
       "description": "Scale your engineering capacity fast with vetted offshore teams that integrate into your workflow from day one.",
-      "url": "https://codecuro.in/remote/"
+      "url": "/remote-team-extension"
     },
     {
       "name": "MVP Development",
       "description": "We build functional, user-ready MVPs in 6-8 weeks, ideal for startups and innovation teams.",
-      "url": "https://codecuro.in/mvp/"
-    },
-    {
-      "name": "Web 3.0 & IoT",
-      "description": "Build decentralized, connected experiences, from blockchain integrations to smart IoT applications.",
-      "url": "https://codecuro.in/web-3-iot/"
+      "url": "/mvp-development"
     },
     {
       "name": "Automation & Prompt Engineering",
@@ -75,11 +70,11 @@
       "name": "DevOps Services",
       "description": "Modernize your infrastructure with CI/CD pipelines, cloud-native stacks, and ongoing performance optimization.",
       "highlights": ["Industry-Ready Deployment", "Resource Efficiency"],
-      "url": "https://codecuro.in/devops-and-cloud/"
+      "url": "/devops-services"
     },
     { "name": "Custom Software Development", "url": "https://codecuro.in/mvp/" },
     { "name": "UI/UX Design", "url": "https://codecuro.in/ui-ux-design-services/" },
-    { "name": "Web Development", "url": "https://codecuro.in/web-app/" },
+    { "name": "Web Development", "url": "/web-development" },
     { "name": "Mobile Development", "url": "https://codecuro.in/custom-mobile-app/" },
     { "name": "QA & Software Testing", "url": "https://codecuro.in/software-testing-qa/" }
   ],
