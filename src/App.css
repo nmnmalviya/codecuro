@@ -2872,6 +2872,176 @@
   .edtech-cta {
     padding-top: 96px;
   }
+  .gaming-page {
+    background: linear-gradient(180deg, #ffffff 0%, #f7fbff 45%, #ffffff 100%);
+  }
+  .gaming-hero .web-hero-bg {
+    background:
+      radial-gradient(ellipse at 88% 12%, rgba(255,157,87,.16) 0%, transparent 38%),
+      radial-gradient(ellipse at 76% 36%, rgba(0,184,217,.14) 0%, transparent 34%),
+      radial-gradient(ellipse at 62% 10%, rgba(99,91,255,.12) 0%, transparent 34%),
+      linear-gradient(118deg, transparent 0 54%, rgba(255,107,138,.1) 66%, transparent 82%);
+  }
+  .gaming-panel-shell {
+    overflow: hidden;
+  }
+  .gaming-visual {
+    position: relative;
+    min-height: 188px;
+    margin: 18px 0 20px;
+    border-radius: 18px;
+    overflow: hidden;
+    background:
+      linear-gradient(180deg, rgba(8,22,48,.68) 0%, rgba(10,37,64,.94) 100%),
+      linear-gradient(135deg, rgba(0,184,217,.5), rgba(99,91,255,.35));
+    border: 1px solid rgba(255,255,255,.12);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+  }
+  .gaming-city {
+    position: absolute;
+    inset: 22px 18px 68px;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    opacity: .9;
+  }
+  .gaming-city span {
+    flex: 1;
+    border-radius: 8px 8px 2px 2px;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.16), rgba(255,255,255,.05)),
+      linear-gradient(135deg, rgba(0,184,217,.22), rgba(99,91,255,.16));
+    border: 1px solid rgba(255,255,255,.08);
+  }
+  .gaming-city span:nth-child(1) { height: 54px; }
+  .gaming-city span:nth-child(2) { height: 82px; }
+  .gaming-city span:nth-child(3) { height: 66px; }
+  .gaming-city span:nth-child(4) { height: 96px; }
+  .gaming-track {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    height: 78px;
+    border-radius: 16px;
+    background:
+      linear-gradient(90deg, transparent 0 9%, rgba(255,255,255,.18) 10% 11%, transparent 12% 24%, rgba(255,255,255,.18) 25% 26%, transparent 27% 100%),
+      linear-gradient(135deg, rgba(0,184,217,.24), rgba(255,157,87,.16));
+    border: 1px solid rgba(255,255,255,.12);
+  }
+  .gaming-lane {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    top: 38px;
+    height: 3px;
+    border-radius: 999px;
+    background: repeating-linear-gradient(90deg, rgba(255,255,255,.58) 0 22px, transparent 22px 38px);
+  }
+  .gaming-rider {
+    position: absolute;
+    left: 38px;
+    bottom: 20px;
+    width: 68px;
+    height: 42px;
+  }
+  .gaming-rider-head,
+  .gaming-rider-body,
+  .gaming-board {
+    position: absolute;
+    display: block;
+  }
+  .gaming-rider-head {
+    width: 16px;
+    height: 16px;
+    left: 24px;
+    top: 0;
+    border-radius: 50%;
+    background: #ffd166;
+    box-shadow: 0 0 18px rgba(255,209,102,.58);
+  }
+  .gaming-rider-body {
+    width: 30px;
+    height: 24px;
+    left: 18px;
+    top: 15px;
+    border-radius: 12px 12px 7px 7px;
+    background: linear-gradient(135deg, #00d4ff 0%, #635bff 100%);
+    transform: skewX(-13deg);
+  }
+  .gaming-board {
+    width: 64px;
+    height: 7px;
+    left: 0;
+    bottom: 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #ff9d57 0%, #00d4ff 100%);
+    box-shadow: 0 8px 18px rgba(0,212,255,.24);
+  }
+  .gaming-token {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ffd166;
+    box-shadow: 0 0 16px rgba(255,209,102,.72);
+  }
+  .gaming-token::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 50%;
+    background: rgba(10,37,64,.34);
+  }
+  .token-one { right: 92px; top: 18px; }
+  .token-two { right: 58px; top: 38px; }
+  .token-three { right: 24px; top: 18px; }
+  .gaming-flow {
+    margin-top: 0;
+  }
+  .gaming-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 52px;
+  }
+  .gaming-feature-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-height: 112px;
+    border-radius: 16px;
+    padding: 22px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .gaming-feature-card span {
+    color: #ffb36e;
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .gaming-feature-card p {
+    color: rgba(255,255,255,.82);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .gaming-process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .gaming-process-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid rgba(10,37,64,.08);
+    box-shadow: 0 12px 32px rgba(10,37,64,.06);
+  }
+  .gaming-process-card h3 {
+    color: var(--text);
+  }
+  .gaming-process-card p {
+    color: var(--muted);
+  }
+  .gaming-cta {
+    padding-top: 96px;
+  }
   .case-study-page .web-story-card,
   .case-study-page .case-study-category-card {
     text-decoration: none;
@@ -3023,7 +3193,9 @@
     .logistics-feature-grid,
     .logistics-process-grid,
     .edtech-feature-grid,
-    .edtech-process-grid {
+    .edtech-process-grid,
+    .gaming-feature-grid,
+    .gaming-process-grid {
       grid-template-columns: 1fr;
     }
     .mvp-story-card,

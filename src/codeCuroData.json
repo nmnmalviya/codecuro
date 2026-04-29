@@ -163,7 +163,7 @@
     { "label": "Logistics", "url": "/logistics" },
     { "label": "EdTech", "url": "/edtech" },
     { "label": "Sustainability", "url": "https://codecuro.in/sustainability/" },
-    { "label": "Gaming", "url": "https://codecuro.in/gaming/" }
+    { "label": "Gaming", "url": "/gaming" }
   ],
   "case_studies": [
     {
