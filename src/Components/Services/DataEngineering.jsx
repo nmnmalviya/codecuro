@@ -43,6 +43,39 @@ const useCases = [
   }
 ];
 
+const dataSuccessStories = [
+  {
+    type: "Data Platform",
+    title: "Unified analytics platform",
+    text: "Connected scattered product, finance, and operations data into one governed platform for faster reporting."
+  },
+  {
+    type: "Pipeline Automation",
+    title: "Automated ingestion engine",
+    text: "Replaced manual imports with scheduled ingestion, validation checks, and reliable warehouse synchronization."
+  },
+  {
+    type: "Real-time Data",
+    title: "Operational event pipeline",
+    text: "Built a streaming workflow for telemetry and activity events so teams could monitor business changes sooner."
+  },
+  {
+    type: "BI Enablement",
+    title: "Executive dashboard layer",
+    text: "Modeled trusted datasets and dashboard-ready metrics for leadership, support, sales, and product teams."
+  },
+  {
+    type: "Data Quality",
+    title: "Governance and quality controls",
+    text: "Added lineage, freshness checks, schema validation, and observability to make reporting more dependable."
+  },
+  {
+    type: "Cloud Scale",
+    title: "Cloud warehouse modernization",
+    text: "Modernized storage, orchestration, and transformation flows to support scale without slowing delivery."
+  }
+];
+
 const deliveryModel = [
   {
     step: "01",
@@ -184,6 +217,24 @@ export default function DataEngineeringPage() {
             <div className="data-usecase-grid">
               {useCases.map((item) => (
                 <article className="data-usecase-card" key={item.title}>
+                  <h3>{item.title}</h3>
+                  <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="web-stories data-success-stories">
+          <div className="section-inner">
+            <div className="section-label">Data Engineering Success Stories</div>
+            <h2 className="section-title">See how Code Curo turns messy data estates into reliable business intelligence.</h2>
+            <div className="web-story-grid">
+              {dataSuccessStories.map((item, index) => (
+                <article className={`web-story-card tone-${index % 4}`} key={item.title}>
+                  <div className="web-story-top">
+                    <span className="web-story-type">{item.type}</span>
+                  </div>
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
                 </article>

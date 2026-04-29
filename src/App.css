@@ -683,12 +683,16 @@
   }
   .ai-capabilities,
   .ai-usecases,
-  .ai-process {
+  .ai-success-stories,
+  .ai-industries,
+  .ai-process,
+  .ai-engagement {
     padding: 96px 5%;
   }
   .ai-capability-grid,
   .ai-usecase-grid,
-  .ai-process-grid {
+  .ai-process-grid,
+  .ai-engagement-grid {
     display: grid;
     gap: 20px;
     margin-top: 52px;
@@ -763,7 +767,8 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .ai-usecase-card,
-  .ai-process-card {
+  .ai-process-card,
+  .ai-engagement-card {
     border-radius: 18px;
     padding: 30px;
     background: #fff;
@@ -771,11 +776,38 @@
     box-shadow: 0 10px 30px rgba(10,37,64,.05);
   }
   .ai-usecase-card h3,
-  .ai-process-card h3 {
+  .ai-process-card h3,
+  .ai-engagement-card h3 {
     font-size: 21px;
     color: var(--text);
     margin-bottom: 14px;
     line-height: 1.25;
+  }
+  .ai-success-stories {
+    background:
+      radial-gradient(ellipse at 12% 0%, rgba(0, 212, 255, .12) 0%, transparent 34%),
+      linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
+  }
+  .ai-industries-layout {
+    display: grid;
+    grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+    gap: 42px;
+    align-items: center;
+  }
+  .ai-industry-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .ai-industry-cloud span {
+    border-radius: 999px;
+    padding: 14px 18px;
+    background: #fff;
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 26px rgba(10,37,64,.05);
+    color: #24445a;
+    font-size: 14px;
+    font-weight: 700;
   }
   .ai-process-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -791,6 +823,26 @@
     background: rgba(99,91,255,.1);
     color: var(--stripe-purple);
     font-weight: 700;
+  }
+  .ai-engagement {
+    background: #f7faff;
+  }
+  .ai-engagement-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .ai-engagement-card span {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: var(--stripe-purple);
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+  }
+  .ai-engagement-card p {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.65;
   }
   .ai-cta-strip {
     padding: 0 5% 96px;
@@ -825,9 +877,11 @@
   @media (max-width: 900px) {
     .ai-hero-inner,
     .ai-solutions-layout,
+    .ai-industries-layout,
     .ai-capability-grid,
     .ai-usecase-grid,
     .ai-process-grid,
+    .ai-engagement-grid,
     .data-hero-inner,
     .data-solutions-layout,
     .data-capability-grid,
@@ -923,6 +977,7 @@
     .ai-capability-card,
     .ai-usecase-card,
     .ai-process-card,
+    .ai-engagement-card,
     .data-panel-shell,
     .data-capability-card,
     .data-usecase-card,
@@ -1168,6 +1223,11 @@
     color: var(--text);
     margin-bottom: 14px;
     line-height: 1.25;
+  }
+  .data-success-stories {
+    background:
+      radial-gradient(ellipse at 88% 0%, rgba(0, 212, 255, .1) 0%, transparent 34%),
+      linear-gradient(180deg, #ffffff 0%, #f5fbff 100%);
   }
   .data-process-grid { grid-template-columns: repeat(3, 1fr); }
   .data-process-step {

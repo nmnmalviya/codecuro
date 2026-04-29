@@ -3,9 +3,15 @@ import Footer from "../Footer";
 
 const capabilityCards = [
   {
+    eyebrow: "AI Strategy",
+    title: "AI opportunity mapping and PoC planning",
+    text: "Identify the right AI use cases, data dependencies, business value, risk areas, and proof-of-concept path before investing in a full build.",
+    accent: "purple"
+  },
+  {
     eyebrow: "Generative AI",
-    title: "LLM-powered copilots and assistants",
-    text: "Design private AI assistants for internal operations, customer support, knowledge retrieval, and workflow acceleration.",
+    title: "LLM-powered copilots, chatbots, and assistants",
+    text: "Design private AI assistants for support, sales, knowledge retrieval, operations, reporting, and workflow acceleration.",
     accent: "purple"
   },
   {
@@ -19,12 +25,28 @@ const capabilityCards = [
     title: "ML models for scoring and forecasting",
     text: "Build models for recommendations, anomaly detection, prioritization, trend prediction, and smarter decision systems.",
     accent: "green"
+  },
+  {
+    eyebrow: "Computer Vision",
+    title: "Image, video, and signal intelligence",
+    text: "Create AI systems for visual inspection, damage detection, object classification, acoustic recognition, and real-time event detection.",
+    accent: "teal"
+  },
+  {
+    eyebrow: "MLOps",
+    title: "Production AI with monitoring and iteration",
+    text: "Deploy AI safely with cloud infrastructure, model monitoring, evaluation loops, data quality checks, and performance reporting.",
+    accent: "green"
   }
 ];
 
 const solutionAreas = [
+  "AI strategy, feasibility analysis, and PoC development",
+  "Custom GPT, chatbot, and AI assistant development",
   "Recommendation engines and personalization",
   "NLP pipelines for reports, search, and summarization",
+  "Computer vision for inspection, detection, and classification",
+  "Predictive analytics, scoring models, and forecasting systems",
   "AI dashboards with live operational visibility",
   "MLOps-ready deployment on scalable cloud stacks",
   "Secure data flows, monitoring, and model iteration",
@@ -43,6 +65,18 @@ const useCases = [
   {
     title: "Personalized Product Experiences",
     text: "Create adaptive product journeys, smarter recommendations, and behavior-aware experiences that improve retention."
+  },
+  {
+    title: "AI Quality and Inspection",
+    text: "Use computer vision and pattern recognition to detect damage, classify defects, and support faster quality decisions."
+  },
+  {
+    title: "Predictive Business Intelligence",
+    text: "Forecast demand, flag anomalies, score risk, and turn operational data into decision-ready intelligence."
+  },
+  {
+    title: "AI Recruitment and Matching",
+    text: "Match candidates to opportunities, summarize profiles, track applications, and personalize recommendations at scale."
   }
 ];
 
@@ -62,6 +96,54 @@ const deliverySteps = [
     title: "Deployment, feedback, and optimization",
     text: "We ship scalable AI solutions with monitoring, iteration loops, and the infrastructure needed for continuous improvement."
   }
+];
+
+const successStories = [
+  {
+    type: "Customer Service AI",
+    title: "AI operations platform for a global service provider",
+    text: "Queue analysis, NLP-powered reporting, dashboards, AI alerts, and automated updates improved service visibility."
+  },
+  {
+    type: "AI Vision",
+    title: "Mobile damage detection with image intelligence",
+    text: "A mobile AI workflow classified screen and back-panel damage while reducing manual inspection effort."
+  },
+  {
+    type: "AI Recruitment",
+    title: "Smart matching platform for graduate hiring",
+    text: "An AI-powered recruitment ecosystem improved job discovery, tracking, matching, and personalized recommendations."
+  },
+  {
+    type: "AI Mobile App",
+    title: "Shooting sports performance tracking app",
+    text: "A mobile-first AI product detected acoustic events and synchronized performance data in low-connectivity environments."
+  },
+  {
+    type: "Smart City AI",
+    title: "AI-powered municipal waste management",
+    text: "AI, IoT, and data workflows supported route optimization, waste classification, and real-time city alerts."
+  },
+  {
+    type: "Data + AI",
+    title: "Scalable data platform for AI-ready insights",
+    text: "Modern ingestion, governance, cloud deployment, and dashboards created a stronger foundation for AI-ready analytics."
+  }
+];
+
+const industries = [
+  "Healthcare and diagnostics",
+  "FinTech and risk operations",
+  "Logistics, fleet, and smart city systems",
+  "Customer service and BPO operations",
+  "Recruitment and HR technology",
+  "SaaS, marketplaces, and product platforms"
+];
+
+const engagementCards = [
+  { title: "AI PoC Sprint", price: "USD 10K - 20K", timeline: "4 to 6 weeks" },
+  { title: "Custom AI Product Module", price: "USD 20K - 35K", timeline: "8 to 12 weeks" },
+  { title: "Dedicated AI/ML Team", price: "Flexible monthly team", timeline: "Scale as needed" }
 ];
 
 export default function AiAndMlPage() {
@@ -85,7 +167,7 @@ export default function AiAndMlPage() {
               <div className="ai-hero-actions fade-up fade-up-d3">
                 <a className="btn-primary" href="mailto:sales@codecuro.in">Book an AI consultation</a>
                 <a className="ai-secondary-link" href="https://codecuro.in/artificial-intelligence-service/" target="_blank" rel="noreferrer">
-                  Explore related service details {"\u2192"}
+                  View AI service {"\u2192"}
                 </a>
               </div>
             </div>
@@ -189,6 +271,46 @@ export default function AiAndMlPage() {
           </div>
         </section>
 
+        <section className="web-stories ai-success-stories">
+          <div className="section-inner">
+            <div className="section-label">AI & ML Success Stories</div>
+            <h2 className="section-title">See how Code Curo builds practical AI systems for real business outcomes.</h2>
+            <p className="section-sub">
+              These examples show the kind of AI systems that create measurable business impact: service automation,
+              computer vision, matching engines, smart city operations, and AI-ready data platforms.
+            </p>
+            <div className="web-story-grid">
+              {successStories.map((item, index) => (
+                <article className={`web-story-card tone-${index % 4}`} key={item.title}>
+                  <div className="web-story-top">
+                    <span className="web-story-type">{item.type}</span>
+                  </div>
+                  <h3>{item.title}</h3>
+                  <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="ai-industries">
+          <div className="section-inner ai-industries-layout">
+            <div>
+              <div className="section-label">Industry Fit</div>
+              <h2 className="section-title">AI solutions for teams that need more than a generic chatbot.</h2>
+              <p className="section-sub">
+                We shape each AI system around domain data, user workflows, compliance expectations, integrations,
+                and measurable operating improvements.
+              </p>
+            </div>
+            <div className="ai-industry-cloud">
+              {industries.map((item) => (
+                <span key={item}>{item}</span>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section className="ai-process">
           <div className="section-inner">
             <div className="section-label">Delivery Model</div>
@@ -199,6 +321,22 @@ export default function AiAndMlPage() {
                   <span className="ai-process-step">{item.step}</span>
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="ai-engagement">
+          <div className="section-inner">
+            <div className="section-label">Engagement Options</div>
+            <h2 className="section-title">Start small with a PoC or bring in a dedicated AI delivery team.</h2>
+            <div className="ai-engagement-grid">
+              {engagementCards.map((item) => (
+                <article className="ai-engagement-card" key={item.title}>
+                  <span>{item.price}</span>
+                  <h3>{item.title}</h3>
+                  <p>{item.timeline}</p>
                 </article>
               ))}
             </div>
