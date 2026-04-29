@@ -53,18 +53,78 @@ const designProcess = [
 ];
 
 const frontendProjects = [
-  { type: "Travel UX", title: "Ferry Booking System", text: "A modernized ferry booking system with a cleaner and more intuitive interface." },
-  { type: "FinTech", title: "FinTech Platform", text: "A Swedish fintech platform enhanced with new frontend features and improved user flows." },
-  { type: "GovTech Workflow", title: "Automated Visa", text: "Visa status checks and alert workflows redesigned for smoother digital operations." },
-  { type: "CMS Platform", title: "Content Management", text: "A scalable web platform with CMS functionality and user-focused frontend delivery." },
-  { type: "Legacy Upgrade", title: "Upgrading .NET to Vue 3", text: "A legacy .NET platform successfully migrated into a modern Vue 3 frontend." },
-  { type: "SaaS Care", title: "SaaS Platform", text: "Ongoing platform maintenance and UI improvements for a Swedish SaaS client." },
-  { type: "Operations Portal", title: "Customer Portal", text: "A customer portal that streamlined internal operations and service workflows." },
-  { type: "Service Experience", title: "Contact Centre Solution", text: "A contact centre interface built to improve customer service visibility and flow." },
-  { type: "IoT Interface", title: "IoT for HVAC Devices", text: "Scalable IoT interfaces for managing HVAC devices and connected systems." },
-  { type: "Automation UI", title: "Data Automation", text: "A platform refresh focused on better performance, scalability, and interface quality." },
-  { type: "AI Product", title: "AI Presentation Tool", text: "A fast presentation creation tool with an efficient and user-friendly workflow." },
-  { type: "Finance AI", title: "Finance Assistant", text: "An AI finance assistant that improves data interaction and user experience." }
+  {
+    type: "Travel UX",
+    title: "Ferry Booking System",
+    text: "A modernized ferry booking system with a cleaner and more intuitive interface.",
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "FinTech",
+    title: "FinTech Platform",
+    text: "A Swedish fintech platform enhanced with new frontend features and improved user flows.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "GovTech Workflow",
+    title: "Automated Visa",
+    text: "Visa status checks and alert workflows redesigned for smoother digital operations.",
+    image: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "CMS Platform",
+    title: "Content Management",
+    text: "A scalable web platform with CMS functionality and user-focused frontend delivery.",
+    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "Legacy Upgrade",
+    title: "Upgrading .NET to Vue 3",
+    text: "A legacy .NET platform successfully migrated into a modern Vue 3 frontend.",
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "SaaS Care",
+    title: "SaaS Platform",
+    text: "Ongoing platform maintenance and UI improvements for a Swedish SaaS client.",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "Operations Portal",
+    title: "Customer Portal",
+    text: "A customer portal that streamlined internal operations and service workflows.",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "Service Experience",
+    title: "Contact Centre Solution",
+    text: "A contact centre interface built to improve customer service visibility and flow.",
+    image: "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "IoT Interface",
+    title: "IoT for HVAC Devices",
+    text: "Scalable IoT interfaces for managing HVAC devices and connected systems.",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "Automation UI",
+    title: "Data Automation",
+    text: "A platform refresh focused on better performance, scalability, and interface quality.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "AI Product",
+    title: "AI Presentation Tool",
+    text: "A fast presentation creation tool with an efficient and user-friendly workflow.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    type: "Finance AI",
+    title: "Finance Assistant",
+    text: "An AI finance assistant that improves data interaction and user experience.",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80"
+  }
 ];
 
 const onboardingSteps = [
@@ -201,12 +261,15 @@ export default function UiUxPage() {
             <h2 className="section-title">High-quality, user-focused frontend work across booking, fintech, SaaS, IoT, AI, and operations platforms.</h2>
             <div className="web-story-grid">
               {frontendProjects.map((item, index) => (
-                <article className={`web-story-card tone-${index % 4}`} key={item.title}>
-                  <div className="web-story-top">
-                    <span className="web-story-type">{item.type}</span>
+                <article className={`web-story-card ui-project-card tone-${index % 4}`} key={item.title}>
+                  <img className="ui-project-card-image" src={item.image} alt="" loading="lazy" />
+                  <div className="ui-project-card-body">
+                    <div className="web-story-top">
+                      <span className="web-story-type">{item.type}</span>
+                    </div>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
                   </div>
-                  <h3>{item.title}</h3>
-                  <p>{item.text}</p>
                 </article>
               ))}
             </div>

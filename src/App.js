@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, Routes, Route, useLocation } from "react-router-dom";
 import siteData from "./codeCuroData.json";
 import "./App.css";
 import AiAndMlPage from "./Components/Services/Ai&Ml";
@@ -33,17 +33,15 @@ const statLabels = {
   response_time: "average response time"
 };
 
-const icons = [
-  "\u{1F4BB}",
-  "\u{1F680}",
-  "\u{1F3AE}",
-  "\u{1F310}",
-  "\u{1F916}",
-  "\u2699\uFE0F",
-  "\u{1F9E9}",
-  "\u{1F3A8}",
-  "\u{1F578}\uFE0F"
-];
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [pathname]);
+
+  return null;
+};
 
 /* CODE BLOCK */
 const CodeBlock = () => (
@@ -175,10 +173,43 @@ function HomePage() {
     cta: `Explore ${item.type}`
   }));
 
-  const dataProducts = siteData.services.slice(0, 9).map((service, index) => ({
-    icon: icons[index],
+  const serviceImages = [
+    "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80"
+  ];
+
+  const bentoAccents = [
+    "#7c5cff",
+    "#00d4ff",
+    "#00b884",
+    "#ff9d57",
+    "#ff6b8a",
+    "#56ccf2",
+    "#8b5cf6",
+    "#22c55e",
+    "#f59e0b",
+    "#14b8a6",
+    "#3b82f6",
+    "#ef4444"
+  ];
+
+  const dataProducts = siteData.services.map((service, index) => ({
     name: service.name,
-    desc: service.description || `Explore ${service.name.toLowerCase()} services from ${siteData.company.name}.`
+    desc: service.description || `Explore ${service.name.toLowerCase()} services from ${siteData.company.name}.`,
+    url: service.url,
+    image: serviceImages[index % serviceImages.length],
+    accent: bentoAccents[index % bentoAccents.length],
+    cardClass: index === 0 || index === 4 ? "bento-card col-2" : "bento-card"
   }));
 
   const dataNews = siteData.testimonials.slice(0, 3).map((item, index) => ({
@@ -239,34 +270,37 @@ function HomePage() {
           <p className="section-sub">Grow with product strategy, engineering, automation, cloud, and design services that can work individually or together.</p>
 
           <div className="bento-grid">
-            <div className="bento-card col-2" style={{ background: "linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%)", minHeight: 300 }}>
-              <div className="bento-card-bg" />
-              <div className="bento-card-tag">{siteData.domains[2]}</div>
-              <div className="bento-card-icon purple">{"\u{1F30D}"}</div>
-              <h3>{siteData.services[0].name}</h3>
-              <p>{siteData.services[0].description}</p>
-            </div>
-            <div className="bento-card" style={{ background: "linear-gradient(135deg,#1a0a40 0%,#2d1060 100%)" }}>
-              <div className="bento-card-icon purple">{"\u{1F4CB}"}</div>
-              <h3>{siteData.services[1].name}</h3>
-              <p>{siteData.services[1].description}</p>
-            </div>
+            {dataProducts.map((service, index) => {
+              const cardContent = (
+                <>
+                  <div className="bento-card-bg" />
+                  <img className="bento-card-image" src={service.image} alt="" loading="lazy" />
+                  <div className="bento-card-shade" />
+                  <div className="bento-card-tag" style={{ color: service.accent }}>
+                    {siteData.domains[index % siteData.domains.length]}
+                  </div>
+                  <h3>{service.name}</h3>
+                  <p>{service.desc}</p>
+                  <span className="bento-card-link">Explore service {"\u2192"}</span>
+                </>
+              );
 
-            <div className="bento-card light">
-              <div className="bento-card-icon teal">{"\u{1F916}"}</div>
-              <h3>{siteData.services[4].name}</h3>
-              <p>{siteData.services[4].description}</p>
-            </div>
-            <div className="bento-card" style={{ background: "linear-gradient(135deg,#003d2b 0%,#006644 100%)" }}>
-              <div className="bento-card-icon green">{"\u{1F4B3}"}</div>
-              <h3>{siteData.services[5].name}</h3>
-              <p>{siteData.services[5].description}</p>
-            </div>
-            <div className="bento-card col-2" style={{ background: "linear-gradient(135deg,#0d1b2a 0%,#152238 100%)" }}>
-              <div className="bento-card-icon teal">{"\u{1F517}"}</div>
-              <h3>{siteData.services[3].name}</h3>
-              <p>{siteData.services[3].description}</p>
-            </div>
+              return service.url?.startsWith("/") ? (
+                <Link className={service.cardClass} to={service.url} key={service.name}>
+                  {cardContent}
+                </Link>
+              ) : (
+                <a
+                  className={service.cardClass}
+                  href={service.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  key={service.name}
+                >
+                  {cardContent}
+                </a>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -420,30 +454,33 @@ function HomePage() {
 /* MAIN APP */
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/ai-and-ml" element={<AiAndMlPage />} />
-      <Route path="/data-engineering" element={<DataEngineeringPage />} />
-      <Route path="/remote-team-extension" element={<RemoteTeamExtensionPage />} />
-      <Route path="/remote-team" element={<RemoteTeamPage />} />
-      <Route path="/mvp-development" element={<MvpDevelopmentPage />} />
-      <Route path="/web-development" element={<WebDevelopmentPage />} />
-      <Route path="/back-end-development" element={<BackEndDevelopmentPage />} />
-      <Route path="/devops-services" element={<DevOpsPage />} />
-      <Route path="/ui-ux" element={<UiUxPage />} />
-      <Route path="/mobile-development" element={<MobileDevelopmentPage />} />
-      <Route path="/QA-software-testing" element={<QaSoftwareTestingPage />} />
-      <Route path="/qa-software-testing" element={<QaSoftwareTestingPage />} />
-      <Route path="/automation-prompt-engineering" element={<AutomationPromptEngineeringPage />} />
-      <Route path="/case-studies" element={<CaseStudyPage />} />
-      <Route path="/fintech" element={<FintechPage />} />
-      <Route path="/healthcare" element={<HealthCarePage />} />
-      <Route path="/manufacturing" element={<ManufacturingPage />} />
-      <Route path="/ecommerce" element={<EcommercePage />} />
-      <Route path="/e-commerce" element={<EcommercePage />} />
-      <Route path="/logistics" element={<LogisticsPage />} />
-      <Route path="/edtech" element={<EdTechPage />} />
-      <Route path="/gaming" element={<GamingPage />} />
-    </Routes>
+    <>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/ai-and-ml" element={<AiAndMlPage />} />
+        <Route path="/data-engineering" element={<DataEngineeringPage />} />
+        <Route path="/remote-team-extension" element={<RemoteTeamExtensionPage />} />
+        <Route path="/remote-team" element={<RemoteTeamPage />} />
+        <Route path="/mvp-development" element={<MvpDevelopmentPage />} />
+        <Route path="/web-development" element={<WebDevelopmentPage />} />
+        <Route path="/back-end-development" element={<BackEndDevelopmentPage />} />
+        <Route path="/devops-services" element={<DevOpsPage />} />
+        <Route path="/ui-ux" element={<UiUxPage />} />
+        <Route path="/mobile-development" element={<MobileDevelopmentPage />} />
+        <Route path="/QA-software-testing" element={<QaSoftwareTestingPage />} />
+        <Route path="/qa-software-testing" element={<QaSoftwareTestingPage />} />
+        <Route path="/automation-prompt-engineering" element={<AutomationPromptEngineeringPage />} />
+        <Route path="/case-studies" element={<CaseStudyPage />} />
+        <Route path="/fintech" element={<FintechPage />} />
+        <Route path="/healthcare" element={<HealthCarePage />} />
+        <Route path="/manufacturing" element={<ManufacturingPage />} />
+        <Route path="/ecommerce" element={<EcommercePage />} />
+        <Route path="/e-commerce" element={<EcommercePage />} />
+        <Route path="/logistics" element={<LogisticsPage />} />
+        <Route path="/edtech" element={<EdTechPage />} />
+        <Route path="/gaming" element={<GamingPage />} />
+      </Routes>
+    </>
   );
 }
