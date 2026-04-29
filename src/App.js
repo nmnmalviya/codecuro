@@ -15,6 +15,10 @@ import QaSoftwareTestingPage from "./Components/Services/QaSoftwareTesting";
 import AutomationPromptEngineeringPage from "./Components/Services/AutomationPromptEngineering";
 import RemoteTeamPage from "./Components/Services/RemoteTeam";
 import CaseStudyPage from "./Components/Resources/CaseStudy";
+import FintechPage from "./Components/Industries/Fintech";
+import HealthCarePage from "./Components/Industries/HealthCare";
+import ManufacturingPage from "./Components/Industries/Manufacturing";
+import EcommercePage from "./Components/Industries/Ecommerce";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -306,7 +310,9 @@ function HomePage() {
           <h2 className="section-title">Trusted by ambitious product teams and growing businesses.</h2>
           <div className="customers-logos">
             {[...siteData.industries, ...siteData.social_presence].map((c) => (
-              <div className="customer-logo" key={c}>{c}</div>
+              <div className="customer-logo" key={typeof c === "string" ? c : c.label}>
+                {typeof c === "string" ? c : c.label}
+              </div>
             ))}
           </div>
           <div className="stories-grid">
@@ -427,6 +433,11 @@ export default function App() {
       <Route path="/qa-software-testing" element={<QaSoftwareTestingPage />} />
       <Route path="/automation-prompt-engineering" element={<AutomationPromptEngineeringPage />} />
       <Route path="/case-studies" element={<CaseStudyPage />} />
+      <Route path="/fintech" element={<FintechPage />} />
+      <Route path="/healthcare" element={<HealthCarePage />} />
+      <Route path="/manufacturing" element={<ManufacturingPage />} />
+      <Route path="/ecommerce" element={<EcommercePage />} />
+      <Route path="/e-commerce" element={<EcommercePage />} />
     </Routes>
   );
 }

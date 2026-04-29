@@ -46,6 +46,7 @@
   }
   .nav-inner {
     width: 100%; max-width: 1200px; margin: 0 auto;
+    position: relative;
     display: flex; align-items: center; gap: 0;
   }
   .nav-logo {
@@ -473,6 +474,85 @@
   }
   .dropdown-item { display: block; padding: 8px 12px; border-radius: 8px; font-size: 14px; color: var(--text); transition: background .15s; }
   .dropdown-item:hover { background: #f6f9fc; color: var(--stripe-purple); }
+  .developer-dropdown-wrap {
+    position: relative;
+  }
+  .developer-dropdown-wrap::after {
+    content: "";
+    position: absolute;
+    left: -28px;
+    right: -28px;
+    top: 100%;
+    height: 18px;
+  }
+  .developer-mega-menu {
+    left: 50%;
+    width: min(960px, calc(100vw - 48px));
+    min-width: 760px;
+    max-height: min(76vh, 620px);
+    padding: 34px 38px 36px;
+    display: grid;
+    grid-template-columns: .9fr 1.45fr 1.55fr 1.2fr;
+    gap: 28px;
+    overflow-y: auto;
+    margin-top: 8px;
+    border-radius: 18px;
+    border-color: rgba(10,37,64,.08);
+    background:
+      radial-gradient(circle at 7% 4%, rgba(0,184,217,.08), transparent 24%),
+      radial-gradient(circle at 92% 8%, rgba(99,91,255,.07), transparent 28%),
+      #fff;
+    box-shadow: 0 24px 70px rgba(10,37,64,.16);
+  }
+  .developer-dropdown-col {
+    position: relative;
+    min-width: 0;
+    padding: 4px 6px 4px 0;
+  }
+  .developer-dropdown-col:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: -14px;
+    width: 1px;
+    height: calc(100% - 12px);
+    background: linear-gradient(180deg, transparent, rgba(10,37,64,.08), transparent);
+  }
+  .developer-dropdown-col h4 {
+    position: relative;
+    margin: 0 0 20px;
+    padding-bottom: 12px;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: .2px;
+  }
+  .developer-dropdown-col h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 34px;
+    height: 3px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #00b8d9, #635bff);
+  }
+  .developer-dropdown-item {
+    padding: 8px 10px;
+    margin: 0 0 6px;
+    border-radius: 10px;
+    color: #31445a;
+    font-size: 16px;
+    line-height: 1.22;
+    font-weight: 500;
+    white-space: normal;
+  }
+  .developer-dropdown-item:hover {
+    background: rgba(99,91,255,.07);
+    color: var(--stripe-purple);
+    transform: translateX(2px);
+  }
 
   /* ── MOBILE MENU ── */
   .hamburger { display: none; flex-direction: column; gap: 5px; padding: 8px; cursor: pointer; }
@@ -2480,6 +2560,214 @@
     border: 1px solid rgba(255,255,255,.18);
     background: rgba(255,255,255,.08);
   }
+  .fintech-page {
+    background: linear-gradient(180deg, #ffffff 0%, #f6fbff 45%, #ffffff 100%);
+  }
+  .fintech-hero .web-hero-bg {
+    background:
+      radial-gradient(ellipse at 88% 12%, rgba(0,184,217,.16) 0%, transparent 38%),
+      radial-gradient(ellipse at 76% 36%, rgba(99,91,255,.12) 0%, transparent 34%),
+      linear-gradient(118deg, transparent 0 54%, rgba(13, 110, 253, .1) 66%, transparent 82%);
+  }
+  .fintech-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 52px;
+  }
+  .fintech-feature-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-height: 112px;
+    border-radius: 16px;
+    padding: 22px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .fintech-feature-card span {
+    color: var(--stripe-teal);
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .fintech-feature-card p {
+    color: rgba(255,255,255,.82);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .fintech-process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .fintech-process-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid rgba(10,37,64,.08);
+    box-shadow: 0 12px 32px rgba(10,37,64,.06);
+  }
+  .fintech-process-card h3 {
+    color: var(--text);
+  }
+  .fintech-process-card p {
+    color: var(--muted);
+  }
+  .fintech-cta {
+    padding-top: 96px;
+  }
+  .healthcare-page {
+    background: linear-gradient(180deg, #ffffff 0%, #f7fbff 45%, #ffffff 100%);
+  }
+  .healthcare-hero .web-hero-bg {
+    background:
+      radial-gradient(ellipse at 88% 12%, rgba(0,184,132,.13) 0%, transparent 38%),
+      radial-gradient(ellipse at 76% 36%, rgba(99,91,255,.11) 0%, transparent 34%),
+      linear-gradient(118deg, transparent 0 54%, rgba(0,184,217,.1) 66%, transparent 82%);
+  }
+  .healthcare-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 52px;
+  }
+  .healthcare-feature-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-height: 112px;
+    border-radius: 16px;
+    padding: 22px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .healthcare-feature-card span {
+    color: var(--stripe-teal);
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .healthcare-feature-card p {
+    color: rgba(255,255,255,.82);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .healthcare-process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .healthcare-process-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid rgba(10,37,64,.08);
+    box-shadow: 0 12px 32px rgba(10,37,64,.06);
+  }
+  .healthcare-process-card h3 {
+    color: var(--text);
+  }
+  .healthcare-process-card p {
+    color: var(--muted);
+  }
+  .healthcare-cta {
+    padding-top: 96px;
+  }
+  .manufacturing-page {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 45%, #ffffff 100%);
+  }
+  .manufacturing-hero .web-hero-bg {
+    background:
+      radial-gradient(ellipse at 88% 12%, rgba(255,157,87,.12) 0%, transparent 38%),
+      radial-gradient(ellipse at 76% 36%, rgba(0,184,217,.12) 0%, transparent 34%),
+      linear-gradient(118deg, transparent 0 54%, rgba(99,91,255,.09) 66%, transparent 82%);
+  }
+  .manufacturing-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 52px;
+  }
+  .manufacturing-feature-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-height: 112px;
+    border-radius: 16px;
+    padding: 22px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .manufacturing-feature-card span {
+    color: #ffb36e;
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .manufacturing-feature-card p {
+    color: rgba(255,255,255,.82);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .manufacturing-process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .manufacturing-process-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid rgba(10,37,64,.08);
+    box-shadow: 0 12px 32px rgba(10,37,64,.06);
+  }
+  .manufacturing-process-card h3 {
+    color: var(--text);
+  }
+  .manufacturing-process-card p {
+    color: var(--muted);
+  }
+  .manufacturing-cta {
+    padding-top: 96px;
+  }
+  .ecommerce-page {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 45%, #ffffff 100%);
+  }
+  .ecommerce-hero .web-hero-bg {
+    background:
+      radial-gradient(ellipse at 88% 12%, rgba(255,157,87,.13) 0%, transparent 38%),
+      radial-gradient(ellipse at 76% 36%, rgba(0,184,132,.12) 0%, transparent 34%),
+      linear-gradient(118deg, transparent 0 54%, rgba(0,184,217,.1) 66%, transparent 82%);
+  }
+  .ecommerce-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 52px;
+  }
+  .ecommerce-feature-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-height: 112px;
+    border-radius: 16px;
+    padding: 22px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .ecommerce-feature-card span {
+    color: #ffb36e;
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .ecommerce-feature-card p {
+    color: rgba(255,255,255,.82);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .ecommerce-process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .ecommerce-process-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid rgba(10,37,64,.08);
+    box-shadow: 0 12px 32px rgba(10,37,64,.06);
+  }
+  .ecommerce-process-card h3 {
+    color: var(--text);
+  }
+  .ecommerce-process-card p {
+    color: var(--muted);
+  }
+  .ecommerce-cta {
+    padding-top: 96px;
+  }
   .case-study-page .web-story-card,
   .case-study-page .case-study-category-card {
     text-decoration: none;
@@ -2618,6 +2906,14 @@
   @media (max-width: 900px) {
     .mvp-story-grid,
     .web-story-grid {
+      grid-template-columns: 1fr;
+    }
+    .fintech-feature-grid,
+    .fintech-process-grid,
+    .healthcare-feature-grid,
+    .healthcare-process-grid,
+    .manufacturing-feature-grid,
+    .manufacturing-process-grid {
       grid-template-columns: 1fr;
     }
     .mvp-story-card,

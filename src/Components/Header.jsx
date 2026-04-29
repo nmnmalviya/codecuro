@@ -31,6 +31,43 @@ const NavDropdown = ({ label, items }) => (
   </li>
 );
 
+const developerGroupLabels = {
+  frontend: "Front-end",
+  backend: "Back-end",
+  mobile: "Mobile",
+  ai_and_cloud: "AI and Cloud"
+};
+
+const HireDevelopersDropdown = ({ groups }) => (
+  <li className="dropdown-wrap developer-dropdown-wrap">
+    <button>Hire Developers <span style={{ fontSize: "10px" }}>{"\u25BE"}</span></button>
+    <div className="dropdown-menu developer-mega-menu">
+      {Object.entries(groups).map(([groupKey, developers]) => (
+        <div className="developer-dropdown-col" key={groupKey}>
+          <h4>{developerGroupLabels[groupKey] || groupKey}</h4>
+          {developers.map((developer) => (
+            developer.url.startsWith("/") ? (
+              <Link key={developer.role} className="dropdown-item developer-dropdown-item" to={developer.url}>
+                {developer.role}
+              </Link>
+            ) : (
+              <a
+                key={developer.role}
+                className="dropdown-item developer-dropdown-item"
+                href={developer.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {developer.role}
+              </a>
+            )
+          ))}
+        </div>
+      ))}
+    </div>
+  </li>
+);
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -51,7 +88,7 @@ export default function Header() {
           <ul className="nav-links">
             <NavDropdown label="Services" items={siteData.services} />
             <NavDropdown label="Industries" items={siteData.industries} />
-            <NavDropdown label="Developers" items={Object.values(siteData.hire_developers).flat().slice(0, 8)} />
+            <HireDevelopersDropdown groups={siteData.hire_developers} />
             <NavDropdown label="Resources" items={[...siteData.navigation.about, ...siteData.navigation.main]} />
             <li><a href="#">Contact</a></li>
           </ul>

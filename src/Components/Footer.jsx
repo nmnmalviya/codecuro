@@ -1,6 +1,12 @@
 import siteData from "../codeCuroData.json";
 
 export default function Footer() {
+  const normalizeLink = (link) => (
+    typeof link === "string"
+      ? { label: link, url: "#" }
+      : { label: link.label || link.name || link.role, url: link.url || "#" }
+  );
+
   return (
     <footer className="footer">
       <div className="footer-inner">
@@ -18,7 +24,14 @@ export default function Footer() {
             <div className="footer-col" key={col.heading}>
               <h4>{col.heading}</h4>
               <ul>
-                {col.links.map((link) => <li key={link}><a href="#">{link}</a></li>)}
+                {col.links.map((link) => {
+                  const item = normalizeLink(link);
+                  return (
+                    <li key={item.label}>
+                      <a href={item.url}>{item.label}</a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

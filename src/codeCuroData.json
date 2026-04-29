@@ -16,7 +16,7 @@
     },
     "phone": {
       "india_1": "+91 9773385304",
-      "india_2": "+91 9773385303",
+      "india_2": "+91 9773385303",  
       "uk": "+44 020 7458 4831",
       "sweden": "+46 73 810 30 44",
       "uae": "+971 58 539 1665"
@@ -156,14 +156,14 @@
     "Embedded & Robotics"
   ],
   "industries": [
-    "Fintech",
-    "Healthcare",
-    "Manufacturing",
-    "E-commerce",
-    "Logistics",
-    "EdTech",
-    "Sustainability",
-    "Gaming"
+    { "label": "Fintech", "url": "/fintech" },
+    { "label": "Healthcare", "url": "/healthcare" },
+    { "label": "Manufacturing", "url": "/manufacturing" },
+    { "label": "E-commerce", "url": "/ecommerce" },
+    { "label": "Logistics", "url": "https://codecuro.in/logistics/" },
+    { "label": "EdTech", "url": "https://codecuro.in/edtech/" },
+    { "label": "Sustainability", "url": "https://codecuro.in/sustainability/" },
+    { "label": "Gaming", "url": "https://codecuro.in/gaming/" }
   ],
   "case_studies": [
     {
@@ -229,7 +229,7 @@
       { "label": "Blog", "url": "https://codecuro.in/new-releases/" }
     ],
     "main": [
-      { "label": "Case Studies", "url": "/case-studies" },
+      { "label": "Case Studies", "url": "/case-study" },
       { "label": "Career", "url": "https://codecuro.in/careers/" },
       { "label": "Contact", "url": "https://codecuro.in/contact/" }
     ]
