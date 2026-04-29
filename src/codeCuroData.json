@@ -160,8 +160,8 @@
     { "label": "Healthcare", "url": "/healthcare" },
     { "label": "Manufacturing", "url": "/manufacturing" },
     { "label": "E-commerce", "url": "/ecommerce" },
-    { "label": "Logistics", "url": "https://codecuro.in/logistics/" },
-    { "label": "EdTech", "url": "https://codecuro.in/edtech/" },
+    { "label": "Logistics", "url": "/logistics" },
+    { "label": "EdTech", "url": "/edtech" },
     { "label": "Sustainability", "url": "https://codecuro.in/sustainability/" },
     { "label": "Gaming", "url": "https://codecuro.in/gaming/" }
   ],

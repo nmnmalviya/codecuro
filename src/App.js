@@ -19,6 +19,8 @@ import FintechPage from "./Components/Industries/Fintech";
 import HealthCarePage from "./Components/Industries/HealthCare";
 import ManufacturingPage from "./Components/Industries/Manufacturing";
 import EcommercePage from "./Components/Industries/Ecommerce";
+import LogisticsPage from "./Components/Industries/Logistics";
+import EdTechPage from "./Components/Industries/EdTech";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -438,6 +440,8 @@ export default function App() {
       <Route path="/manufacturing" element={<ManufacturingPage />} />
       <Route path="/ecommerce" element={<EcommercePage />} />
       <Route path="/e-commerce" element={<EcommercePage />} />
+      <Route path="/logistics" element={<LogisticsPage />} />
+      <Route path="/edtech" element={<EdTechPage />} />
     </Routes>
   );
 }

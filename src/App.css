@@ -2768,6 +2768,110 @@
   .ecommerce-cta {
     padding-top: 96px;
   }
+  .logistics-page {
+    background: linear-gradient(180deg, #ffffff 0%, #f7fbff 45%, #ffffff 100%);
+  }
+  .logistics-hero .web-hero-bg {
+    background:
+      radial-gradient(ellipse at 88% 12%, rgba(0,184,217,.14) 0%, transparent 38%),
+      radial-gradient(ellipse at 76% 36%, rgba(0,184,132,.12) 0%, transparent 34%),
+      linear-gradient(118deg, transparent 0 54%, rgba(99,91,255,.09) 66%, transparent 82%);
+  }
+  .logistics-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 52px;
+  }
+  .logistics-feature-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-height: 112px;
+    border-radius: 16px;
+    padding: 22px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .logistics-feature-card span {
+    color: var(--stripe-teal);
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .logistics-feature-card p {
+    color: rgba(255,255,255,.82);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .logistics-process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .logistics-process-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid rgba(10,37,64,.08);
+    box-shadow: 0 12px 32px rgba(10,37,64,.06);
+  }
+  .logistics-process-card h3 {
+    color: var(--text);
+  }
+  .logistics-process-card p {
+    color: var(--muted);
+  }
+  .logistics-cta {
+    padding-top: 96px;
+  }
+  .edtech-page {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 45%, #ffffff 100%);
+  }
+  .edtech-hero .web-hero-bg {
+    background:
+      radial-gradient(ellipse at 88% 12%, rgba(99,91,255,.14) 0%, transparent 38%),
+      radial-gradient(ellipse at 76% 36%, rgba(0,184,217,.13) 0%, transparent 34%),
+      linear-gradient(118deg, transparent 0 54%, rgba(0,184,132,.09) 66%, transparent 82%);
+  }
+  .edtech-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 52px;
+  }
+  .edtech-feature-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-height: 112px;
+    border-radius: 16px;
+    padding: 22px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .edtech-feature-card span {
+    color: var(--stripe-teal);
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .edtech-feature-card p {
+    color: rgba(255,255,255,.82);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .edtech-process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .edtech-process-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    border: 1px solid rgba(10,37,64,.08);
+    box-shadow: 0 12px 32px rgba(10,37,64,.06);
+  }
+  .edtech-process-card h3 {
+    color: var(--text);
+  }
+  .edtech-process-card p {
+    color: var(--muted);
+  }
+  .edtech-cta {
+    padding-top: 96px;
+  }
   .case-study-page .web-story-card,
   .case-study-page .case-study-category-card {
     text-decoration: none;
@@ -2913,7 +3017,13 @@
     .healthcare-feature-grid,
     .healthcare-process-grid,
     .manufacturing-feature-grid,
-    .manufacturing-process-grid {
+    .manufacturing-process-grid,
+    .ecommerce-feature-grid,
+    .ecommerce-process-grid,
+    .logistics-feature-grid,
+    .logistics-process-grid,
+    .edtech-feature-grid,
+    .edtech-process-grid {
       grid-template-columns: 1fr;
     }
     .mvp-story-card,
