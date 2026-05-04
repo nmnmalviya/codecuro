@@ -23,6 +23,22 @@ import LogisticsPage from "./Components/Industries/Logistics";
 import EdTechPage from "./Components/Industries/EdTech";
 import GamingPage from "./Components/Industries/Gaming";
 import ReactDeveloperPage from "./Components/Hire-Developer/Frontend/ReactDeveloper";
+import NextDeveloperPage from "./Components/Hire-Developer/Frontend/NextDeveloper";
+import ShopifyDeveloperPage from "./Components/Hire-Developer/Frontend/ShopifyDeveloper";
+import ServiceNowDeveloperPage from "./Components/Hire-Developer/Frontend/ServiceNowDeveloper";
+import VueDeveloperPage from "./Components/Hire-Developer/Frontend/VueDeveloper";
+import AngularDeveloperPage from "./Components/Hire-Developer/Frontend/AngularDeveloper";
+import JavaScriptDeveloperPage from "./Components/Hire-Developer/Frontend/JavaScriptDeveloper";
+import RubyOnRailsDeveloperPage from "./Components/Hire-Developer/Backend/RubyOnRailsDeveloper";
+import DevOpsDeveloperPage from "./Components/Hire-Developer/Backend/DevOpsDeveloper";
+import PhpDeveloperPage from "./Components/Hire-Developer/Backend/PhpDeveloper";
+import DotNetDeveloperPage from "./Components/Hire-Developer/Backend/DotNetDeveloper";
+import JavaDeveloperPage from "./Components/Hire-Developer/Backend/JavaDeveloper";
+import GolangDeveloperPage from "./Components/Hire-Developer/Backend/GolangDeveloper";
+import PythonDeveloperPage from "./Components/Hire-Developer/Backend/PythonDeveloper";
+import NodeDeveloperPage from "./Components/Hire-Developer/Backend/NodeDeveloper";
+import UnityDeveloperPage from "./Components/Hire-Developer/Backend/UnityDeveloper";
+import UnrealDeveloperPage from "./Components/Hire-Developer/Backend/UnrealDeveloper";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -472,6 +488,7 @@ export default function App() {
         <Route path="/QA-software-testing" element={<QaSoftwareTestingPage />} />
         <Route path="/qa-software-testing" element={<QaSoftwareTestingPage />} />
         <Route path="/automation-prompt-engineering" element={<AutomationPromptEngineeringPage />} />
+        <Route path="/case-study" element={<CaseStudyPage />} />
         <Route path="/case-studies" element={<CaseStudyPage />} />
         <Route path="/fintech" element={<FintechPage />} />
         <Route path="/healthcare" element={<HealthCarePage />} />
@@ -481,7 +498,23 @@ export default function App() {
         <Route path="/logistics" element={<LogisticsPage />} />
         <Route path="/edtech" element={<EdTechPage />} />
         <Route path="/gaming" element={<GamingPage />} />
+        <Route path="/next-js-developer" element={<NextDeveloperPage />} />
+        <Route path="/shopify-developer" element={<ShopifyDeveloperPage />} />
+        <Route path="/service-now-developer" element={<ServiceNowDeveloperPage />} />
+        <Route path="/vue-js-developer" element={<VueDeveloperPage />} />
         <Route path="/react-developer" element={<ReactDeveloperPage />} />
+        <Route path="/angular-developer" element={<AngularDeveloperPage />} />
+        <Route path="/javascript-developer" element={<JavaScriptDeveloperPage />} />
+        <Route path="/ruby-on-rails-developer" element={<RubyOnRailsDeveloperPage />} />
+        <Route path="/devops-developer" element={<DevOpsDeveloperPage />} />
+        <Route path="/php-developer" element={<PhpDeveloperPage />} />
+        <Route path="/dot-net-developer" element={<DotNetDeveloperPage />} />
+        <Route path="/java-developer" element={<JavaDeveloperPage />} />
+        <Route path="/golang-developer" element={<GolangDeveloperPage />} />
+        <Route path="/python-developer" element={<PythonDeveloperPage />} />
+        <Route path="/node-js-developer" element={<NodeDeveloperPage />} />
+        <Route path="/unity-developer" element={<UnityDeveloperPage />} />
+        <Route path="/unreal-developer" element={<UnrealDeveloperPage />} />
       </Routes>
     </>
   );

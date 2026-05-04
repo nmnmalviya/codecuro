@@ -86,10 +86,290 @@
   ],
   "hire_developers": {
     "frontend": [
-      { "role": "Next.js Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "Shopify Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "Service Now Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "Vue.js Developers", "url": "https://codecuro.in/hire-vuejs/" },
+      {
+        "role": "Next.js Developers",
+        "url": "/next-js-developer",
+        "technology": "nextjs",
+        "page": {
+          "hero": {
+            "eyebrow": "Frontend Engineering Partner",
+            "title": "Hire Next.js developers",
+            "description": "Hire Next.js developers to build fast, SEO-ready, scalable web applications with React, server rendering, API routes, secure integrations, and production-focused deployment workflows."
+          },
+          "panel": {
+            "label": "Next.js delivery overview",
+            "metrics": [
+              { "label": "Rendering", "value": "SSR / SSG" },
+              { "label": "Stack", "value": "React / Node" },
+              { "label": "Performance", "value": "Core Web Vitals" },
+              { "label": "Delivery", "value": "POC to Scale" }
+            ],
+            "flow": ["Profile Review", "2-Week POC", "Build + Optimize", "Launch"]
+          },
+          "expertise": {
+            "eyebrow": "Next.js Expertise",
+            "title": "Frontend engineers for high-performance product, commerce, and content platforms.",
+            "description": "Code Curo Next.js developers build production-ready applications with structured routes, reusable components, API integrations, caching, authentication, analytics, and deployment support.",
+            "items": [
+              { "eyebrow": "App Architecture", "title": "App Router, Pages Router, layouts, and reusable modules", "text": "Structure complex products with maintainable routing, shared layouts, clean components, and clear ownership boundaries." },
+              { "eyebrow": "Performance", "title": "SSR, SSG, ISR, image optimization, and bundle care", "text": "Improve loading speed, search visibility, Core Web Vitals, and responsive behavior across devices." },
+              { "eyebrow": "Integrations", "title": "CMS, payments, auth, analytics, and backend APIs", "text": "Connect Next.js frontends with headless CMS platforms, Stripe-style payments, CRM tools, REST APIs, GraphQL, and cloud services." },
+              { "eyebrow": "Quality", "title": "Testing, code reviews, accessibility, and release support", "text": "Ship stable interfaces through component testing, review discipline, accessibility checks, and coordinated deployments." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Software Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Next.js engineers who can join your sprint process quickly and start with a focused proof of concept.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Next.js profiles, evaluate project fit, and interview for architecture, React skill, communication, and delivery maturity." },
+              { "title": "2 Weeks Free POC", "text": "Run a focused sprint to validate page performance, code quality, component structure, and collaboration style." },
+              { "title": "Easy Onboard", "text": "Add selected developers to your roadmap, tools, ceremonies, and release process with clear expectations." }
+            ]
+          },
+          "whyTitle": "A practical partner for Next.js product delivery, optimization, and long-term frontend scale.",
+          "why": [
+            { "title": "Product-First Delivery", "text": "We focus on business workflows, user journeys, speed, maintainability, and release confidence instead of isolated page builds." },
+            { "title": "Full-Stack Collaboration", "text": "Our Next.js developers work smoothly with backend, DevOps, QA, design, analytics, and product stakeholders." },
+            { "title": "Transparent Billing", "text": "Monthly billing, tracked hours, and flexible engagement models make team extension predictable." },
+            { "title": "Long-Term Scale", "text": "Start with one Next.js developer and scale into React, backend, DevOps, QA, AI/ML, and mobile teams as needed." }
+          ],
+          "projectsTitle": "Next.js project examples for SaaS, commerce, content, analytics, and customer portals.",
+          "projectsDescription": "These examples show the kind of Next.js work Code Curo can deliver for modern product teams.",
+          "projects": [
+            { "type": "SaaS", "title": "Subscription Analytics Portal", "description": "Built a fast dashboard with server-rendered reports, role-based access, billing insights, and interactive customer segments." },
+            { "type": "Commerce", "title": "Headless Storefront", "description": "Created a Next.js storefront with product discovery, cart flows, checkout integrations, inventory visibility, and SEO-ready category pages." },
+            { "type": "Content Platform", "title": "Editorial CMS Website", "description": "Delivered a headless CMS site with dynamic routes, preview workflows, optimized images, and analytics-ready article templates." },
+            { "type": "FinTech", "title": "Investor Portal", "description": "Developed secure portfolio screens, transaction views, notification feeds, and server-rendered account pages for financial users." },
+            { "type": "B2B", "title": "Partner Onboarding Hub", "description": "Built forms, document uploads, account setup flows, and admin review screens for partner activation." },
+            { "type": "Healthcare", "title": "Clinic Website + Portal", "description": "Combined a search-friendly marketing site with private appointment, document, and care-team workflows." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Next.js Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Next.js Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Next.js Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Next.js team",
+            "description": "Choose Next.js expertise for SEO-ready apps, dashboards, portals, storefronts, and high-performance user experiences."
+          },
+          "finalCta": "Need Next.js developers who can improve performance, structure routes, connect APIs, and ship production-grade web apps?"
+        }
+      },
+      {
+        "role": "Shopify Developers",
+        "url": "/shopify-developer",
+        "technology": "shopify",
+        "page": {
+          "hero": {
+            "eyebrow": "Commerce Engineering Partner",
+            "title": "Hire Shopify developers",
+            "description": "Hire Shopify developers to build polished storefronts, custom themes, checkout-friendly experiences, app integrations, Shopify Plus workflows, and conversion-focused ecommerce interfaces."
+          },
+          "panel": {
+            "label": "Shopify delivery overview",
+            "metrics": [
+              { "label": "Storefront", "value": "Themes / Hydrogen" },
+              { "label": "Commerce", "value": "Catalog + Cart" },
+              { "label": "Integrations", "value": "Apps / APIs" },
+              { "label": "Growth", "value": "CRO + SEO" }
+            ],
+            "flow": ["Store Audit", "POC Sprint", "Build + Integrate", "Optimize"]
+          },
+          "expertise": {
+            "eyebrow": "Shopify Expertise",
+            "title": "Commerce developers for storefronts, subscriptions, catalogs, and operational workflows.",
+            "description": "Code Curo Shopify developers create scalable ecommerce experiences across Liquid themes, Hydrogen, custom apps, third-party integrations, product data, analytics, and launch support.",
+            "items": [
+              { "eyebrow": "Storefronts", "title": "Custom Shopify themes, Liquid, Hydrogen, and responsive UI", "text": "Build fast storefronts with polished product pages, collections, landing pages, and mobile-first shopping flows." },
+              { "eyebrow": "Integrations", "title": "Payments, shipping, ERP, CRM, subscriptions, and apps", "text": "Connect Shopify with the tools your operations team already depends on." },
+              { "eyebrow": "Optimization", "title": "Conversion improvements, SEO, analytics, and speed tuning", "text": "Improve product discovery, checkout flow clarity, page speed, and measurable revenue outcomes." },
+              { "eyebrow": "Operations", "title": "Catalog logic, inventory views, admin workflows, and automation", "text": "Support growing teams with commerce workflows that reduce manual work and order friction." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Ecommerce Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Shopify engineers to improve your store, launch new commerce features, or scale a Shopify Plus workflow.",
+            "steps": [
+              { "title": "Store Review & Interview", "text": "Review developer profiles and discuss theme quality, app needs, integrations, traffic goals, and operational gaps." },
+              { "title": "2 Weeks Free POC", "text": "Validate the fit with a focused sprint such as a landing page, product template, app integration, or performance fix." },
+              { "title": "Easy Onboard", "text": "Move the selected Shopify developer into your roadmap for releases, experiments, support, and store improvements." }
+            ]
+          },
+          "whyTitle": "A commerce-focused partner for storefront quality, integrations, and measurable ecommerce improvements.",
+          "why": [
+            { "title": "Revenue-Aware Builds", "text": "We think through catalog clarity, page speed, checkout friction, merchandising, and repeat-purchase flows." },
+            { "title": "Integration Strength", "text": "Our developers connect Shopify with marketing tools, ERPs, payment providers, shipping systems, analytics, and CRMs." },
+            { "title": "Flexible Teaming", "text": "Use one developer for store support or scale into UI/UX, frontend, backend, QA, and automation support." },
+            { "title": "Clear Communication", "text": "We align with your sprint tools and release process so commerce changes stay organized." }
+          ],
+          "projectsTitle": "Shopify project examples for retail, D2C, subscriptions, B2B commerce, and marketplace operations.",
+          "projectsDescription": "These examples show practical Shopify work Code Curo can support from design to release.",
+          "projects": [
+            { "type": "D2C", "title": "Fashion Storefront Refresh", "description": "Rebuilt product listing pages, collection navigation, size guides, and mobile shopping flows for a fast D2C storefront." },
+            { "type": "Subscription", "title": "Wellness Subscription Store", "description": "Integrated subscription logic, customer account screens, product bundles, and retention-focused checkout flows." },
+            { "type": "B2B Commerce", "title": "Wholesale Ordering Portal", "description": "Created buyer-specific catalogs, quick order tools, quote workflows, and admin visibility for wholesale customers." },
+            { "type": "Retail Ops", "title": "Inventory-Aware Store", "description": "Connected inventory views, shipping rules, product availability, and low-stock messaging for omnichannel retail." },
+            { "type": "Marketplace", "title": "Vendor Product Hub", "description": "Built structured product onboarding, review states, vendor dashboards, and catalog moderation screens." },
+            { "type": "CRO", "title": "Checkout Optimization Sprint", "description": "Improved cart layout, trust signals, upsell modules, analytics events, and checkout-path clarity." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Shopify Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Shopify Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Shopify Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Shopify team",
+            "description": "Choose Shopify expertise for custom storefronts, conversion work, integrations, and ecommerce growth."
+          },
+          "finalCta": "Need Shopify developers who can improve your storefront, connect apps, and ship conversion-focused commerce features?"
+        }
+      },
+      {
+        "role": "Service Now Developers",
+        "url": "/service-now-developer",
+        "technology": "servicenow",
+        "page": {
+          "hero": {
+            "eyebrow": "Workflow Engineering Partner",
+            "title": "Hire ServiceNow developers",
+            "description": "Hire ServiceNow developers to build portals, automate service workflows, configure ITSM modules, integrate enterprise tools, and improve employee and customer service experiences."
+          },
+          "panel": {
+            "label": "ServiceNow delivery overview",
+            "metrics": [
+              { "label": "Modules", "value": "ITSM / CSM" },
+              { "label": "Portals", "value": "Service Portal" },
+              { "label": "Automation", "value": "Flow Designer" },
+              { "label": "Integrations", "value": "REST / SOAP" }
+            ],
+            "flow": ["Workflow Review", "POC Sprint", "Configure", "Release"]
+          },
+          "expertise": {
+            "eyebrow": "ServiceNow Expertise",
+            "title": "Workflow developers for service portals, ITSM, CSM, automation, and integrations.",
+            "description": "Code Curo ServiceNow developers help teams configure modules, build service portals, automate approvals, integrate enterprise systems, and improve operational visibility.",
+            "items": [
+              { "eyebrow": "ITSM", "title": "Incident, problem, change, request, and knowledge workflows", "text": "Configure service management flows that make ticket handling clearer and faster." },
+              { "eyebrow": "Portals", "title": "Service Portal pages, widgets, forms, and self-service UX", "text": "Build user-friendly portals for employees, customers, and internal operations teams." },
+              { "eyebrow": "Automation", "title": "Flow Designer, approvals, notifications, and scheduled jobs", "text": "Reduce manual work with reliable automation and traceable workflow logic." },
+              { "eyebrow": "Integrations", "title": "REST, SOAP, SSO, CMDB, HR, CRM, and monitoring tools", "text": "Connect ServiceNow to the systems that drive your enterprise operations." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Workflow Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated ServiceNow engineers to configure workflows, modernize portals, and improve service operations.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review ServiceNow profiles and validate module experience, scripting ability, integration strength, and stakeholder communication." },
+              { "title": "2 Weeks Free POC", "text": "Start with one workflow, widget, integration, or reporting improvement to assess delivery quality." },
+              { "title": "Easy Onboard", "text": "Add the developer to your admin, operations, or platform team with clear sprint and release ownership." }
+            ]
+          },
+          "whyTitle": "A delivery partner for ServiceNow configuration, portal UX, automation, and enterprise integrations.",
+          "why": [
+            { "title": "Workflow Clarity", "text": "We map real service operations into workflows that teams can understand, maintain, and improve." },
+            { "title": "Enterprise Collaboration", "text": "Our teams coordinate with admins, security, support, HR, IT, CRM, and platform stakeholders." },
+            { "title": "POC-Led Start", "text": "Begin with a small ServiceNow sprint before scaling into broader workflow modernization." },
+            { "title": "Long-Term Support", "text": "Scale from configuration work into analytics, integrations, QA, automation, and custom frontend support." }
+          ],
+          "projectsTitle": "ServiceNow project examples for ITSM, portals, HR service delivery, and enterprise automation.",
+          "projectsDescription": "These project examples reflect practical ServiceNow improvements for growing operations teams.",
+          "projects": [
+            { "type": "ITSM", "title": "Incident Management Upgrade", "description": "Improved incident forms, assignment rules, SLA visibility, notification logic, and manager dashboards." },
+            { "type": "Portal", "title": "Employee Self-Service Portal", "description": "Built portal pages, widgets, catalog items, knowledge search, and guided request forms for employee support." },
+            { "type": "Automation", "title": "Approval Workflow Automation", "description": "Configured multi-step approvals, reminders, escalation rules, and audit-friendly workflow states." },
+            { "type": "CSM", "title": "Customer Support Workspace", "description": "Created customer cases, service views, agent queues, reporting screens, and CRM integration touchpoints." },
+            { "type": "HR", "title": "HR Request Management", "description": "Delivered onboarding requests, employee document flows, HR routing rules, and self-service status views." },
+            { "type": "Integration", "title": "Monitoring Alert Intake", "description": "Integrated alerts with incident creation, assignment logic, enrichment data, and support-team notifications." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior ServiceNow Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level ServiceNow Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior ServiceNow Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream ServiceNow team",
+            "description": "Choose ServiceNow expertise for service portals, ITSM, automation, integrations, and operational workflows."
+          },
+          "finalCta": "Need ServiceNow developers who can configure workflows, build portals, and improve enterprise service operations?"
+        }
+      },
+      {
+        "role": "Vue.js Developers",
+        "url": "/vue-js-developer",
+        "technology": "vuejs",
+        "page": {
+          "hero": {
+            "eyebrow": "Frontend Engineering Partner",
+            "title": "Hire Vue.js developers",
+            "description": "Hire Vue.js developers to build fast, maintainable, and responsive applications with Vue, Nuxt, Pinia, Vue Router, API integrations, reusable components, and polished UI workflows."
+          },
+          "panel": {
+            "label": "Vue.js delivery overview",
+            "metrics": [
+              { "label": "Framework", "value": "Vue / Nuxt" },
+              { "label": "State", "value": "Pinia / Vuex" },
+              { "label": "Routing", "value": "Vue Router" },
+              { "label": "Quality", "value": "Testing + QA" }
+            ],
+            "flow": ["Interview", "2-Week POC", "Component Build", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": "Vue.js Expertise",
+            "title": "Vue developers for dashboards, portals, ecommerce, admin tools, and modern web apps.",
+            "description": "Code Curo Vue.js developers create clean component systems, reactive interfaces, Nuxt apps, API-connected workflows, and scalable frontend architecture.",
+            "items": [
+              { "eyebrow": "Frontend Stack", "title": "Vue 3, Nuxt, Composition API, Pinia, and Vue Router", "text": "Build maintainable Vue applications with strong structure, reusable patterns, and modern tooling." },
+              { "eyebrow": "Product UI", "title": "Dashboards, portals, forms, data tables, and workflows", "text": "Turn product requirements into responsive interfaces that are clear for daily users." },
+              { "eyebrow": "Integrations", "title": "REST, GraphQL, auth, payments, maps, CMS, and analytics", "text": "Connect Vue frontends with dependable APIs and third-party business tools." },
+              { "eyebrow": "Migration", "title": "Legacy frontend upgrades and Vue modernization", "text": "Move older interfaces toward Vue 3, cleaner routing, improved state management, and better release confidence." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Software Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Vue.js engineers and remote developers who can support frontend delivery from POC to scale.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Vue.js profiles and interview for component design, JavaScript strength, communication, and product understanding." },
+              { "title": "2 Weeks Free POC", "text": "Run one sprint to validate code quality, UI delivery, API integration approach, and collaboration style." },
+              { "title": "Easy Onboard", "text": "Bring the selected Vue developer into your roadmap, sprint process, and release workflow." }
+            ]
+          },
+          "whyTitle": "A reliable partner for Vue.js delivery, legacy modernization, and scalable frontend teams.",
+          "why": [
+            { "title": "Clean Component Thinking", "text": "We structure Vue interfaces around reusable components, clear state, and maintainable product flows." },
+            { "title": "Cross-Team Fit", "text": "Our developers collaborate with designers, backend teams, QA, product owners, and DevOps teams." },
+            { "title": "Transparent Engagement", "text": "Use flexible hiring, tracked hours, and POC-led onboarding to reduce hiring risk." },
+            { "title": "Scale Beyond Vue", "text": "Grow from Vue.js support into full-stack engineering, mobile, QA, automation, DevOps, and AI/ML delivery." }
+          ],
+          "projectsTitle": "Vue.js project examples for dashboards, booking systems, fintech tools, CMS products, and operations portals.",
+          "projectsDescription": "These examples show how Vue.js can power practical, responsive, and maintainable product interfaces.",
+          "projects": [
+            { "type": "FinTech", "title": "Investment Dashboard", "description": "Built Vue dashboards for portfolio summaries, localized views, notifications, CRM links, and investor account journeys." },
+            { "type": "Booking", "title": "Travel Booking Console", "description": "Created search, itinerary, booking management, payment state, and support-agent workflows." },
+            { "type": "Operations", "title": "Customer Portal", "description": "Delivered account views, service requests, partner onboarding, reporting panels, and responsive workflows." },
+            { "type": "CMS", "title": "Content Management Product", "description": "Built editorial screens, approval flows, content previews, and structured publishing tools." },
+            { "type": "IoT", "title": "Device Monitoring Dashboard", "description": "Created Vue screens for device health, alerts, historical data, and remote management controls." },
+            { "type": "SaaS", "title": "Admin Workflow Builder", "description": "Developed reusable form modules, permissions, audit trails, and user-management screens." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Vue.js Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Vue.js Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Vue.js Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Vue.js team",
+            "description": "Choose Vue.js expertise for dashboards, portals, Nuxt apps, admin panels, and modern frontend workflows."
+          },
+          "finalCta": "Need Vue.js developers who can build clean components, integrate APIs, and modernize product interfaces?"
+        }
+      },
       {
         "role": "React.js Developers",
         "url": "/react-developer",
@@ -98,13 +378,7 @@
           "hero": {
             "eyebrow": "Software Development Partner",
             "title": "Hire React.js developers",
-            "description": "Hire React.js developers skilled in creating high-speed, scalable, and responsive applications across industries. Code Curo teams work with React.js, Redux, ES6, JSX, Git, API integrations, performance optimization, and cross-browser compatibility.",
-            "bullets": [
-              "Frontend Expertise: React.js, Redux, Redux Saga, Next.js, Vue.js",
-              "Backend Collaboration: Node.js, Django, FastAPI, NestJS, Express, REST APIs",
-              "Databases & Storage: SQL, MongoDB, PostgreSQL, caching tools, cloud storage",
-              "Tools & IDEs: Git, JIRA, Swagger, Postman, Figma, Visual Studio Code"
-            ]
+            "description": "Hire React.js developers skilled in creating high-speed, scalable, and responsive applications across industries. Code Curo teams work with React.js, Redux, ES6, JSX, Git, API integrations, performance optimization, and cross-browser compatibility."
           },
           "panel": {
             "label": "React delivery overview",
@@ -115,6 +389,17 @@
               { "label": "Delivery", "value": "POC to Scale" }
             ],
             "flow": ["Interview", "2-Week POC", "Sprint Delivery", "Scale Team"]
+          },
+          "expertise": {
+            "eyebrow": "React.js Expertise",
+            "title": "Frontend engineers ready for modern product teams.",
+            "description": "Code Curo React.js developers cover component architecture, state management, API integrations, design handoff, testing, optimization, and release collaboration.",
+            "items": [
+              { "eyebrow": "Frontend Expertise", "title": "React.js, Redux, Redux Saga, Next.js, and modern JavaScript", "text": "Bring focused React capability into your team with practical tools, clear communication, and delivery ownership." },
+              { "eyebrow": "Backend Collaboration", "title": "Node.js, Django, FastAPI, NestJS, Express, and REST APIs", "text": "Build frontends that connect cleanly with backend services, authentication, data models, and business workflows." },
+              { "eyebrow": "Data Layer", "title": "SQL, MongoDB, PostgreSQL, caching tools, and cloud storage", "text": "Create UI flows that handle data-heavy experiences with clear loading, error, and empty states." },
+              { "eyebrow": "Tools & IDEs", "title": "Git, JIRA, Swagger, Postman, Figma, and Visual Studio Code", "text": "Work inside your existing product, design, and delivery workflow from the first sprint." }
+            ]
           },
           "onboarding": {
             "eyebrow": "Hire Software Developers",
@@ -135,6 +420,7 @@
               }
             ]
           },
+          "whyTitle": "A practical partner for React.js delivery, onboarding, and long-term team growth.",
           "why": [
             {
               "title": "About Code Curo",
@@ -157,6 +443,8 @@
               "text": "Start with a focused frontend need, build trust through delivery, then scale into full product teams across frontend, backend, DevOps, AI/ML, mobile, and QA."
             }
           ],
+          "projectsTitle": "React.js project examples across portals, dashboards, SaaS, IoT, fintech, and commerce.",
+          "projectsDescription": "A mix of Code Curo project-style work and additional React.js examples shaped for real product teams.",
           "projects": [
             {
               "type": "Web App",
@@ -208,23 +496,864 @@
             "eyebrow": "Hire the Right Developer",
             "title": "Build your dream React.js team",
             "description": "Choose React.js expertise for your project with flexible and cost-effective engagement plans."
-          }
+          },
+          "finalCta": "Need React.js developers who can join your workflow and start shipping product-grade UI?"
         }
       },
-      { "role": "Angular Developers", "url": "https://codecuro.in/hire-angular/" },
-      { "role": "JavaScript Developers", "url": "https://codecuro.in/hire-javascript/" }
+      {
+        "role": "Angular Developers",
+        "url": "/angular-developer",
+        "technology": "angular",
+        "page": {
+          "hero": {
+            "eyebrow": "Enterprise Frontend Partner",
+            "title": "Hire Angular developers",
+            "description": "Hire Angular developers to build enterprise-grade web applications with TypeScript, RxJS, NgRx, Angular Material, secure APIs, complex forms, dashboards, and scalable frontend architecture."
+          },
+          "panel": {
+            "label": "Angular delivery overview",
+            "metrics": [
+              { "label": "Framework", "value": "Angular / TS" },
+              { "label": "State", "value": "RxJS / NgRx" },
+              { "label": "UI", "value": "Material / Forms" },
+              { "label": "Quality", "value": "Testing + QA" }
+            ],
+            "flow": ["Profile Review", "POC Sprint", "Module Build", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": "Angular Expertise",
+            "title": "Enterprise frontend engineers for complex apps, workflows, and data-heavy systems.",
+            "description": "Code Curo Angular developers build structured applications with TypeScript, modules, services, reactive forms, state management, API integrations, and long-term maintainability.",
+            "items": [
+              { "eyebrow": "Architecture", "title": "Angular modules, standalone components, services, and routing", "text": "Create scalable application structure for large teams and complex business workflows." },
+              { "eyebrow": "State & Data", "title": "RxJS, NgRx, API services, caching, and async workflows", "text": "Handle data-heavy interfaces with predictable state, clear error handling, and responsive updates." },
+              { "eyebrow": "Enterprise UI", "title": "Angular Material, reactive forms, dashboards, and admin panels", "text": "Build usable internal tools, reporting screens, forms, approvals, and role-based experiences." },
+              { "eyebrow": "Quality", "title": "Unit testing, integration testing, accessibility, and release checks", "text": "Support dependable releases with testing discipline and structured review practices." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Software Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Angular engineers who can join enterprise product teams, internal-tool teams, or modernization programs.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Angular profiles and interview for TypeScript, RxJS, architecture, forms, state, and communication fit." },
+              { "title": "2 Weeks Free POC", "text": "Validate delivery through a focused module, workflow, dashboard, or frontend modernization sprint." },
+              { "title": "Easy Onboard", "text": "Move selected Angular developers into your roadmap, stand-ups, code review process, and release cycle." }
+            ]
+          },
+          "whyTitle": "A dependable partner for Angular architecture, enterprise workflows, and scalable frontend delivery.",
+          "why": [
+            { "title": "Enterprise Discipline", "text": "We structure Angular work for maintainability, clear services, reusable modules, and predictable releases." },
+            { "title": "Complex Workflow Strength", "text": "Our teams can handle multi-step forms, permissions, dashboards, integrations, and admin operations." },
+            { "title": "POC-Led Hiring", "text": "Start with a practical sprint so you can evaluate code quality and collaboration before scaling." },
+            { "title": "Full Delivery Support", "text": "Scale from Angular developers into backend, QA, DevOps, UI/UX, automation, and mobile talent." }
+          ],
+          "projectsTitle": "Angular project examples for enterprise dashboards, admin tools, finance platforms, and operations systems.",
+          "projectsDescription": "These examples show practical Angular delivery for structured, data-heavy product environments.",
+          "projects": [
+            { "type": "Enterprise", "title": "Operations Admin Console", "description": "Built role-based dashboards, approvals, reporting screens, and reactive forms for internal operations." },
+            { "type": "FinTech", "title": "Compliance Review Platform", "description": "Created reviewer queues, document checks, audit history, user permissions, and status workflows." },
+            { "type": "Healthcare", "title": "Clinic Management UI", "description": "Delivered scheduling, patient intake, staff views, and secure document workflows." },
+            { "type": "Logistics", "title": "Shipment Control Tower", "description": "Built shipment tracking, exception management, lane performance, and customer visibility screens." },
+            { "type": "Manufacturing", "title": "Production Planning Dashboard", "description": "Created production views, work-order forms, alerts, and inventory-linked planning screens." },
+            { "type": "SaaS", "title": "Tenant Admin Platform", "description": "Developed tenant settings, roles, feature flags, billing views, and audit logs." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Angular Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Angular Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Angular Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Angular team",
+            "description": "Choose Angular expertise for enterprise apps, admin tools, dashboards, complex forms, and structured frontend systems."
+          },
+          "finalCta": "Need Angular developers who can build maintainable enterprise frontends and complex workflow applications?"
+        }
+      },
+      {
+        "role": "JavaScript Developers",
+        "url": "/javascript-developer",
+        "technology": "javascript",
+        "page": {
+          "hero": {
+            "eyebrow": "Frontend Engineering Partner",
+            "title": "Hire JavaScript developers",
+            "description": "Hire JavaScript developers to build interactive web applications, browser-based tools, API-connected interfaces, modern frontend features, performance improvements, and reusable UI systems."
+          },
+          "panel": {
+            "label": "JavaScript delivery overview",
+            "metrics": [
+              { "label": "Core", "value": "ES6+ / DOM" },
+              { "label": "UI", "value": "React / Vue" },
+              { "label": "APIs", "value": "REST / GraphQL" },
+              { "label": "Quality", "value": "Testing + Lint" }
+            ],
+            "flow": ["Interview", "POC Sprint", "Feature Build", "Release"]
+          },
+          "expertise": {
+            "eyebrow": "JavaScript Expertise",
+            "title": "Frontend developers for interactive products, UI systems, integrations, and performance improvements.",
+            "description": "Code Curo JavaScript developers work across modern frontend stacks, browser APIs, component systems, asynchronous data flows, testing, and UI performance.",
+            "items": [
+              { "eyebrow": "Core JavaScript", "title": "ES6+, async flows, browser APIs, DOM, and modular code", "text": "Build dependable frontend behavior with clean, maintainable JavaScript foundations." },
+              { "eyebrow": "Modern UI", "title": "React, Vue, Next.js, state management, and component patterns", "text": "Support product interfaces across common JavaScript frameworks and frontend workflows." },
+              { "eyebrow": "Integrations", "title": "REST, GraphQL, maps, payments, analytics, and third-party SDKs", "text": "Connect user interfaces with business systems, backend services, and external platforms." },
+              { "eyebrow": "Optimization", "title": "Performance tuning, accessibility, testing, and cross-browser checks", "text": "Improve frontend quality, load behavior, interaction speed, and release confidence." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Software Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated JavaScript engineers for feature delivery, frontend modernization, integrations, and UI support.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review JavaScript profiles and interview for framework fit, browser fundamentals, API experience, and communication style." },
+              { "title": "2 Weeks Free POC", "text": "Validate delivery through a focused feature, integration, performance improvement, or UI component sprint." },
+              { "title": "Easy Onboard", "text": "Add the selected developer to your team, backlog, code review process, and release workflow." }
+            ]
+          },
+          "whyTitle": "A flexible partner for JavaScript feature delivery, frontend modernization, and product UI support.",
+          "why": [
+            { "title": "Strong Fundamentals", "text": "We bring framework skill backed by practical JavaScript, browser, accessibility, and performance understanding." },
+            { "title": "Framework Flexibility", "text": "Our developers can work across React, Vue, Next.js, vanilla JavaScript, and mixed legacy frontends." },
+            { "title": "Fast Team Fit", "text": "POC-led onboarding helps you evaluate ownership, communication, and code quality before scaling." },
+            { "title": "Beyond Frontend", "text": "Scale into backend, QA, DevOps, UI/UX, mobile, automation, and AI/ML talent as roadmap needs expand." }
+          ],
+          "projectsTitle": "JavaScript project examples for product features, interactive tools, integrations, dashboards, and frontend modernization.",
+          "projectsDescription": "These examples show the kinds of JavaScript work Code Curo can deliver across frontend stacks.",
+          "projects": [
+            { "type": "Interactive Tool", "title": "Pricing Calculator", "description": "Built a browser-based calculator with configurable rules, instant validation, analytics events, and CRM lead capture." },
+            { "type": "Dashboard", "title": "Sales Performance UI", "description": "Created charts, filters, API-backed tables, saved views, and export workflows for sales teams." },
+            { "type": "Integration", "title": "Payment Widget", "description": "Delivered a reusable checkout widget with SDK integration, error states, and responsive embedded UI." },
+            { "type": "Modernization", "title": "Legacy Frontend Upgrade", "description": "Refactored old scripts into modular JavaScript, improved page speed, and stabilized cross-browser behavior." },
+            { "type": "Maps", "title": "Location Search Experience", "description": "Built geolocation, map markers, filtering, route previews, and location detail panels." },
+            { "type": "Support", "title": "Customer Help Center UI", "description": "Created FAQ search, article filtering, ticket forms, and support analytics events." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior JavaScript Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level JavaScript Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior JavaScript Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream JavaScript team",
+            "description": "Choose JavaScript expertise for interactive interfaces, frontend features, integrations, and product UI improvements."
+          },
+          "finalCta": "Need JavaScript developers who can ship interactive features, connect APIs, and improve frontend quality?"
+        }
+      }
     ],
     "backend": [
-      { "role": "Ruby On Rails Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "DevOps Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "PHP Developers", "url": "https://codecuro.in/hire-php/" },
-      { "role": ".NET Developers", "url": "https://codecuro.in/hire-net/" },
-      { "role": "Java Developers", "url": "https://codecuro.in/hire-java/" },
-      { "role": "Golang Developers", "url": "https://codecuro.in/hire-golang/" },
-      { "role": "Python Developers", "url": "https://codecuro.in/hire-python/" },
-      { "role": "Node.js Developers", "url": "https://codecuro.in/hire-nodejs/" },
-      { "role": "Unity Developers", "url": "https://codecuro.in/hire-unity/" },
-      { "role": "Unreal Developers", "url": "https://codecuro.in/hire-unreal/" }
+      {
+        "role": "Ruby On Rails Developers",
+        "url": "/ruby-on-rails-developer",
+        "technology": "ruby_on_rails",
+        "page": {
+          "hero": {
+            "eyebrow": "Backend Engineering Partner",
+            "title": "Hire Ruby on Rails developers",
+            "description": "Hire Ruby on Rails developers to build secure web applications, APIs, admin systems, SaaS products, marketplace workflows, and scalable backend services with clean conventions and fast delivery."
+          },
+          "panel": {
+            "label": "Rails delivery overview",
+            "metrics": [
+              { "label": "Framework", "value": "Rails / Ruby" },
+              { "label": "APIs", "value": "REST / GraphQL" },
+              { "label": "Data", "value": "PostgreSQL" },
+              { "label": "Delivery", "value": "POC to Scale" }
+            ],
+            "flow": ["Profile Review", "2-Week POC", "Sprint Delivery", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": "Rails Expertise",
+            "title": "Backend engineers for SaaS, marketplaces, internal tools, and API-first products.",
+            "description": "Code Curo Rails developers build maintainable applications with MVC structure, service objects, background jobs, database design, API layers, and secure deployment support.",
+            "items": [
+              { "eyebrow": "Application Development", "title": "Rails apps, admin panels, SaaS workflows, and marketplaces", "text": "Build business applications quickly while keeping code organized, tested, and easy to extend." },
+              { "eyebrow": "APIs & Integrations", "title": "REST, GraphQL, payments, CRM, email, and third-party services", "text": "Connect Rails backends with product, finance, support, and operations systems." },
+              { "eyebrow": "Data & Jobs", "title": "PostgreSQL, Redis, Sidekiq, search, caching, and reporting", "text": "Handle background processing, large records, search experiences, and operational reporting." },
+              { "eyebrow": "Quality", "title": "RSpec, code reviews, security checks, and release support", "text": "Improve backend confidence through tests, review discipline, and safe deployment practices." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Backend Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Ruby on Rails engineers who can join your team and deliver backend value quickly.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Rails profiles and interview for API design, database skill, testing habits, and product ownership." },
+              { "title": "2 Weeks Free POC", "text": "Start with one backend module, integration, admin flow, or performance improvement to validate fit." },
+              { "title": "Easy Onboard", "text": "Move selected developers into your repository, sprint process, release cycle, and communication channels." }
+            ]
+          },
+          "whyTitle": "A practical partner for Rails delivery, API development, and long-term product maintenance.",
+          "why": [
+            { "title": "Fast Product Delivery", "text": "Rails is strong for turning product ideas into reliable business workflows, and our team keeps delivery structured." },
+            { "title": "Backend Ownership", "text": "We handle models, APIs, integrations, background jobs, admin workflows, performance, and maintainability." },
+            { "title": "Transparent Engagement", "text": "POC-led onboarding, tracked hours, and monthly billing make team extension easier to manage." },
+            { "title": "Scale Beyond Rails", "text": "Grow into frontend, DevOps, QA, data, AI/ML, and mobile support as your roadmap expands." }
+          ],
+          "projectsTitle": "Ruby on Rails project examples for SaaS, marketplaces, admin systems, and API platforms.",
+          "projectsDescription": "These examples show how Code Curo Rails developers can support backend-heavy product delivery.",
+          "projects": [
+            { "type": "SaaS", "title": "Subscription Billing Platform", "description": "Built account plans, invoice workflows, payment events, admin controls, and customer lifecycle logic." },
+            { "type": "Marketplace", "title": "Vendor Operations Backend", "description": "Created vendor onboarding, product approvals, commission rules, payouts, and dispute handling workflows." },
+            { "type": "Admin", "title": "Internal Case Management", "description": "Delivered role-based dashboards, queue assignment, audit trails, notes, attachments, and reporting." },
+            { "type": "API", "title": "Partner Integration Layer", "description": "Built REST APIs, authentication, webhooks, rate limits, and documentation for partner systems." },
+            { "type": "FinTech", "title": "Transaction Review Service", "description": "Created review states, exception workflows, background checks, and operational alerts." },
+            { "type": "Healthcare", "title": "Appointment Operations Backend", "description": "Built scheduling rules, provider availability, patient records, notification jobs, and audit logs." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Rails Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Rails Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Rails Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Rails team",
+            "description": "Choose Ruby on Rails expertise for SaaS apps, marketplaces, APIs, admin systems, and scalable backend workflows."
+          },
+          "finalCta": "Need Ruby on Rails developers who can build reliable APIs, admin systems, and product-ready backend workflows?"
+        }
+      },
+      {
+        "role": "DevOps Developers",
+        "url": "/devops-developer",
+        "technology": "devops",
+        "page": {
+          "hero": {
+            "eyebrow": "Cloud Delivery Partner",
+            "title": "Hire DevOps developers",
+            "description": "Hire DevOps developers to automate deployments, build CI/CD pipelines, manage cloud infrastructure, improve observability, secure environments, and keep product releases predictable."
+          },
+          "panel": {
+            "label": "DevOps delivery overview",
+            "metrics": [
+              { "label": "Cloud", "value": "AWS / Azure" },
+              { "label": "Infra", "value": "Terraform" },
+              { "label": "Deploy", "value": "CI/CD" },
+              { "label": "Ops", "value": "Monitoring" }
+            ],
+            "flow": ["Infra Audit", "2-Week POC", "Automate", "Optimize"]
+          },
+          "expertise": {
+            "eyebrow": "DevOps Expertise",
+            "title": "Cloud and platform engineers for reliable, observable, and repeatable software delivery.",
+            "description": "Code Curo DevOps developers support infrastructure, pipelines, containers, monitoring, security, cloud cost control, release automation, and production operations.",
+            "items": [
+              { "eyebrow": "CI/CD", "title": "GitHub Actions, GitLab CI, Azure DevOps, Jenkins, and release gates", "text": "Automate builds, tests, deployments, rollbacks, and environment promotion." },
+              { "eyebrow": "Cloud & Infra", "title": "AWS, Azure, GCP, Terraform, Docker, and Kubernetes", "text": "Create manageable infrastructure that can scale with product and traffic needs." },
+              { "eyebrow": "Observability", "title": "Logs, metrics, traces, alerts, dashboards, and incident response", "text": "Improve production visibility and reduce time spent diagnosing failures." },
+              { "eyebrow": "Security", "title": "Secrets, access control, vulnerability scans, backups, and compliance support", "text": "Strengthen delivery pipelines and infrastructure without slowing teams down." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire DevOps Engineers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated DevOps engineers to stabilize releases, modernize infrastructure, and improve developer productivity.",
+            "steps": [
+              { "title": "Environment Review & Interview", "text": "Review profiles and evaluate experience with your cloud, CI/CD, container, monitoring, and security needs." },
+              { "title": "2 Weeks Free POC", "text": "Start with one pipeline, deployment automation, monitoring improvement, or infrastructure module." },
+              { "title": "Easy Onboard", "text": "Bring the DevOps engineer into your release process, incident workflow, and infrastructure roadmap." }
+            ]
+          },
+          "whyTitle": "A platform partner for cloud reliability, release speed, automation, and production confidence.",
+          "why": [
+            { "title": "Release Confidence", "text": "We reduce manual deployment risk through repeatable pipelines, environment consistency, and rollback planning." },
+            { "title": "Production Visibility", "text": "Our DevOps engineers improve logs, metrics, alerts, and operational dashboards." },
+            { "title": "Practical Cloud Work", "text": "We balance scalability, security, cost awareness, and day-to-day maintainability." },
+            { "title": "Team Enablement", "text": "DevOps work is aligned with developers, QA, product, security, and leadership teams." }
+          ],
+          "projectsTitle": "DevOps project examples for CI/CD, Kubernetes, cloud migration, monitoring, and infrastructure automation.",
+          "projectsDescription": "These examples show how Code Curo DevOps engineers can improve delivery and operations.",
+          "projects": [
+            { "type": "CI/CD", "title": "Automated Release Pipeline", "description": "Built pipelines with testing, deployment approvals, environment promotion, rollback steps, and notifications." },
+            { "type": "Cloud", "title": "AWS Infrastructure Setup", "description": "Created VPC, compute, storage, IAM, secrets, load balancing, backups, and monitoring foundations." },
+            { "type": "Kubernetes", "title": "Container Platform Modernization", "description": "Moved services to Kubernetes with Helm charts, autoscaling, ingress, and environment-specific configuration." },
+            { "type": "Observability", "title": "Production Monitoring Stack", "description": "Configured dashboards, alerts, logs, uptime checks, and incident response signals for product teams." },
+            { "type": "Security", "title": "Pipeline Hardening Sprint", "description": "Added secret management, dependency checks, image scans, access controls, and audit-ready release logs." },
+            { "type": "Cost", "title": "Cloud Cost Optimization", "description": "Reviewed usage, right-sized resources, improved storage policies, and created visibility for monthly spend." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior DevOps Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level DevOps Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior DevOps Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream DevOps team",
+            "description": "Choose DevOps expertise for cloud infrastructure, pipelines, monitoring, Kubernetes, and production operations."
+          },
+          "finalCta": "Need DevOps developers who can automate releases, stabilize infrastructure, and improve production visibility?"
+        }
+      },
+      {
+        "role": "PHP Developers",
+        "url": "/php-developer",
+        "technology": "php",
+        "page": {
+          "hero": {
+            "eyebrow": "Backend Engineering Partner",
+            "title": "Hire PHP developers",
+            "description": "Hire PHP developers to build secure web applications, Laravel backends, APIs, CMS features, ecommerce systems, business portals, and maintainable server-side workflows."
+          },
+          "panel": {
+            "label": "PHP delivery overview",
+            "metrics": [
+              { "label": "Framework", "value": "Laravel / PHP" },
+              { "label": "APIs", "value": "REST" },
+              { "label": "Data", "value": "MySQL" },
+              { "label": "Quality", "value": "Testing" }
+            ],
+            "flow": ["Interview", "2-Week POC", "Build APIs", "Maintain"]
+          },
+          "expertise": {
+            "eyebrow": "PHP Expertise",
+            "title": "Backend developers for Laravel apps, CMS platforms, ecommerce, and business automation.",
+            "description": "Code Curo PHP developers support custom applications, Laravel development, API integrations, database workflows, CMS enhancements, and legacy modernization.",
+            "items": [
+              { "eyebrow": "Laravel", "title": "Laravel apps, queues, jobs, policies, and API resources", "text": "Build structured PHP applications with authentication, roles, background jobs, and clean services." },
+              { "eyebrow": "CMS & Commerce", "title": "WordPress, WooCommerce, custom CMS, and ecommerce workflows", "text": "Improve content, storefront, catalog, and checkout experiences with dependable PHP development." },
+              { "eyebrow": "Integrations", "title": "Payments, CRM, ERP, email, shipping, and third-party APIs", "text": "Connect business systems and reduce manual operations through server-side integrations." },
+              { "eyebrow": "Modernization", "title": "Legacy PHP upgrades, refactors, security fixes, and performance tuning", "text": "Stabilize older systems while improving maintainability and release safety." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Backend Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated PHP engineers for Laravel builds, CMS improvements, integrations, and legacy support.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review PHP profiles and interview for Laravel, databases, integrations, security, and communication fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with one API, module, performance fix, CMS feature, or integration sprint." },
+              { "title": "Easy Onboard", "text": "Add selected PHP developers to your roadmap, repository, issue tracker, and release process." }
+            ]
+          },
+          "whyTitle": "A dependable partner for PHP development, Laravel APIs, CMS work, and business system support.",
+          "why": [
+            { "title": "Practical Backend Delivery", "text": "We focus on stable workflows, clear APIs, secure forms, and maintainable business logic." },
+            { "title": "Legacy-Friendly Approach", "text": "Our team can work with existing PHP systems while gradually improving structure and quality." },
+            { "title": "Flexible Engagement", "text": "Start with a small PHP need and scale into full product support when the work grows." },
+            { "title": "Cross-Stack Support", "text": "PHP work can be paired with frontend, QA, DevOps, mobile, and automation support." }
+          ],
+          "projectsTitle": "PHP project examples for Laravel APIs, CMS platforms, ecommerce systems, and internal portals.",
+          "projectsDescription": "These examples show practical PHP delivery for operations, commerce, content, and SaaS teams.",
+          "projects": [
+            { "type": "Laravel", "title": "Business Automation Portal", "description": "Built role-based workflows, approvals, notifications, reports, and API integrations for operations teams." },
+            { "type": "CMS", "title": "Custom Publishing Platform", "description": "Created content types, editorial approvals, media handling, SEO fields, and public page delivery." },
+            { "type": "Commerce", "title": "WooCommerce Enhancement", "description": "Improved product templates, checkout logic, shipping rules, subscription flows, and analytics events." },
+            { "type": "API", "title": "Partner Data Gateway", "description": "Developed secure API endpoints, webhooks, sync jobs, logs, and error handling for partner data." },
+            { "type": "Support", "title": "Legacy PHP Stabilization", "description": "Refactored brittle modules, fixed security issues, improved database queries, and documented release steps." },
+            { "type": "SaaS", "title": "Tenant Management Backend", "description": "Built account roles, billing states, feature flags, and admin reporting for a multi-tenant product." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior PHP Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level PHP Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior PHP Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream PHP team",
+            "description": "Choose PHP expertise for Laravel apps, CMS platforms, ecommerce systems, APIs, and backend maintenance."
+          },
+          "finalCta": "Need PHP developers who can build Laravel APIs, improve CMS workflows, and stabilize backend systems?"
+        }
+      },
+      {
+        "role": ".NET Developers",
+        "url": "/dot-net-developer",
+        "technology": "dotnet",
+        "page": {
+          "hero": {
+            "eyebrow": "Enterprise Backend Partner",
+            "title": "Hire .NET developers",
+            "description": "Hire .NET developers to build enterprise APIs, secure web applications, cloud-ready services, integrations, internal systems, and scalable backend platforms with C# and ASP.NET Core."
+          },
+          "panel": {
+            "label": ".NET delivery overview",
+            "metrics": [
+              { "label": "Stack", "value": "C# / .NET" },
+              { "label": "APIs", "value": "ASP.NET Core" },
+              { "label": "Cloud", "value": "Azure" },
+              { "label": "Data", "value": "SQL Server" }
+            ],
+            "flow": ["Profile Review", "2-Week POC", "API Build", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": ".NET Expertise",
+            "title": "Enterprise backend engineers for APIs, cloud systems, integrations, and modernization.",
+            "description": "Code Curo .NET developers build secure, maintainable services with ASP.NET Core, C#, Entity Framework, SQL Server, Azure, authentication, and integration layers.",
+            "items": [
+              { "eyebrow": "Backend APIs", "title": "ASP.NET Core APIs, microservices, auth, and middleware", "text": "Build reliable services for product, enterprise, and internal business workflows." },
+              { "eyebrow": "Data & Cloud", "title": "SQL Server, Entity Framework, Azure services, queues, and storage", "text": "Support cloud-ready systems with strong data modeling and operational reliability." },
+              { "eyebrow": "Enterprise Integrations", "title": "ERP, CRM, identity, reporting, payment, and document systems", "text": "Connect .NET backends with complex enterprise tooling and security requirements." },
+              { "eyebrow": "Modernization", "title": "Legacy .NET upgrades, performance tuning, and architecture cleanup", "text": "Improve older .NET applications while reducing risk and preserving business continuity." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Backend Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated .NET engineers for enterprise products, APIs, modernization, and Azure-backed platforms.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review .NET profiles and interview for C#, API design, SQL, cloud, testing, and enterprise delivery fit." },
+              { "title": "2 Weeks Free POC", "text": "Validate fit with one API module, integration, database workflow, or modernization sprint." },
+              { "title": "Easy Onboard", "text": "Move selected engineers into your repositories, Azure setup, sprint process, and release cycle." }
+            ]
+          },
+          "whyTitle": "An enterprise-ready partner for .NET APIs, Azure platforms, integrations, and backend modernization.",
+          "why": [
+            { "title": "Enterprise Delivery", "text": "We understand structured systems, access control, reporting, integrations, and long-term maintainability." },
+            { "title": "Cloud-Aware Backend Work", "text": "Our .NET developers can align services with Azure infrastructure, queues, storage, and monitoring." },
+            { "title": "Modernization Support", "text": "We improve legacy .NET applications without disrupting core business workflows." },
+            { "title": "Flexible Team Extension", "text": "Scale from one .NET engineer into QA, DevOps, frontend, data, and mobile support." }
+          ],
+          "projectsTitle": ".NET project examples for enterprise APIs, internal portals, cloud services, and modernization.",
+          "projectsDescription": "These examples show how Code Curo .NET developers can support secure, scalable enterprise delivery.",
+          "projects": [
+            { "type": "Enterprise", "title": "Employee Operations Platform", "description": "Built APIs, roles, approval flows, document handling, reporting, and Azure-backed services." },
+            { "type": "Finance", "title": "Payment Reconciliation Service", "description": "Created transaction matching, exception queues, audit logs, and integration with accounting systems." },
+            { "type": "Healthcare", "title": "Secure Records API", "description": "Developed authentication, patient records, access policies, audit events, and integration endpoints." },
+            { "type": "Modernization", "title": "Legacy .NET Portal Upgrade", "description": "Refactored services, improved performance, moved modules toward ASP.NET Core, and stabilized releases." },
+            { "type": "Manufacturing", "title": "Production Data Gateway", "description": "Built APIs for machine data, work orders, inventory states, and plant-level reporting." },
+            { "type": "Cloud", "title": "Azure Service Platform", "description": "Delivered queue-based processing, storage workflows, app services, monitoring, and deployment automation." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior .NET Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level .NET Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior .NET Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream .NET team",
+            "description": "Choose .NET expertise for enterprise APIs, Azure services, secure platforms, integrations, and modernization."
+          },
+          "finalCta": "Need .NET developers who can build enterprise APIs, modernize legacy systems, and support Azure-ready platforms?"
+        }
+      },
+      {
+        "role": "Java Developers",
+        "url": "/java-developer",
+        "technology": "java",
+        "page": {
+          "hero": {
+            "eyebrow": "Backend Engineering Partner",
+            "title": "Hire Java developers",
+            "description": "Hire Java developers to build scalable backend systems, Spring Boot APIs, microservices, enterprise integrations, data-heavy platforms, and secure cloud-ready applications."
+          },
+          "panel": {
+            "label": "Java delivery overview",
+            "metrics": [
+              { "label": "Stack", "value": "Java / Spring" },
+              { "label": "Services", "value": "Microservices" },
+              { "label": "Messaging", "value": "Kafka" },
+              { "label": "Data", "value": "SQL / Redis" }
+            ],
+            "flow": ["Interview", "2-Week POC", "Service Build", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": "Java Expertise",
+            "title": "Backend engineers for enterprise systems, microservices, APIs, and high-volume platforms.",
+            "description": "Code Curo Java developers build Spring Boot services, secure APIs, event-driven systems, integrations, database workflows, and reliable cloud-ready backends.",
+            "items": [
+              { "eyebrow": "Spring Boot", "title": "Spring Boot APIs, security, JPA, validation, and service layers", "text": "Build structured Java services with clear business logic and maintainable architecture." },
+              { "eyebrow": "Microservices", "title": "Service discovery, messaging, Kafka, queues, and distributed workflows", "text": "Design backend systems that scale across teams, features, and traffic patterns." },
+              { "eyebrow": "Enterprise Integrations", "title": "ERP, CRM, identity, payment, reporting, and document systems", "text": "Connect Java backends with complex business and platform ecosystems." },
+              { "eyebrow": "Quality", "title": "JUnit, integration tests, performance tuning, and secure releases", "text": "Support dependable delivery through testing, reviews, and production readiness checks." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Backend Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Java engineers for APIs, microservices, enterprise platforms, and modernization programs.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Java profiles and interview for Spring, architecture, databases, messaging, testing, and communication fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with one service, integration, event workflow, or performance improvement to validate fit." },
+              { "title": "Easy Onboard", "text": "Add selected developers to your services, sprint rituals, code reviews, and deployment process." }
+            ]
+          },
+          "whyTitle": "A scalable backend partner for Java services, enterprise integrations, and complex product platforms.",
+          "why": [
+            { "title": "System Design Strength", "text": "We think through service boundaries, data ownership, transactions, events, and operational reliability." },
+            { "title": "Enterprise Fit", "text": "Our developers can collaborate with architecture, security, QA, DevOps, and business teams." },
+            { "title": "POC-Led Start", "text": "Validate Java delivery quality through a focused sprint before expanding the engagement." },
+            { "title": "Scale Support", "text": "Grow into cloud, DevOps, frontend, QA, data engineering, and mobile support." }
+          ],
+          "projectsTitle": "Java project examples for Spring Boot APIs, microservices, logistics, fintech, and enterprise workflows.",
+          "projectsDescription": "These examples show how Code Curo Java developers can support complex backend delivery.",
+          "projects": [
+            { "type": "Microservices", "title": "Order Processing Platform", "description": "Built services for order intake, payment states, fulfillment events, inventory updates, and reporting." },
+            { "type": "FinTech", "title": "Risk Review Backend", "description": "Created rules, queues, audit logs, notifications, and reviewer workflows for financial operations." },
+            { "type": "Logistics", "title": "Shipment Event Service", "description": "Processed tracking events, route updates, exceptions, and customer-facing shipment states." },
+            { "type": "Enterprise", "title": "Identity Integration Layer", "description": "Delivered SSO integrations, user sync, access policies, and secure API gateways." },
+            { "type": "Data", "title": "Reporting Service", "description": "Built scheduled aggregations, cache layers, report APIs, and export workflows." },
+            { "type": "Healthcare", "title": "Appointment Scheduling API", "description": "Created provider availability, patient booking, notifications, and audit-friendly service logic." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Java Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Java Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Java Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Java team",
+            "description": "Choose Java expertise for Spring Boot APIs, microservices, integrations, secure services, and enterprise platforms."
+          },
+          "finalCta": "Need Java developers who can build scalable Spring Boot services, microservices, and enterprise backends?"
+        }
+      },
+      {
+        "role": "Golang Developers",
+        "url": "/golang-developer",
+        "technology": "golang",
+        "page": {
+          "hero": {
+            "eyebrow": "Backend Engineering Partner",
+            "title": "Hire Golang developers",
+            "description": "Hire Golang developers to build fast APIs, distributed services, cloud-native systems, data pipelines, platform tools, and high-concurrency backend applications."
+          },
+          "panel": {
+            "label": "Golang delivery overview",
+            "metrics": [
+              { "label": "Stack", "value": "Go / gRPC" },
+              { "label": "APIs", "value": "REST" },
+              { "label": "Cloud", "value": "Kubernetes" },
+              { "label": "Data", "value": "PostgreSQL" }
+            ],
+            "flow": ["Profile Review", "2-Week POC", "Service Build", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": "Golang Expertise",
+            "title": "Backend engineers for performant APIs, platform services, and cloud-native systems.",
+            "description": "Code Curo Golang developers build lean services, concurrent workers, API gateways, gRPC services, data processors, and cloud-native backend components.",
+            "items": [
+              { "eyebrow": "APIs", "title": "REST APIs, gRPC services, middleware, and auth flows", "text": "Build efficient backend services with clean contracts and predictable behavior." },
+              { "eyebrow": "Cloud Native", "title": "Docker, Kubernetes, queues, workers, and service discovery", "text": "Create services designed for modern cloud and container environments." },
+              { "eyebrow": "Performance", "title": "Concurrency, streaming, caching, and high-throughput processing", "text": "Support workloads that need speed, reliability, and efficient resource usage." },
+              { "eyebrow": "Data & Integrations", "title": "PostgreSQL, Redis, Kafka, webhooks, and third-party APIs", "text": "Connect Go services with databases, event streams, and business platforms." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Backend Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Golang engineers for APIs, cloud services, platform tooling, and high-performance backend systems.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Go profiles and interview for concurrency, API design, cloud tooling, databases, and ownership." },
+              { "title": "2 Weeks Free POC", "text": "Start with one service, worker, integration, gateway, or performance improvement sprint." },
+              { "title": "Easy Onboard", "text": "Add the selected Go developer to your services, sprint process, code reviews, and release workflow." }
+            ]
+          },
+          "whyTitle": "A performance-focused partner for Golang services, cloud-native architecture, and backend scale.",
+          "why": [
+            { "title": "Lean Service Design", "text": "We keep Go services focused, observable, and easy for teams to run in production." },
+            { "title": "Cloud-Native Fit", "text": "Our developers can align Go services with containers, Kubernetes, CI/CD, monitoring, and infrastructure." },
+            { "title": "High-Throughput Thinking", "text": "We design for concurrency, error handling, resource usage, and operational clarity." },
+            { "title": "Team Extension", "text": "Scale into DevOps, data engineering, frontend, QA, and mobile support as your roadmap grows." }
+          ],
+          "projectsTitle": "Golang project examples for APIs, workers, event systems, platform tools, and cloud-native services.",
+          "projectsDescription": "These examples show how Code Curo Golang developers can support fast, reliable backend systems.",
+          "projects": [
+            { "type": "API", "title": "High-Throughput Gateway", "description": "Built request routing, auth, rate limits, metrics, and partner-facing API endpoints." },
+            { "type": "Events", "title": "Kafka Event Processor", "description": "Created consumers, retry handling, dead-letter flows, metrics, and downstream service updates." },
+            { "type": "Cloud", "title": "Kubernetes Worker Service", "description": "Delivered containerized workers for scheduled jobs, queue processing, health checks, and autoscaling." },
+            { "type": "FinTech", "title": "Payment Webhook Service", "description": "Built webhook validation, event persistence, reconciliation jobs, and operational alerts." },
+            { "type": "IoT", "title": "Device Telemetry API", "description": "Processed telemetry events, device status, command queues, and data aggregation endpoints." },
+            { "type": "Platform", "title": "Internal Developer Tool", "description": "Created CLI-backed services for environment setup, deployment checks, and team automation." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Golang Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Golang Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Golang Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Golang team",
+            "description": "Choose Golang expertise for performant APIs, platform services, workers, and cloud-native backend systems."
+          },
+          "finalCta": "Need Golang developers who can build fast APIs, workers, and cloud-native backend services?"
+        }
+      },
+      {
+        "role": "Python Developers",
+        "url": "/python-developer",
+        "technology": "python",
+        "page": {
+          "hero": {
+            "eyebrow": "Backend and AI Engineering Partner",
+            "title": "Hire Python developers",
+            "description": "Hire Python developers to build Django and FastAPI backends, automation services, data workflows, integrations, AI-ready systems, and scalable cloud applications."
+          },
+          "panel": {
+            "label": "Python delivery overview",
+            "metrics": [
+              { "label": "Frameworks", "value": "Django / FastAPI" },
+              { "label": "Data", "value": "PostgreSQL" },
+              { "label": "Jobs", "value": "Celery" },
+              { "label": "AI", "value": "ML APIs" }
+            ],
+            "flow": ["Interview", "2-Week POC", "Build Services", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": "Python Expertise",
+            "title": "Backend engineers for APIs, automation, data platforms, and AI-connected products.",
+            "description": "Code Curo Python developers build Django apps, FastAPI services, data pipelines, task queues, automation scripts, integrations, and AI-enabled backend workflows.",
+            "items": [
+              { "eyebrow": "Web Backends", "title": "Django, FastAPI, REST APIs, auth, and admin workflows", "text": "Build secure backend services and business applications with maintainable Python architecture." },
+              { "eyebrow": "Automation", "title": "Celery, scheduled jobs, document processing, scraping, and workflow bots", "text": "Reduce manual work with reliable background processing and automation services." },
+              { "eyebrow": "Data & AI", "title": "Pandas, ETL, ML APIs, vector search, and analytics workflows", "text": "Create backend systems that process data and support AI-driven product features." },
+              { "eyebrow": "Integrations", "title": "Payments, CRM, ERP, cloud storage, email, and third-party APIs", "text": "Connect Python services with business systems and external platforms." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Backend Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Python engineers for backend services, automation, data workflows, and AI-ready product development.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Python profiles and interview for Django, FastAPI, data workflows, integrations, and product ownership." },
+              { "title": "2 Weeks Free POC", "text": "Start with one API, automation flow, data processor, AI integration, or backend feature." },
+              { "title": "Easy Onboard", "text": "Bring selected Python developers into your roadmap, repository, sprint rituals, and release process." }
+            ]
+          },
+          "whyTitle": "A flexible partner for Python APIs, automation, data workflows, and AI-connected backend systems.",
+          "why": [
+            { "title": "Backend and Data Range", "text": "Python lets teams move across APIs, automation, data processing, and AI integrations with one strong stack." },
+            { "title": "Practical Automation", "text": "We build services that remove repetitive operational work and improve data movement." },
+            { "title": "Product-Ready AI Support", "text": "Our team can connect AI models, vector stores, and ML APIs to real user workflows." },
+            { "title": "Scale with One Partner", "text": "Expand from Python into DevOps, frontend, QA, data engineering, mobile, and AI/ML teams." }
+          ],
+          "projectsTitle": "Python project examples for APIs, automation, data processing, OCR, and AI-connected products.",
+          "projectsDescription": "These examples show how Code Curo Python developers can support backend and data-heavy delivery.",
+          "projects": [
+            { "type": "Automation", "title": "Accounting OCR Pipeline", "description": "Built document ingestion, OCR extraction, validation queues, and accounting workflow automation." },
+            { "type": "API", "title": "FastAPI Product Backend", "description": "Created auth, account management, API endpoints, background tasks, and cloud storage workflows." },
+            { "type": "Data", "title": "ETL Reporting Service", "description": "Processed source files, normalized data, generated metrics, and served reporting APIs." },
+            { "type": "AI", "title": "Knowledge Search Assistant", "description": "Built ingestion jobs, embeddings, vector search, source citations, and chat-ready API responses." },
+            { "type": "Healthcare", "title": "Appointment Automation Service", "description": "Created reminders, scheduling rules, provider availability sync, and notification jobs." },
+            { "type": "FinTech", "title": "Risk Signal Processor", "description": "Built rules, scoring workflows, review queues, and alerting for finance operations." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Python Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Python Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Python Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Python team",
+            "description": "Choose Python expertise for Django apps, FastAPI services, automation, data workflows, and AI-enabled products."
+          },
+          "finalCta": "Need Python developers who can build APIs, automate workflows, process data, and support AI-ready systems?"
+        }
+      },
+      {
+        "role": "Node.js Developers",
+        "url": "/node-js-developer",
+        "technology": "nodejs",
+        "page": {
+          "hero": {
+            "eyebrow": "Backend Engineering Partner",
+            "title": "Hire Node.js developers",
+            "description": "Hire Node.js developers to build real-time APIs, scalable backend services, microservices, serverless functions, integrations, and event-driven product platforms."
+          },
+          "panel": {
+            "label": "Node.js delivery overview",
+            "metrics": [
+              { "label": "Stack", "value": "Node / Nest" },
+              { "label": "APIs", "value": "REST / GraphQL" },
+              { "label": "Realtime", "value": "WebSockets" },
+              { "label": "Data", "value": "Postgres" }
+            ],
+            "flow": ["Interview", "2-Week POC", "API Build", "Scale"]
+          },
+          "expertise": {
+            "eyebrow": "Node.js Expertise",
+            "title": "Backend engineers for APIs, real-time systems, integrations, and JavaScript product stacks.",
+            "description": "Code Curo Node.js developers build Express, NestJS, GraphQL, WebSocket, queue-based, and serverless backends with strong integration and deployment support.",
+            "items": [
+              { "eyebrow": "APIs", "title": "Express, NestJS, REST, GraphQL, auth, and validation", "text": "Build clean backend services that connect quickly with web and mobile products." },
+              { "eyebrow": "Realtime", "title": "WebSockets, notifications, chat, live dashboards, and event streams", "text": "Support interactive user experiences and operational visibility with real-time backend logic." },
+              { "eyebrow": "Integrations", "title": "Payments, CRM, analytics, email, storage, and third-party SDKs", "text": "Connect Node.js services with the platforms your business depends on." },
+              { "eyebrow": "Cloud", "title": "Serverless functions, Docker, queues, workers, and CI/CD", "text": "Ship scalable Node.js services with cloud-ready deployment patterns." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Backend Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Node.js engineers for API delivery, real-time workflows, microservices, and product integrations.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Node.js profiles and interview for API design, async workflows, databases, testing, and communication." },
+              { "title": "2 Weeks Free POC", "text": "Start with one API, integration, real-time feature, worker, or backend module." },
+              { "title": "Easy Onboard", "text": "Move selected developers into your repository, sprint process, reviews, and release workflow." }
+            ]
+          },
+          "whyTitle": "A flexible backend partner for Node.js APIs, real-time systems, and full-stack JavaScript delivery.",
+          "why": [
+            { "title": "Fast API Delivery", "text": "Node.js is strong for product APIs and integration-heavy workflows, and our team keeps structure clear." },
+            { "title": "Realtime Capability", "text": "We support chat, dashboards, notifications, collaboration tools, and event-based product features." },
+            { "title": "Full-Stack Fit", "text": "Node.js engineers pair naturally with React, Next.js, Vue, mobile, QA, and DevOps teams." },
+            { "title": "Scale with Confidence", "text": "Start with a POC and grow toward microservices, cloud, observability, and platform engineering." }
+          ],
+          "projectsTitle": "Node.js project examples for APIs, real-time dashboards, integrations, SaaS backends, and event systems.",
+          "projectsDescription": "These examples show how Code Curo Node.js developers can support product and platform delivery.",
+          "projects": [
+            { "type": "Realtime", "title": "Live Operations Dashboard", "description": "Built WebSocket updates, event feeds, alerts, and API services for operations teams." },
+            { "type": "SaaS", "title": "Multi-Tenant API Platform", "description": "Created tenant auth, billing events, feature flags, usage metrics, and admin APIs." },
+            { "type": "Commerce", "title": "Checkout Integration Backend", "description": "Built cart APIs, payment webhooks, tax integrations, fulfillment events, and order status sync." },
+            { "type": "Messaging", "title": "Notification Service", "description": "Delivered email, SMS, push, templates, preferences, queue workers, and retry handling." },
+            { "type": "Mobile", "title": "App Backend Services", "description": "Created APIs for login, profiles, feeds, file uploads, and mobile push notifications." },
+            { "type": "Automation", "title": "CRM Sync Worker", "description": "Built scheduled sync jobs, field mapping, error handling, and operational logs." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Node.js Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Node.js Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Node.js Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Node.js team",
+            "description": "Choose Node.js expertise for APIs, integrations, real-time systems, microservices, and full-stack product delivery."
+          },
+          "finalCta": "Need Node.js developers who can build fast APIs, real-time services, and integration-heavy backends?"
+        }
+      },
+      {
+        "role": "Unity Developers",
+        "url": "/unity-developer",
+        "technology": "unity",
+        "page": {
+          "hero": {
+            "eyebrow": "Interactive Product Partner",
+            "title": "Hire Unity developers",
+            "description": "Hire Unity developers to build games, simulations, AR/VR experiences, training tools, real-time 3D products, and interactive applications for mobile, web, and desktop."
+          },
+          "panel": {
+            "label": "Unity delivery overview",
+            "metrics": [
+              { "label": "Engine", "value": "Unity / C#" },
+              { "label": "Platforms", "value": "Mobile / Web" },
+              { "label": "3D", "value": "AR / VR" },
+              { "label": "Quality", "value": "Profiling" }
+            ],
+            "flow": ["Concept Review", "2-Week POC", "Prototype", "Launch"]
+          },
+          "expertise": {
+            "eyebrow": "Unity Expertise",
+            "title": "Interactive developers for games, simulations, product demos, AR/VR, and training experiences.",
+            "description": "Code Curo Unity developers build gameplay systems, 3D interactions, mobile experiences, simulations, AR/VR modules, performance optimization, and backend-connected interactive products.",
+            "items": [
+              { "eyebrow": "Game Systems", "title": "Gameplay logic, UI, physics, input, animation, and progression", "text": "Build interactive experiences with clear mechanics, responsive controls, and polished user flows." },
+              { "eyebrow": "AR/VR", "title": "Immersive demos, training simulations, spatial UI, and device integration", "text": "Create practical immersive applications for learning, sales, operations, and entertainment." },
+              { "eyebrow": "Platforms", "title": "iOS, Android, WebGL, desktop, and cross-platform builds", "text": "Prepare Unity applications for the platforms your audience actually uses." },
+              { "eyebrow": "Performance", "title": "Profiling, asset optimization, memory care, and build pipeline support", "text": "Improve frame rate, loading behavior, and deployment reliability." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Interactive Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Unity engineers for games, simulations, AR/VR, product demos, and real-time 3D applications.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Unity profiles and interview for C#, gameplay, 3D, platform, performance, and collaboration fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with one mechanic, prototype scene, AR module, UI flow, or performance improvement." },
+              { "title": "Easy Onboard", "text": "Move selected Unity developers into your asset pipeline, sprint process, build workflow, and release plan." }
+            ]
+          },
+          "whyTitle": "A creative engineering partner for Unity games, simulations, AR/VR, and interactive product experiences.",
+          "why": [
+            { "title": "Prototype to Production", "text": "We can start with a playable proof of concept and evolve toward stable cross-platform releases." },
+            { "title": "Product Thinking", "text": "Unity work is shaped around users, controls, performance, onboarding, and repeatable interactions." },
+            { "title": "Cross-Discipline Fit", "text": "Our developers collaborate with designers, backend engineers, artists, QA, and product teams." },
+            { "title": "Backend-Connected Experiences", "text": "We can pair Unity with APIs, accounts, analytics, leaderboards, content systems, and cloud services." }
+          ],
+          "projectsTitle": "Unity project examples for games, simulations, AR/VR, training products, and interactive demos.",
+          "projectsDescription": "These examples show how Code Curo Unity developers can support interactive product delivery.",
+          "projects": [
+            { "type": "Training", "title": "Safety Training Simulation", "description": "Built scenario logic, scoring, guided interactions, checkpoints, and progress tracking." },
+            { "type": "Game", "title": "Mobile Puzzle Game", "description": "Created gameplay loops, levels, UI screens, rewards, analytics hooks, and mobile build support." },
+            { "type": "AR", "title": "Product Visualization App", "description": "Delivered 3D placement, object controls, product variants, and shareable demo experiences." },
+            { "type": "VR", "title": "Immersive Equipment Demo", "description": "Built interaction zones, guided walkthroughs, controller support, and performance-optimized scenes." },
+            { "type": "Education", "title": "Interactive Learning Module", "description": "Created 3D lessons, quizzes, progress states, and teacher-facing reporting hooks." },
+            { "type": "Ops", "title": "Factory Process Simulation", "description": "Modeled production steps, status views, training actions, and operational feedback loops." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Unity Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Unity Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Unity Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Unity team",
+            "description": "Choose Unity expertise for games, simulations, AR/VR, training tools, and real-time interactive products."
+          },
+          "finalCta": "Need Unity developers who can prototype, build, optimize, and launch interactive 3D experiences?"
+        }
+      },
+      {
+        "role": "Unreal Developers",
+        "url": "/unreal-developer",
+        "technology": "unreal",
+        "page": {
+          "hero": {
+            "eyebrow": "Real-Time 3D Partner",
+            "title": "Hire Unreal developers",
+            "description": "Hire Unreal developers to build high-fidelity games, simulations, virtual production tools, architectural visualizations, real-time 3D products, and immersive experiences."
+          },
+          "panel": {
+            "label": "Unreal delivery overview",
+            "metrics": [
+              { "label": "Engine", "value": "Unreal / C++" },
+              { "label": "Logic", "value": "Blueprints" },
+              { "label": "Visuals", "value": "Realtime 3D" },
+              { "label": "Quality", "value": "Profiling" }
+            ],
+            "flow": ["Concept Review", "2-Week POC", "Build Scene", "Optimize"]
+          },
+          "expertise": {
+            "eyebrow": "Unreal Expertise",
+            "title": "Real-time 3D engineers for simulations, immersive products, games, and visualization platforms.",
+            "description": "Code Curo Unreal developers build C++ systems, Blueprint logic, interactive 3D scenes, performance-optimized environments, simulation tools, and backend-connected experiences.",
+            "items": [
+              { "eyebrow": "Real-Time 3D", "title": "High-fidelity scenes, interaction systems, Blueprints, and C++ modules", "text": "Create immersive experiences with polished visuals and maintainable interaction logic." },
+              { "eyebrow": "Simulation", "title": "Training modules, equipment demos, environment logic, and scenario systems", "text": "Build practical simulations for learning, operations, sales, and product visualization." },
+              { "eyebrow": "Optimization", "title": "Profiling, lighting, assets, memory, packaging, and platform readiness", "text": "Improve frame rate, scene quality, loading behavior, and release stability." },
+              { "eyebrow": "Integrations", "title": "Backend APIs, analytics, account systems, content, and data-driven experiences", "text": "Connect Unreal applications with business systems and live data workflows." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Interactive Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Unreal engineers for high-fidelity simulations, visualization products, games, and immersive tools.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Unreal profiles and interview for C++, Blueprints, scene optimization, 3D workflow, and collaboration fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with one scene, interaction, simulation flow, optimization sprint, or visual prototype." },
+              { "title": "Easy Onboard", "text": "Add selected Unreal developers to your asset pipeline, sprint process, build workflow, and release plan." }
+            ]
+          },
+          "whyTitle": "A real-time 3D partner for Unreal simulations, immersive tools, games, and visualization products.",
+          "why": [
+            { "title": "High-Fidelity Delivery", "text": "We help shape Unreal experiences around visual quality, performance, and practical user interaction." },
+            { "title": "Engineering Depth", "text": "Our developers can work across Blueprints, C++, gameplay systems, UI, and backend connections." },
+            { "title": "POC-Led Start", "text": "Begin with a small prototype or scene improvement before scaling into larger production." },
+            { "title": "Cross-Team Support", "text": "Unreal work can be paired with design, backend, QA, DevOps, mobile, and web teams." }
+          ],
+          "projectsTitle": "Unreal project examples for simulation, visualization, immersive training, and real-time product demos.",
+          "projectsDescription": "These examples show how Code Curo Unreal developers can support high-fidelity interactive delivery.",
+          "projects": [
+            { "type": "Simulation", "title": "Equipment Training Simulator", "description": "Built guided scenarios, interaction states, scoring, camera flows, and training completion logic." },
+            { "type": "Visualization", "title": "Architectural Walkthrough", "description": "Created interior scenes, lighting setup, material variants, navigation controls, and presentation modes." },
+            { "type": "Game", "title": "Prototype Combat Arena", "description": "Developed character controls, camera behavior, combat interactions, enemy logic, and performance tuning." },
+            { "type": "Virtual Production", "title": "Realtime Scene Control Tool", "description": "Built scene states, controls, data-driven triggers, and operator-facing UI workflows." },
+            { "type": "Automotive", "title": "Vehicle Configurator", "description": "Created model variants, color changes, camera paths, environment previews, and showroom interactions." },
+            { "type": "Training", "title": "Emergency Response Module", "description": "Built branching scenarios, decision checkpoints, visual cues, feedback screens, and reporting hooks." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Unreal Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Unreal Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Unreal Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Unreal team",
+            "description": "Choose Unreal expertise for simulations, visualizations, games, virtual production, and immersive product demos."
+          },
+          "finalCta": "Need Unreal developers who can build high-fidelity simulations, visualizations, and real-time interactive experiences?"
+        }
+      }
     ],
     "mobile": [
       { "role": "iOS Developers", "url": "https://codecuro.in/hire-ios/" },
