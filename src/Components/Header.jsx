@@ -28,16 +28,22 @@ const NavItemLink = ({ item, className = "dropdown-item", onClick }) => {
   );
 };
 
-const NavDropdown = ({ label, items }) => (
-  <li className="dropdown-wrap">
-    <button>{label} <span style={{ fontSize: "10px" }}>{"\u25BE"}</span></button>
-    <div className="dropdown-menu">
-      {items.map((item) => (
-        <NavItemLink key={getNavItem(item).label} item={item} />
-      ))}
-    </div>
-  </li>
-);
+const toMenuClass = (label) => label.toLowerCase().replaceAll(" ", "-");
+
+const NavDropdown = ({ label, items }) => {
+  const menuClass = toMenuClass(label);
+
+  return (
+    <li className={`dropdown-wrap dropdown-wrap-${menuClass}`}>
+      <button>{label} <span style={{ fontSize: "10px" }}>{"\u25BE"}</span></button>
+      <div className={`dropdown-menu dropdown-menu-${menuClass}`}>
+        {items.map((item) => (
+          <NavItemLink key={getNavItem(item).label} item={item} />
+        ))}
+      </div>
+    </li>
+  );
+};
 
 const developerGroupLabels = {
   frontend: "Front-end",
@@ -76,29 +82,33 @@ const HireDevelopersDropdown = ({ groups }) => (
   </li>
 );
 
-const MobileSection = ({ title, items, open, onToggle, onNavigate }) => (
-  <div className="mobile-nav-section">
-    <button
-      className="mobile-nav-toggle"
-      type="button"
-      aria-expanded={open}
-      onClick={onToggle}
-    >
-      <span>{title}</span>
-      <span className="mobile-nav-chevron">{"\u25BE"}</span>
-    </button>
-    <div className={`mobile-submenu${open ? " open" : ""}`}>
-      {items.map((item) => (
-        <NavItemLink
-          key={getNavItem(item).label}
-          item={item}
-          className="mobile-submenu-item"
-          onClick={onNavigate}
-        />
-      ))}
+const MobileSection = ({ title, items, open, onToggle, onNavigate }) => {
+  const sectionClass = toMenuClass(title);
+
+  return (
+    <div className={`mobile-nav-section mobile-nav-section-${sectionClass}`}>
+      <button
+        className="mobile-nav-toggle"
+        type="button"
+        aria-expanded={open}
+        onClick={onToggle}
+      >
+        <span>{title}</span>
+        <span className="mobile-nav-chevron">{"\u25BE"}</span>
+      </button>
+      <div className={`mobile-submenu${open ? " open" : ""}`}>
+        {items.map((item) => (
+          <NavItemLink
+            key={getNavItem(item).label}
+            item={item}
+            className="mobile-submenu-item"
+            onClick={onNavigate}
+          />
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const MobileDeveloperSection = ({ groups, open, onToggle, onNavigate }) => (
   <div className="mobile-nav-section">
