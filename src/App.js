@@ -22,6 +22,7 @@ import EcommercePage from "./Components/Industries/Ecommerce";
 import LogisticsPage from "./Components/Industries/Logistics";
 import EdTechPage from "./Components/Industries/EdTech";
 import GamingPage from "./Components/Industries/Gaming";
+import ReactDeveloperPage from "./Components/Hire-Developer/Frontend/ReactDeveloper";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -480,6 +481,7 @@ export default function App() {
         <Route path="/logistics" element={<LogisticsPage />} />
         <Route path="/edtech" element={<EdTechPage />} />
         <Route path="/gaming" element={<GamingPage />} />
+        <Route path="/react-developer" element={<ReactDeveloperPage />} />
       </Routes>
     </>
   );

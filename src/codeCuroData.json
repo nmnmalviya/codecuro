@@ -86,21 +86,137 @@
   ],
   "hire_developers": {
     "frontend": [
-      { "role": "Python Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "AI & ML Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "Data Engineers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "Ruby On Rails Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "DevOps Developers", "url": "https://codecuro.in/hire-vuejs/" },
       { "role": "Next.js Developers", "url": "https://codecuro.in/hire-vuejs/" },
       { "role": "Shopify Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "Java Developers", "url": "https://codecuro.in/hire-vuejs/" },
       { "role": "Service Now Developers", "url": "https://codecuro.in/hire-vuejs/" },
       { "role": "Vue.js Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "React.js Developers", "url": "https://codecuro.in/hire-react-js/" },
+      {
+        "role": "React.js Developers",
+        "url": "/react-developer",
+        "technology": "reactjs",
+        "page": {
+          "hero": {
+            "eyebrow": "Software Development Partner",
+            "title": "Hire React.js developers",
+            "description": "Hire React.js developers skilled in creating high-speed, scalable, and responsive applications across industries. Code Curo teams work with React.js, Redux, ES6, JSX, Git, API integrations, performance optimization, and cross-browser compatibility.",
+            "bullets": [
+              "Frontend Expertise: React.js, Redux, Redux Saga, Next.js, Vue.js",
+              "Backend Collaboration: Node.js, Django, FastAPI, NestJS, Express, REST APIs",
+              "Databases & Storage: SQL, MongoDB, PostgreSQL, caching tools, cloud storage",
+              "Tools & IDEs: Git, JIRA, Swagger, Postman, Figma, Visual Studio Code"
+            ]
+          },
+          "panel": {
+            "label": "React delivery overview",
+            "metrics": [
+              { "label": "UI Stack", "value": "React / Next.js" },
+              { "label": "State", "value": "Redux / Context" },
+              { "label": "Quality", "value": "Testing + Reviews" },
+              { "label": "Delivery", "value": "POC to Scale" }
+            ],
+            "flow": ["Interview", "2-Week POC", "Sprint Delivery", "Scale Team"]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Software Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated React.js engineers and remote developers to deliver innovative, high-quality frontend solutions.",
+            "steps": [
+              {
+                "title": "Profile Selection & Interview",
+                "text": "Review React.js profiles, conduct structured interviews, and validate technical, culture, and communication fit."
+              },
+              {
+                "title": "2 Weeks Free POC",
+                "text": "Run one complete sprint for two weeks to assess code quality, delivery rhythm, ownership, and collaboration."
+              },
+              {
+                "title": "Easy Onboard",
+                "text": "Onboard selected React.js developers into your workflow and scale the team as product needs grow."
+              }
+            ]
+          },
+          "why": [
+            {
+              "title": "About Code Curo",
+              "text": "Code Curo is a global technology partner with skilled professionals supporting extended teams and customized software development for businesses across India, the UK, Sweden, the UAE, and the USA."
+            },
+            {
+              "title": "Payment Terms and Billing",
+              "text": "We support monthly invoicing, transparent hour tracking, and practical payment terms so remote teams can work with clear commercial expectations."
+            },
+            {
+              "title": "2-Week Proof of Concept",
+              "text": "Selected React.js profiles can begin with a focused proof of concept, giving you a clear view of code quality, communication, and delivery before a long-term commitment."
+            },
+            {
+              "title": "Strong Communication",
+              "text": "Our developers align with your sprint process, join daily stand-ups, and collaborate through Slack, Google Chat, Jira, Trello, and show-and-tell sessions."
+            },
+            {
+              "title": "Long-Term Engagement",
+              "text": "Start with a focused frontend need, build trust through delivery, then scale into full product teams across frontend, backend, DevOps, AI/ML, mobile, and QA."
+            }
+          ],
+          "projects": [
+            {
+              "type": "Web App",
+              "title": "Customer Portal",
+              "description": "Built a React.js customer portal with API-driven workflows, PostgreSQL-backed data, role-based access, service partner onboarding, and a responsive UI for operations teams."
+            },
+            {
+              "type": "React.js",
+              "title": "Contact Centre Solution",
+              "description": "Delivered an admin portal with real-time dashboards, reports, chat workflows, FAQ management, and reusable React components for a customer service platform."
+            },
+            {
+              "type": "Internet of Things",
+              "title": "IoT HVAC Dashboard",
+              "description": "Created React interfaces for managing HVAC IoT devices, supporting device health views, alerts, performance metrics, and scalable cloud-connected workflows."
+            },
+            {
+              "type": "FinTech",
+              "title": "Investment Platform",
+              "description": "Enhanced frontend modules, localized views, notification flows, CRM-connected screens, and user journeys for a digital investment platform."
+            },
+            {
+              "type": "SaaS",
+              "title": "Subscription Analytics Console",
+              "description": "Designed and built a React analytics console with charts, cohort filters, billing views, and admin controls for subscription product teams."
+            },
+            {
+              "type": "E-commerce",
+              "title": "Composable Storefront",
+              "description": "Developed a React storefront with product discovery, cart flows, checkout integrations, inventory visibility, and reusable merchandising components."
+            },
+            {
+              "type": "Healthcare",
+              "title": "Patient Engagement Portal",
+              "description": "Built a secure React portal for appointments, documents, care-team communication, reminders, and responsive patient self-service workflows."
+            },
+            {
+              "type": "EdTech",
+              "title": "Learning Dashboard",
+              "description": "Created a React learning dashboard with progress tracking, course cards, assessment views, instructor analytics, and mobile-friendly student experiences."
+            }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Software Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Software Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Software Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream React.js team",
+            "description": "Choose React.js expertise for your project with flexible and cost-effective engagement plans."
+          }
+        }
+      },
       { "role": "Angular Developers", "url": "https://codecuro.in/hire-angular/" },
       { "role": "JavaScript Developers", "url": "https://codecuro.in/hire-javascript/" }
     ],
     "backend": [
+      { "role": "Ruby On Rails Developers", "url": "https://codecuro.in/hire-vuejs/" },
+      { "role": "DevOps Developers", "url": "https://codecuro.in/hire-vuejs/" },
       { "role": "PHP Developers", "url": "https://codecuro.in/hire-php/" },
       { "role": ".NET Developers", "url": "https://codecuro.in/hire-net/" },
       { "role": "Java Developers", "url": "https://codecuro.in/hire-java/" },
@@ -119,11 +235,13 @@
       { "role": "React Native Developers", "url": "https://codecuro.in/hire-react-native/" }
     ],
     "ai_and_cloud": [
+      { "role": "Python Developers", "url": "https://codecuro.in/hire-vuejs/" },
+      { "role": "AI & ML Developers", "url": "https://codecuro.in/hire-vuejs/" },
+      { "role": "Data Engineers", "url": "https://codecuro.in/hire-vuejs/" },
       { "role": "GCP Developers", "url": "https://codecuro.in/hire-gcp/" },
       { "role": "AWS Developers", "url": "https://codecuro.in/hire-aws/" },
       { "role": "Azure Developers", "url": "https://codecuro.in/hire-azure/" },
       { "role": "Data Analyst", "url": "https://codecuro.in/hire-data-analyst/" },
-      { "role": "Data Engineers", "url": "https://codecuro.in/hire-data-engineers/" },
       { "role": "MLOps Engineers", "url": "https://codecuro.in/hire-mlops-engineers/" }
     ]
   },
