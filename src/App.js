@@ -39,6 +39,20 @@ import PythonDeveloperPage from "./Components/Hire-Developer/Backend/PythonDevel
 import NodeDeveloperPage from "./Components/Hire-Developer/Backend/NodeDeveloper";
 import UnityDeveloperPage from "./Components/Hire-Developer/Backend/UnityDeveloper";
 import UnrealDeveloperPage from "./Components/Hire-Developer/Backend/UnrealDeveloper";
+import IosDeveloperPage from "./Components/Hire-Developer/Mobile/IosDeveloper";
+import SwiftDeveloperPage from "./Components/Hire-Developer/Mobile/SwiftDeveloper";
+import KotlinDeveloperPage from "./Components/Hire-Developer/Mobile/KotlinDeveloper";
+import FlutterDeveloperPage from "./Components/Hire-Developer/Mobile/FlutterDeveloper";
+import AndroidDeveloperPage from "./Components/Hire-Developer/Mobile/AndroidDeveloper";
+import ReactNativeDeveloperPage from "./Components/Hire-Developer/Mobile/ReactNativeDeveloper";
+import PythonAICloudDeveloperPage from "./Components/Hire-Developer/AI-Cloud/PythonAICloudDeveloper";
+import AIMLDeveloperPage from "./Components/Hire-Developer/AI-Cloud/AIMLDeveloper";
+import DataEngineerPage from "./Components/Hire-Developer/AI-Cloud/DataEngineer";
+import GcpDeveloperPage from "./Components/Hire-Developer/AI-Cloud/GcpDeveloper";
+import AwsDeveloperPage from "./Components/Hire-Developer/AI-Cloud/AwsDeveloper";
+import AzureDeveloperPage from "./Components/Hire-Developer/AI-Cloud/AzureDeveloper";
+import DataAnalystPage from "./Components/Hire-Developer/AI-Cloud/DataAnalyst";
+import MLOpsEngineerPage from "./Components/Hire-Developer/AI-Cloud/MLOpsEngineer";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -515,6 +529,20 @@ export default function App() {
         <Route path="/node-js-developer" element={<NodeDeveloperPage />} />
         <Route path="/unity-developer" element={<UnityDeveloperPage />} />
         <Route path="/unreal-developer" element={<UnrealDeveloperPage />} />
+        <Route path="/ios-developer" element={<IosDeveloperPage />} />
+        <Route path="/swift-developer" element={<SwiftDeveloperPage />} />
+        <Route path="/kotlin-developer" element={<KotlinDeveloperPage />} />
+        <Route path="/flutter-developer" element={<FlutterDeveloperPage />} />
+        <Route path="/android-developer" element={<AndroidDeveloperPage />} />
+        <Route path="/react-native-developer" element={<ReactNativeDeveloperPage />} />
+        <Route path="/python-ai-cloud-developer" element={<PythonAICloudDeveloperPage />} />
+        <Route path="/ai-ml-developer" element={<AIMLDeveloperPage />} />
+        <Route path="/data-engineer" element={<DataEngineerPage />} />
+        <Route path="/gcp-developer" element={<GcpDeveloperPage />} />
+        <Route path="/aws-developer" element={<AwsDeveloperPage />} />
+        <Route path="/azure-developer" element={<AzureDeveloperPage />} />
+        <Route path="/data-analyst" element={<DataAnalystPage />} />
+        <Route path="/mlops-engineer" element={<MLOpsEngineerPage />} />
       </Routes>
     </>
   );

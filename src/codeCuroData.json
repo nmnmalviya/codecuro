@@ -1356,22 +1356,586 @@
       }
     ],
     "mobile": [
-      { "role": "iOS Developers", "url": "https://codecuro.in/hire-ios/" },
-      { "role": "Swift Developers", "url": "https://codecuro.in/hire-swift/" },
-      { "role": "Kotlin Developers", "url": "https://codecuro.in/hire-kotlin/" },
-      { "role": "Flutter Developers", "url": "https://codecuro.in/hire-flutter/" },
-      { "role": "Android Developers", "url": "https://codecuro.in/hire-android/" },
-      { "role": "React Native Developers", "url": "https://codecuro.in/hire-react-native/" }
+      {
+        "role": "iOS Developers",
+        "url": "/ios-developer",
+        "technology": "ios",
+        "page": {
+          "hero": {
+            "eyebrow": "Mobile App Engineering Partner",
+            "title": "Hire iOS developers",
+            "description": "Hire iOS developers to build secure, polished, App Store-ready applications for iPhone, iPad, and Apple ecosystem products with native performance and reliable release support."
+          },
+          "panel": {
+            "label": "iOS delivery overview",
+            "metrics": [
+              { "label": "Platform", "value": "iPhone / iPad" },
+              { "label": "Language", "value": "Swift / Obj-C" },
+              { "label": "Quality", "value": "App Store Ready" },
+              { "label": "Delivery", "value": "POC to Launch" }
+            ],
+            "flow": ["App Review", "2-Week POC", "Build + Test", "Release"]
+          },
+          "expertise": {
+            "eyebrow": "iOS Expertise",
+            "title": "Native iOS engineers for consumer apps, business tools, fintech products, and connected experiences.",
+            "description": "Code Curo iOS developers build production-ready mobile apps with smooth UI, secure APIs, offline states, push notifications, analytics, subscriptions, and App Store deployment support.",
+            "items": [
+              { "eyebrow": "Native Apps", "title": "Swift, UIKit, SwiftUI, navigation, and reusable modules", "text": "Build maintainable iOS applications with clean architecture, responsive screens, and Apple platform conventions." },
+              { "eyebrow": "Integrations", "title": "APIs, payments, maps, camera, biometrics, and notifications", "text": "Connect mobile experiences with business systems, device capabilities, and secure third-party services." },
+              { "eyebrow": "Performance", "title": "Fast launch, smooth scrolling, memory care, and offline behavior", "text": "Improve app reliability across devices, network conditions, and real user journeys." },
+              { "eyebrow": "Release", "title": "Testing, TestFlight, App Store submission, and post-launch support", "text": "Move from sprint builds to production releases with structured QA and launch coordination." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Mobile Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated iOS engineers who can join your roadmap quickly and validate fit through a focused proof of concept.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review iOS profiles and interview for Swift, architecture, App Store delivery, communication, and domain fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with one feature, screen flow, API integration, performance fix, or release task to assess quality." },
+              { "title": "Easy Onboard", "text": "Add selected developers to your tools, sprint ceremonies, codebase, release process, and delivery plan." }
+            ]
+          },
+          "whyTitle": "A practical mobile partner for iOS app quality, speed, secure integrations, and long-term product delivery.",
+          "why": [
+            { "title": "Native Product Thinking", "text": "We shape iOS work around user journeys, platform behavior, accessibility, performance, and release confidence." },
+            { "title": "Full-Team Collaboration", "text": "Our iOS developers work smoothly with backend, QA, DevOps, design, analytics, and product stakeholders." },
+            { "title": "Flexible Engagement", "text": "Start with one mobile developer or scale into a full app squad with design, backend, QA, and cloud support." },
+            { "title": "Launch Support", "text": "We support TestFlight builds, App Store review readiness, analytics events, and post-launch iteration." }
+          ],
+          "projectsTitle": "iOS project examples for fintech, healthcare, logistics, commerce, social products, and IoT apps.",
+          "projectsDescription": "These examples show the kind of native iOS work Code Curo can deliver for modern product teams.",
+          "projects": [
+            { "type": "FinTech", "title": "Mobile Investment App", "description": "Built portfolio screens, secure login, transaction history, notifications, and analytics-ready user flows." },
+            { "type": "Healthcare", "title": "Patient Care App", "description": "Created appointment booking, care documents, reminders, profile management, and secure API integrations." },
+            { "type": "Commerce", "title": "Retail Shopping App", "description": "Delivered product discovery, cart flows, checkout integrations, saved addresses, and mobile-first offers." },
+            { "type": "IoT", "title": "Smart Device Controller", "description": "Built device pairing, live status, control screens, alerts, and offline-friendly state handling." },
+            { "type": "Logistics", "title": "Driver Operations App", "description": "Created route views, pickup tasks, proof of delivery, location updates, and operational notifications." },
+            { "type": "Social", "title": "Community Mobile App", "description": "Developed feeds, profiles, media uploads, chat-ready APIs, and moderation-friendly flows." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior iOS Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level iOS Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior iOS Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream iOS team",
+            "description": "Choose iOS expertise for native apps, secure integrations, App Store releases, and mobile product scale."
+          },
+          "finalCta": "Need iOS developers who can build, test, optimize, and launch polished native mobile apps?"
+        }
+      },
+      {
+        "role": "Swift Developers",
+        "url": "/swift-developer",
+        "technology": "swift",
+        "page": {
+          "hero": {
+            "eyebrow": "Apple Platform Engineering Partner",
+            "title": "Hire Swift developers",
+            "description": "Hire Swift developers to build modern Apple platform applications with SwiftUI, UIKit, clean architecture, secure integrations, and production-ready release workflows."
+          },
+          "panel": {
+            "label": "Swift delivery overview",
+            "metrics": [
+              { "label": "Language", "value": "Swift" },
+              { "label": "UI", "value": "SwiftUI / UIKit" },
+              { "label": "Architecture", "value": "MVVM / Clean" },
+              { "label": "Release", "value": "TestFlight" }
+            ],
+            "flow": ["Code Review", "2-Week POC", "Build Modules", "Ship"]
+          },
+          "expertise": {
+            "eyebrow": "Swift Expertise",
+            "title": "Swift engineers for native iOS modules, Apple ecosystem apps, and maintainable mobile products.",
+            "description": "Code Curo Swift developers create reliable mobile applications with clean state management, native UI, API integrations, background tasks, device features, and App Store support.",
+            "items": [
+              { "eyebrow": "SwiftUI + UIKit", "title": "Modern screens, reusable components, navigation, and app flows", "text": "Build Apple-native interfaces that feel fast, stable, and easy to maintain." },
+              { "eyebrow": "Architecture", "title": "MVVM, modular code, dependency handling, and testable services", "text": "Keep Swift codebases structured for long-term product growth and team collaboration." },
+              { "eyebrow": "Device Features", "title": "Camera, location, biometrics, push, widgets, and background tasks", "text": "Use Apple platform capabilities to create useful, context-aware mobile experiences." },
+              { "eyebrow": "Quality", "title": "Unit tests, crash care, performance profiling, and release readiness", "text": "Improve stability before and after launch with disciplined testing and monitoring." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Mobile Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Swift engineers for new apps, feature modules, app modernization, and release support.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Swift profiles and validate app architecture, SwiftUI/UIKit depth, testing habits, and collaboration fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with a feature module, UI refresh, API integration, widget, or performance improvement." },
+              { "title": "Easy Onboard", "text": "Move selected Swift developers into your app roadmap, repository, sprint process, and release cycle." }
+            ]
+          },
+          "whyTitle": "A Swift development partner for clean native apps, maintainable modules, and reliable Apple releases.",
+          "why": [
+            { "title": "Modern Swift Practice", "text": "We build with readable patterns, testable modules, and native UX expectations in mind." },
+            { "title": "Product-Focused Delivery", "text": "Swift work is tied to real app flows, user outcomes, performance, and release goals." },
+            { "title": "Cross-Functional Fit", "text": "Our Swift developers coordinate with backend, design, QA, analytics, and product teams." },
+            { "title": "Flexible Scale", "text": "Start with a Swift specialist and expand into full mobile, backend, cloud, and QA support as needed." }
+          ],
+          "projectsTitle": "Swift project examples for native apps, modernization, widgets, subscriptions, and connected products.",
+          "projectsDescription": "These examples show practical Swift work Code Curo can support from sprint delivery to launch.",
+          "projects": [
+            { "type": "Modernization", "title": "UIKit to SwiftUI Refresh", "description": "Modernized key screens, navigation, reusable components, and state handling without disrupting active users." },
+            { "type": "FinTech", "title": "Secure Account Module", "description": "Built login, biometric unlock, account overview, transaction details, and secure API handling." },
+            { "type": "Health", "title": "Care Reminder App", "description": "Created reminder flows, profiles, notification settings, and device-friendly tracking screens." },
+            { "type": "Commerce", "title": "Subscription Purchase Flow", "description": "Integrated product plans, account states, payment handoff, and renewal-friendly user journeys." },
+            { "type": "Utility", "title": "iOS Widget Extension", "description": "Built glanceable widget content, timeline updates, settings, and app deep links." },
+            { "type": "IoT", "title": "Bluetooth Device Setup", "description": "Created pairing screens, device status, firmware prompts, and troubleshooting states." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Swift Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Swift Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Swift Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Swift team",
+            "description": "Choose Swift expertise for native Apple apps, clean architecture, device features, and App Store delivery."
+          },
+          "finalCta": "Need Swift developers who can modernize, build, test, and ship native Apple platform features?"
+        }
+      },
+      {
+        "role": "Kotlin Developers",
+        "url": "/kotlin-developer",
+        "technology": "kotlin",
+        "page": {
+          "hero": {
+            "eyebrow": "Android Engineering Partner",
+            "title": "Hire Kotlin developers",
+            "description": "Hire Kotlin developers to build modern Android applications, backend-connected mobile features, Jetpack Compose interfaces, and scalable app architecture."
+          },
+          "panel": {
+            "label": "Kotlin delivery overview",
+            "metrics": [
+              { "label": "Platform", "value": "Android" },
+              { "label": "UI", "value": "Compose / XML" },
+              { "label": "Architecture", "value": "MVVM / Clean" },
+              { "label": "Quality", "value": "Play Ready" }
+            ],
+            "flow": ["App Audit", "2-Week POC", "Build + Test", "Release"]
+          },
+          "expertise": {
+            "eyebrow": "Kotlin Expertise",
+            "title": "Kotlin engineers for Android apps, feature modules, connected devices, and production mobile workflows.",
+            "description": "Code Curo Kotlin developers build Android applications with Jetpack libraries, Compose UI, secure networking, offline storage, notifications, analytics, and Play Store release support.",
+            "items": [
+              { "eyebrow": "Android Apps", "title": "Kotlin, Jetpack Compose, XML views, navigation, and modules", "text": "Create responsive Android experiences with maintainable code and platform-friendly UX." },
+              { "eyebrow": "Architecture", "title": "MVVM, Clean Architecture, Room, coroutines, and dependency injection", "text": "Build codebases that are easier to test, scale, and hand over between teams." },
+              { "eyebrow": "Integrations", "title": "REST APIs, payments, maps, push, camera, and device services", "text": "Connect Android apps to product systems and mobile hardware capabilities." },
+              { "eyebrow": "Reliability", "title": "Testing, crash handling, performance profiling, and store readiness", "text": "Improve app stability across Android devices, OS versions, and network conditions." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Mobile Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Kotlin engineers for Android product development, modernization, integrations, and long-term support.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Kotlin profiles and assess Android depth, architecture, Compose skill, testing, and communication fit." },
+              { "title": "2 Weeks Free POC", "text": "Validate delivery with a feature module, UI flow, API integration, bug sprint, or performance improvement." },
+              { "title": "Easy Onboard", "text": "Add selected Kotlin developers to your repository, sprint tools, QA process, and release workflow." }
+            ]
+          },
+          "whyTitle": "A Kotlin development partner for modern Android apps, maintainable architecture, and release confidence.",
+          "why": [
+            { "title": "Android Depth", "text": "We build around real device behavior, lifecycle rules, performance, and Play Store expectations." },
+            { "title": "Clean Delivery", "text": "Our Kotlin developers keep features modular, testable, and aligned with your app roadmap." },
+            { "title": "Integration Ready", "text": "We coordinate Android work with backend APIs, auth, payments, analytics, and cloud services." },
+            { "title": "Team Flexibility", "text": "Scale from one Kotlin engineer into mobile, backend, QA, DevOps, and design support." }
+          ],
+          "projectsTitle": "Kotlin project examples for Android products, field apps, commerce, fintech, and connected devices.",
+          "projectsDescription": "These examples show how Code Curo Kotlin developers can support practical Android delivery.",
+          "projects": [
+            { "type": "Field Ops", "title": "Technician Service App", "description": "Built work orders, offline notes, photo uploads, GPS check-ins, and sync status screens." },
+            { "type": "FinTech", "title": "Wallet Activity Module", "description": "Created balance views, transaction lists, secure login, alerts, and API-backed account flows." },
+            { "type": "Commerce", "title": "Android Shopping App", "description": "Delivered browse, cart, offers, checkout handoff, and customer account screens." },
+            { "type": "IoT", "title": "Connected Home Controller", "description": "Built device onboarding, control states, schedules, alerts, and usage insights." },
+            { "type": "Healthcare", "title": "Appointment App", "description": "Created booking, reminders, patient profile, documents, and secure care-team messaging hooks." },
+            { "type": "Modernization", "title": "Compose Feature Migration", "description": "Moved legacy screens into Jetpack Compose with cleaner state handling and UI consistency." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Kotlin Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Kotlin Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Kotlin Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Kotlin team",
+            "description": "Choose Kotlin expertise for Android apps, Jetpack Compose, integrations, and reliable mobile releases."
+          },
+          "finalCta": "Need Kotlin developers who can build modern Android apps with clean architecture and release-ready quality?"
+        }
+      },
+      {
+        "role": "Flutter Developers",
+        "url": "/flutter-developer",
+        "technology": "flutter",
+        "page": {
+          "hero": {
+            "eyebrow": "Cross-Platform Mobile Partner",
+            "title": "Hire Flutter developers",
+            "description": "Hire Flutter developers to build beautiful cross-platform mobile apps for iOS and Android with fast iterations, shared codebases, smooth UI, and production release support."
+          },
+          "panel": {
+            "label": "Flutter delivery overview",
+            "metrics": [
+              { "label": "Platforms", "value": "iOS / Android" },
+              { "label": "Framework", "value": "Flutter / Dart" },
+              { "label": "State", "value": "Bloc / Provider" },
+              { "label": "Delivery", "value": "One Codebase" }
+            ],
+            "flow": ["UX Review", "2-Week POC", "Build App", "Launch"]
+          },
+          "expertise": {
+            "eyebrow": "Flutter Expertise",
+            "title": "Flutter engineers for fast cross-platform apps, MVPs, customer portals, and mobile product scale.",
+            "description": "Code Curo Flutter developers build mobile apps with responsive UI, clean architecture, shared business logic, native integrations, secure APIs, testing, and store release support.",
+            "items": [
+              { "eyebrow": "Cross-Platform Apps", "title": "Flutter, Dart, responsive layouts, navigation, and reusable widgets", "text": "Build iOS and Android apps from a shared codebase without losing product polish." },
+              { "eyebrow": "Architecture", "title": "Bloc, Provider, Riverpod, clean layers, and modular features", "text": "Keep Flutter applications organized, scalable, and easier to maintain as the roadmap grows." },
+              { "eyebrow": "Native Integrations", "title": "Payments, maps, camera, push, biometrics, and platform channels", "text": "Connect Flutter apps with device features and backend systems your users rely on." },
+              { "eyebrow": "Release Quality", "title": "Testing, performance tuning, app signing, and store submissions", "text": "Prepare mobile releases with disciplined QA, smooth animations, and stable app behavior." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Mobile Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Flutter engineers for MVPs, app rebuilds, cross-platform teams, and ongoing product delivery.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Flutter profiles and validate Dart, UI craft, state management, native integrations, and delivery fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with one mobile flow, reusable component system, API integration, or performance improvement." },
+              { "title": "Easy Onboard", "text": "Add selected Flutter developers to your roadmap, design handoff, QA cycle, and release process." }
+            ]
+          },
+          "whyTitle": "A cross-platform mobile partner for fast delivery, polished UI, reusable code, and release support.",
+          "why": [
+            { "title": "Faster Product Iteration", "text": "Flutter helps teams move quickly across iOS and Android while keeping user experience consistent." },
+            { "title": "Design-Led Execution", "text": "Our developers translate design systems into responsive widgets, animations, and practical mobile flows." },
+            { "title": "Backend-Ready Apps", "text": "We connect Flutter products with APIs, auth, payments, analytics, notifications, and cloud workflows." },
+            { "title": "Scale When Needed", "text": "Start with a Flutter developer and add backend, QA, DevOps, UI/UX, or AI support as your product grows." }
+          ],
+          "projectsTitle": "Flutter project examples for MVPs, marketplaces, health apps, fintech, delivery, and customer portals.",
+          "projectsDescription": "These examples show the kind of Flutter apps Code Curo can deliver from concept to launch.",
+          "projects": [
+            { "type": "MVP", "title": "Founder Mobile MVP", "description": "Built onboarding, profiles, content feeds, notifications, and admin-connected API flows." },
+            { "type": "Marketplace", "title": "Service Booking App", "description": "Created provider listings, booking, payments, customer chat hooks, and review flows." },
+            { "type": "Healthcare", "title": "Wellness Tracking App", "description": "Delivered habit tracking, reminders, charts, profile settings, and secure data sync." },
+            { "type": "FinTech", "title": "Expense Management App", "description": "Built receipt capture, spend categories, approvals, reporting views, and auth flows." },
+            { "type": "Delivery", "title": "Courier Customer App", "description": "Created order tracking, address management, real-time status, and support workflows." },
+            { "type": "Portal", "title": "Member Self-Service App", "description": "Built account screens, documents, notifications, support tickets, and profile management." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Flutter Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Flutter Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Flutter Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Flutter team",
+            "description": "Choose Flutter expertise for cross-platform apps, fast MVPs, polished UI, and mobile release support."
+          },
+          "finalCta": "Need Flutter developers who can build iOS and Android apps from one reliable codebase?"
+        }
+      },
+      {
+        "role": "Android Developers",
+        "url": "/android-developer",
+        "technology": "android",
+        "page": {
+          "hero": {
+            "eyebrow": "Android App Engineering Partner",
+            "title": "Hire Android developers",
+            "description": "Hire Android developers to build scalable mobile apps for phones, tablets, field teams, consumer products, and enterprise workflows with strong Play Store release support."
+          },
+          "panel": {
+            "label": "Android delivery overview",
+            "metrics": [
+              { "label": "Platform", "value": "Android" },
+              { "label": "Stack", "value": "Kotlin / Java" },
+              { "label": "UI", "value": "Compose / XML" },
+              { "label": "Release", "value": "Play Store" }
+            ],
+            "flow": ["App Review", "2-Week POC", "Develop + QA", "Publish"]
+          },
+          "expertise": {
+            "eyebrow": "Android Expertise",
+            "title": "Android engineers for native apps, enterprise tools, consumer platforms, and device-connected workflows.",
+            "description": "Code Curo Android developers build reliable mobile applications with Kotlin, Java, Jetpack, APIs, offline storage, push notifications, analytics, and release management.",
+            "items": [
+              { "eyebrow": "Native Android", "title": "Kotlin, Java, Jetpack, Compose, XML layouts, and app modules", "text": "Create Android experiences that work smoothly across devices, screen sizes, and OS versions." },
+              { "eyebrow": "Enterprise Apps", "title": "Field tools, dashboards, approvals, offline sync, and secure access", "text": "Build practical mobile workflows for teams that need reliable apps outside the office." },
+              { "eyebrow": "Product Features", "title": "Payments, maps, camera, media, push notifications, and analytics", "text": "Deliver user-facing features with stable backend connections and device integrations." },
+              { "eyebrow": "Release Support", "title": "Testing, crash monitoring, Play Console, signing, and rollout care", "text": "Ship Android apps with QA discipline, store readiness, and post-launch improvement cycles." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Mobile Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated Android engineers for new builds, feature delivery, app rescue, modernization, and maintenance.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review Android profiles and interview for Kotlin/Java, architecture, device behavior, testing, and product fit." },
+              { "title": "2 Weeks Free POC", "text": "Validate delivery with one feature, bug sprint, UI flow, API connection, or app performance improvement." },
+              { "title": "Easy Onboard", "text": "Add selected Android developers to your backlog, tools, QA cycle, release plan, and communication rhythm." }
+            ]
+          },
+          "whyTitle": "An Android development partner for dependable mobile apps, enterprise workflows, and Play Store releases.",
+          "why": [
+            { "title": "Device-Aware Delivery", "text": "We consider Android fragmentation, network conditions, screen sizes, lifecycle behavior, and performance from the start." },
+            { "title": "Business Workflow Focus", "text": "Our Android developers build around operational needs, user tasks, security, and measurable product outcomes." },
+            { "title": "Release Discipline", "text": "We support internal builds, staged rollouts, monitoring, and post-launch fixes." },
+            { "title": "Flexible Team Extension", "text": "Scale Android work with backend, QA, DevOps, UI/UX, analytics, and support teams as required." }
+          ],
+          "projectsTitle": "Android project examples for delivery, retail, fintech, healthcare, education, and enterprise operations.",
+          "projectsDescription": "These examples show how Code Curo Android developers can support native mobile product delivery.",
+          "projects": [
+            { "type": "Delivery", "title": "Last-Mile Driver App", "description": "Built route lists, delivery proof, GPS updates, customer calls, and offline status handling." },
+            { "type": "Retail", "title": "Store Associate App", "description": "Created inventory lookup, barcode scanning, order status, customer notes, and task workflows." },
+            { "type": "FinTech", "title": "Loan Application App", "description": "Delivered onboarding, KYC capture, document uploads, application status, and secure notifications." },
+            { "type": "Healthcare", "title": "Clinic Operations App", "description": "Built appointment queues, patient details, reminders, notes, and staff-facing workflows." },
+            { "type": "Education", "title": "Learning App", "description": "Created course browsing, video lessons, quizzes, progress tracking, and push reminders." },
+            { "type": "Enterprise", "title": "Approval Workflow App", "description": "Built request lists, comments, attachments, role-based actions, and audit-friendly status views." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior Android Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level Android Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior Android Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream Android team",
+            "description": "Choose Android expertise for native apps, enterprise tools, device integrations, and Play Store delivery."
+          },
+          "finalCta": "Need Android developers who can build reliable apps for users, field teams, and business workflows?"
+        }
+      },
+      {
+        "role": "React Native Developers",
+        "url": "/react-native-developer",
+        "technology": "reactnative",
+        "page": {
+          "hero": {
+            "eyebrow": "Cross-Platform App Engineering Partner",
+            "title": "Hire React Native developers",
+            "description": "Hire React Native developers to build iOS and Android apps with shared JavaScript logic, native integrations, fast iteration cycles, and production mobile release support."
+          },
+          "panel": {
+            "label": "React Native delivery overview",
+            "metrics": [
+              { "label": "Platforms", "value": "iOS / Android" },
+              { "label": "Stack", "value": "React Native" },
+              { "label": "Logic", "value": "JS / TS" },
+              { "label": "Release", "value": "Stores" }
+            ],
+            "flow": ["App Scope", "2-Week POC", "Build + Integrate", "Launch"]
+          },
+          "expertise": {
+            "eyebrow": "React Native Expertise",
+            "title": "React Native engineers for fast mobile MVPs, product apps, customer portals, and native-connected experiences.",
+            "description": "Code Curo React Native developers build cross-platform apps with reusable components, TypeScript, navigation, API integrations, native modules, push notifications, analytics, and app store support.",
+            "items": [
+              { "eyebrow": "Cross-Platform UI", "title": "React Native components, navigation, responsive layouts, and design systems", "text": "Build iOS and Android interfaces with shared patterns and platform-aware behavior." },
+              { "eyebrow": "Architecture", "title": "TypeScript, state management, services, testing, and feature modules", "text": "Keep React Native code organized for product growth, handoff, and long-term maintenance." },
+              { "eyebrow": "Native Features", "title": "Push, camera, maps, payments, biometrics, deep links, and native modules", "text": "Connect cross-platform apps with device capabilities and third-party SDKs." },
+              { "eyebrow": "Release Support", "title": "Build pipelines, app signing, store submissions, monitoring, and updates", "text": "Move mobile features from development to production with structured release care." }
+            ]
+          },
+          "onboarding": {
+            "eyebrow": "Hire Mobile Developers",
+            "title": "Easy onboarding process",
+            "description": "Hire dedicated React Native engineers for MVPs, app rebuilds, feature teams, and mobile product support.",
+            "steps": [
+              { "title": "Profile Selection & Interview", "text": "Review React Native profiles and evaluate JavaScript/TypeScript, native integrations, architecture, and delivery fit." },
+              { "title": "2 Weeks Free POC", "text": "Start with one flow, API integration, reusable component, native module, or performance improvement." },
+              { "title": "Easy Onboard", "text": "Move selected developers into your sprint workflow, codebase, release process, and product roadmap." }
+            ]
+          },
+          "whyTitle": "A React Native partner for fast cross-platform delivery, native integrations, and mobile product scale.",
+          "why": [
+            { "title": "Shared Code Advantage", "text": "React Native helps teams ship iOS and Android features faster while keeping platform quality in view." },
+            { "title": "Frontend + Mobile Fit", "text": "Our developers bring React thinking into mobile UI, state, components, and product workflows." },
+            { "title": "Native Integration Strength", "text": "We support SDKs, device services, app signing, store requirements, and platform-specific fixes." },
+            { "title": "Scalable Teaming", "text": "Start with one React Native engineer and expand into React web, backend, QA, DevOps, and design support." }
+          ],
+          "projectsTitle": "React Native project examples for MVPs, marketplaces, fintech, social apps, logistics, and portals.",
+          "projectsDescription": "These examples show how Code Curo React Native developers can support cross-platform mobile delivery.",
+          "projects": [
+            { "type": "Food Tech", "title": "Restaurant Operations App", "description": "Built order views, status updates, staff workflows, push notifications, and backend-connected mobile screens." },
+            { "type": "Marketplace", "title": "Two-Sided Services App", "description": "Created customer booking, provider availability, payments, ratings, and profile flows." },
+            { "type": "FinTech", "title": "Personal Finance App", "description": "Delivered onboarding, account cards, spend insights, alerts, and secure API integrations." },
+            { "type": "Social", "title": "Creator Community App", "description": "Built feeds, media uploads, profiles, reactions, notifications, and moderation-friendly states." },
+            { "type": "Logistics", "title": "Shipment Tracking App", "description": "Created tracking timelines, support flows, address management, and real-time status updates." },
+            { "type": "Portal", "title": "Customer Self-Service App", "description": "Built documents, support tickets, billing views, notifications, and account settings." }
+          ],
+          "plans": [
+            { "price": "$19/hour", "title": "Junior React Native Engineer", "experience": "1-3 Years Experienced" },
+            { "price": "$25/hour", "title": "Mid-Level React Native Engineer", "experience": "3-5 Years Experienced" },
+            { "price": "$30/hour", "title": "Senior React Native Engineer", "experience": "5+ Years Experienced" }
+          ],
+          "cta": {
+            "eyebrow": "Hire the Right Developer",
+            "title": "Build your dream React Native team",
+            "description": "Choose React Native expertise for cross-platform apps, fast MVPs, native integrations, and mobile product growth."
+          },
+          "finalCta": "Need React Native developers who can build iOS and Android apps with fast iteration and native polish?"
+        }
+      }
     ],
     "ai_and_cloud": [
-      { "role": "Python Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "AI & ML Developers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "Data Engineers", "url": "https://codecuro.in/hire-vuejs/" },
-      { "role": "GCP Developers", "url": "https://codecuro.in/hire-gcp/" },
-      { "role": "AWS Developers", "url": "https://codecuro.in/hire-aws/" },
-      { "role": "Azure Developers", "url": "https://codecuro.in/hire-azure/" },
-      { "role": "Data Analyst", "url": "https://codecuro.in/hire-data-analyst/" },
-      { "role": "MLOps Engineers", "url": "https://codecuro.in/hire-mlops-engineers/" }
+      {
+        "role": "Python Developers",
+        "url": "/python-ai-cloud-developer",
+        "technology": "python-ai-cloud",
+        "page": {
+          "hero": { "eyebrow": "AI and Backend Engineering Partner", "title": "Hire Python developers", "description": "Hire Python developers to build APIs, automation systems, AI-enabled products, data services, backend platforms, and cloud-ready applications with clean, scalable engineering." },
+          "panel": { "label": "Python delivery overview", "metrics": [{ "label": "Stack", "value": "Python / FastAPI" }, { "label": "Data", "value": "ETL / APIs" }, { "label": "AI", "value": "LLM / ML" }, { "label": "Cloud", "value": "AWS / GCP" }], "flow": ["Scope Review", "2-Week POC", "Build Services", "Scale"] },
+          "expertise": { "eyebrow": "Python Expertise", "title": "Python engineers for APIs, automation, AI products, data workflows, and cloud-native backend systems.", "description": "Code Curo Python developers build production-ready services with FastAPI, Django, Celery, PostgreSQL, cloud integrations, AI workflows, and maintainable application architecture.", "items": [{ "eyebrow": "Backend APIs", "title": "FastAPI, Django, REST, GraphQL, auth, and integrations", "text": "Build secure backend services that connect products, dashboards, mobile apps, and enterprise systems." }, { "eyebrow": "Automation", "title": "Workers, schedulers, document processing, and business workflows", "text": "Replace manual operations with reliable Python services, queues, and traceable background jobs." }, { "eyebrow": "AI Features", "title": "LLM integrations, embeddings, search, classification, and assistants", "text": "Add practical AI capabilities to existing products with measured, production-focused implementation." }, { "eyebrow": "Data Services", "title": "Pipelines, analytics APIs, validation, and cloud storage", "text": "Prepare data flows that are reliable, observable, and ready for product or analytics use." }] },
+          "onboarding": { "eyebrow": "Hire AI and Cloud Developers", "title": "Easy onboarding process", "description": "Hire dedicated Python developers who can join backend, data, AI, or automation roadmaps quickly.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review Python profiles and validate API, data, cloud, AI, testing, and communication fit." }, { "title": "2 Weeks Free POC", "text": "Start with one API, automation flow, AI feature, data worker, or integration sprint." }, { "title": "Easy Onboard", "text": "Move selected developers into your repository, sprint tools, cloud access, and delivery rhythm." }] },
+          "whyTitle": "A Python engineering partner for reliable backend services, automation, data products, and AI-enabled workflows.",
+          "why": [{ "title": "Practical Architecture", "text": "We keep Python systems readable, testable, observable, and ready for real production usage." }, { "title": "AI + Backend Fit", "text": "Our developers can connect AI features with APIs, databases, queues, and product workflows." }, { "title": "Cloud Ready Delivery", "text": "We support deployments, storage, monitoring, CI/CD, and service scaling across major clouds." }, { "title": "Flexible Teaming", "text": "Scale from one Python engineer into data, DevOps, QA, frontend, and AI/ML teams." }],
+          "projectsTitle": "Python project examples for automation, APIs, AI features, reporting, and data-backed products.",
+          "projectsDescription": "Each example shows a different kind of Python delivery Code Curo can support.",
+          "projects": [{ "type": "Automation", "title": "Invoice Processing Engine", "description": "Built OCR intake, validation rules, exception queues, audit logs, and accounting system exports." }, { "type": "AI Product", "title": "Knowledge Search Assistant", "description": "Created document ingestion, embeddings, semantic search, source-backed answers, and admin controls." }, { "type": "Backend", "title": "Logistics API Platform", "description": "Delivered shipment APIs, webhooks, role-based access, reporting endpoints, and background sync jobs." }, { "type": "Data", "title": "Revenue Forecast Service", "description": "Built data preparation jobs, model endpoints, forecast snapshots, and dashboard-ready outputs." }],
+          "plans": [{ "price": "$19/hour", "title": "Junior Python Engineer", "experience": "1-3 Years Experienced" }, { "price": "$25/hour", "title": "Mid-Level Python Engineer", "experience": "3-5 Years Experienced" }, { "price": "$30/hour", "title": "Senior Python Engineer", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Developer", "title": "Build your dream Python team", "description": "Choose Python expertise for APIs, automation, AI features, data workflows, and backend scale." },
+          "finalCta": "Need Python developers who can build reliable APIs, automation systems, and AI-enabled products?"
+        }
+      },
+      {
+        "role": "AI & ML Developers",
+        "url": "/ai-ml-developer",
+        "technology": "ai-ml",
+        "page": {
+          "hero": { "eyebrow": "Applied AI Engineering Partner", "title": "Hire AI & ML developers", "description": "Hire AI and ML developers to build intelligent workflows, predictive systems, LLM applications, computer vision tools, and production-ready model integrations." },
+          "panel": { "label": "AI/ML delivery overview", "metrics": [{ "label": "Models", "value": "ML / LLM" }, { "label": "Data", "value": "Training Sets" }, { "label": "Serving", "value": "APIs" }, { "label": "Quality", "value": "Evaluation" }], "flow": ["Use Case Review", "2-Week POC", "Model + App", "Monitor"] },
+          "expertise": { "eyebrow": "AI & ML Expertise", "title": "AI engineers for predictions, intelligent automation, generative AI, and model-backed product features.", "description": "Code Curo AI and ML developers help teams turn business data and product workflows into practical AI systems with training, evaluation, deployment, and monitoring.", "items": [{ "eyebrow": "Machine Learning", "title": "Classification, forecasting, recommendation, scoring, and anomaly detection", "text": "Build models that support real decisions and measurable product outcomes." }, { "eyebrow": "Generative AI", "title": "LLM apps, RAG, agents, summarization, extraction, and chat interfaces", "text": "Create AI workflows that work with your documents, users, systems, and guardrails." }, { "eyebrow": "Computer Vision", "title": "Image classification, detection, OCR, inspection, and visual search", "text": "Use vision models for operational automation, quality checks, and content intelligence." }, { "eyebrow": "Production AI", "title": "Evaluation, model APIs, monitoring, retraining, and human review loops", "text": "Move beyond demos with measurable quality, observability, and release discipline." }] },
+          "onboarding": { "eyebrow": "Hire AI Developers", "title": "Easy onboarding process", "description": "Hire dedicated AI and ML developers for discovery, proof of concept, model delivery, and production AI support.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review AI/ML profiles and validate model experience, data thinking, product fit, and delivery maturity." }, { "title": "2 Weeks Free POC", "text": "Start with a focused model, RAG workflow, evaluation set, prediction endpoint, or automation prototype." }, { "title": "Easy Onboard", "text": "Add selected AI engineers to your product, data, backend, and cloud workflows." }] },
+          "whyTitle": "An applied AI partner for useful models, careful evaluation, product integration, and production support.",
+          "why": [{ "title": "Use-Case First", "text": "We connect AI work to business workflows, user outcomes, data readiness, and measurable quality." }, { "title": "Production Mindset", "text": "Our AI teams plan for evaluation, monitoring, permissions, costs, and fallback behavior." }, { "title": "Full-Stack AI Delivery", "text": "We pair models with APIs, dashboards, data pipelines, cloud services, and user-facing products." }, { "title": "POC-Led Start", "text": "Begin with a focused sprint before scaling into larger AI roadmaps." }],
+          "projectsTitle": "AI and ML project examples for prediction, automation, computer vision, and generative AI workflows.",
+          "projectsDescription": "These AI/ML examples are distinct from the Python, data, cloud, and MLOps pages.",
+          "projects": [{ "type": "GenAI", "title": "Legal Document Review Assistant", "description": "Built clause extraction, source-grounded summaries, risk labels, and reviewer feedback loops." }, { "type": "Vision", "title": "Manufacturing Defect Detection", "description": "Created image labeling flows, detection models, confidence thresholds, and inspection dashboards." }, { "type": "Prediction", "title": "Customer Churn Scoring", "description": "Delivered feature engineering, model training, explainability views, and CRM-ready churn segments." }, { "type": "Recommendation", "title": "Personalized Learning Paths", "description": "Built course recommendations, learner signals, ranking logic, and outcome tracking." }],
+          "plans": [{ "price": "$22/hour", "title": "Junior AI/ML Engineer", "experience": "1-3 Years Experienced" }, { "price": "$30/hour", "title": "Mid-Level AI/ML Engineer", "experience": "3-5 Years Experienced" }, { "price": "$38/hour", "title": "Senior AI/ML Engineer", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Developer", "title": "Build your dream AI team", "description": "Choose AI/ML expertise for intelligent automation, model-backed products, RAG workflows, and predictive systems." },
+          "finalCta": "Need AI and ML developers who can move from proof of concept to production-ready intelligence?"
+        }
+      },
+      {
+        "role": "Data Engineers",
+        "url": "/data-engineer",
+        "technology": "data-engineer",
+        "page": {
+          "hero": { "eyebrow": "Data Platform Engineering Partner", "title": "Hire data engineers", "description": "Hire data engineers to build pipelines, warehouses, lakehouse systems, streaming workflows, analytics layers, and reliable data foundations for reporting and AI." },
+          "panel": { "label": "Data engineering overview", "metrics": [{ "label": "Pipelines", "value": "Batch / Stream" }, { "label": "Storage", "value": "Warehouse" }, { "label": "Quality", "value": "Validation" }, { "label": "Scale", "value": "Cloud Data" }], "flow": ["Data Audit", "2-Week POC", "Build Pipelines", "Operate"] },
+          "expertise": { "eyebrow": "Data Engineering Expertise", "title": "Data engineers for modern pipelines, clean analytics models, governed datasets, and AI-ready platforms.", "description": "Code Curo data engineers build ingestion, transformation, orchestration, warehousing, data quality, and reporting-ready infrastructure across cloud and product systems.", "items": [{ "eyebrow": "Pipelines", "title": "ETL, ELT, batch jobs, streaming ingestion, and orchestration", "text": "Move data from applications, vendors, and events into dependable analytical systems." }, { "eyebrow": "Warehousing", "title": "Data lakes, warehouses, marts, semantic layers, and dbt-style models", "text": "Structure data for dashboards, reporting, finance, operations, and product analytics." }, { "eyebrow": "Quality", "title": "Validation, lineage, monitoring, reconciliation, and data contracts", "text": "Reduce reporting errors and make data issues easier to detect and resolve." }, { "eyebrow": "Cloud Data", "title": "BigQuery, Redshift, Snowflake, Databricks, S3, and cloud-native services", "text": "Build scalable data platforms aligned to your cloud environment." }] },
+          "onboarding": { "eyebrow": "Hire Data Engineers", "title": "Easy onboarding process", "description": "Hire dedicated data engineers for pipeline delivery, warehouse modernization, analytics support, and AI data readiness.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review data engineering profiles and validate pipeline, SQL, cloud, orchestration, and modeling experience." }, { "title": "2 Weeks Free POC", "text": "Start with one source connector, transformation model, quality check, or reporting dataset." }, { "title": "Easy Onboard", "text": "Add selected data engineers to your data stack, cloud workspace, sprint process, and documentation flow." }] },
+          "whyTitle": "A data engineering partner for reliable pipelines, trusted reporting, and AI-ready data platforms.",
+          "why": [{ "title": "Data Reliability", "text": "We design for freshness, correctness, lineage, ownership, and operational visibility." }, { "title": "Analytics Friendly", "text": "Our data models are built for practical reporting, dashboards, and business questions." }, { "title": "Cloud-Aware Delivery", "text": "We use the services that fit your cloud, cost profile, data volume, and team skills." }, { "title": "AI Readiness", "text": "Clean, governed data foundations make AI and ML work more useful and easier to maintain." }],
+          "projectsTitle": "Data engineering project examples for pipelines, warehouses, reporting layers, and AI-ready datasets.",
+          "projectsDescription": "These examples focus specifically on data platform and pipeline delivery.",
+          "projects": [{ "type": "Retail", "title": "Sales Data Warehouse", "description": "Built POS ingestion, product dimensions, daily revenue marts, and executive reporting datasets." }, { "type": "Logistics", "title": "Streaming Shipment Events", "description": "Created event ingestion, late-arrival handling, delivery milestones, and operations dashboards." }, { "type": "Healthcare", "title": "Clinical Data Quality Layer", "description": "Delivered validation checks, duplicate detection, lineage tracking, and compliance-friendly exports." }, { "type": "SaaS", "title": "Product Usage Lakehouse", "description": "Built event pipelines, account-level usage models, retention cohorts, and customer health datasets." }],
+          "plans": [{ "price": "$20/hour", "title": "Junior Data Engineer", "experience": "1-3 Years Experienced" }, { "price": "$28/hour", "title": "Mid-Level Data Engineer", "experience": "3-5 Years Experienced" }, { "price": "$35/hour", "title": "Senior Data Engineer", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Developer", "title": "Build your dream data engineering team", "description": "Choose data engineering expertise for pipelines, warehouses, quality checks, analytics models, and AI-ready datasets." },
+          "finalCta": "Need data engineers who can turn messy sources into reliable analytics and AI-ready platforms?"
+        }
+      },
+      {
+        "role": "GCP Developers",
+        "url": "/gcp-developer",
+        "technology": "gcp",
+        "page": {
+          "hero": { "eyebrow": "Google Cloud Engineering Partner", "title": "Hire GCP developers", "description": "Hire GCP developers to build cloud-native applications, data platforms, AI integrations, Kubernetes services, and secure infrastructure on Google Cloud." },
+          "panel": { "label": "GCP delivery overview", "metrics": [{ "label": "Compute", "value": "GKE / Cloud Run" }, { "label": "Data", "value": "BigQuery" }, { "label": "AI", "value": "Vertex AI" }, { "label": "Ops", "value": "IaC / CI-CD" }], "flow": ["Cloud Review", "2-Week POC", "Build Platform", "Optimize"] },
+          "expertise": { "eyebrow": "GCP Expertise", "title": "Google Cloud engineers for scalable apps, data systems, AI services, and secure cloud operations.", "description": "Code Curo GCP developers help teams design, build, migrate, and operate applications using Cloud Run, GKE, BigQuery, Pub/Sub, Vertex AI, IAM, and infrastructure automation.", "items": [{ "eyebrow": "Cloud Apps", "title": "Cloud Run, GKE, App Engine, APIs, services, and serverless workflows", "text": "Deploy scalable application backends with managed Google Cloud services." }, { "eyebrow": "Data + AI", "title": "BigQuery, Dataflow, Pub/Sub, Vertex AI, and analytics systems", "text": "Build cloud data and AI workflows that support reporting, automation, and product intelligence." }, { "eyebrow": "Infrastructure", "title": "IAM, networking, storage, Terraform, monitoring, and secure environments", "text": "Create maintainable cloud foundations with clear access, observability, and cost controls." }, { "eyebrow": "Migration", "title": "Workload migration, modernization, containerization, and cloud optimization", "text": "Move applications into GCP with minimal disruption and better operating models." }] },
+          "onboarding": { "eyebrow": "Hire Cloud Developers", "title": "Easy onboarding process", "description": "Hire dedicated GCP developers for application hosting, data systems, cloud migration, and AI platform work.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review GCP profiles and validate cloud architecture, security, data, Kubernetes, and DevOps fit." }, { "title": "2 Weeks Free POC", "text": "Start with a Cloud Run service, BigQuery pipeline, GKE deployment, or Vertex AI integration." }, { "title": "Easy Onboard", "text": "Move selected GCP developers into your cloud workspace, IaC repository, roadmap, and delivery cadence." }] },
+          "whyTitle": "A Google Cloud partner for secure infrastructure, cloud-native apps, data platforms, and AI services.",
+          "why": [{ "title": "Managed-Service Focus", "text": "We use GCP services to reduce operational overhead while keeping architecture maintainable." }, { "title": "Data Strength", "text": "GCP work can connect naturally with BigQuery, streaming data, analytics, and AI workflows." }, { "title": "Security-Aware Delivery", "text": "We plan IAM, networking, secrets, monitoring, and environment separation carefully." }, { "title": "Cost Visibility", "text": "Our cloud builds consider usage patterns, scaling rules, and practical optimization." }],
+          "projectsTitle": "GCP project examples for serverless apps, BigQuery analytics, streaming systems, and Vertex AI workflows.",
+          "projectsDescription": "These examples are focused on Google Cloud delivery and are different from AWS and Azure examples.",
+          "projects": [{ "type": "Serverless", "title": "Cloud Run API Platform", "description": "Deployed containerized APIs, managed autoscaling, secrets, logging, and CI/CD release workflows." }, { "type": "Analytics", "title": "BigQuery Finance Mart", "description": "Built finance datasets, scheduled transformations, access controls, and Looker-ready reporting tables." }, { "type": "Streaming", "title": "Pub/Sub Event Router", "description": "Created event topics, Dataflow processing, dead-letter handling, and monitoring dashboards." }, { "type": "AI", "title": "Vertex AI Support Classifier", "description": "Delivered model endpoints, prediction logs, quality checks, and ticket routing integrations." }],
+          "plans": [{ "price": "$22/hour", "title": "Junior GCP Engineer", "experience": "1-3 Years Experienced" }, { "price": "$30/hour", "title": "Mid-Level GCP Engineer", "experience": "3-5 Years Experienced" }, { "price": "$38/hour", "title": "Senior GCP Engineer", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Developer", "title": "Build your dream GCP team", "description": "Choose GCP expertise for Cloud Run, GKE, BigQuery, Pub/Sub, Vertex AI, and secure cloud operations." },
+          "finalCta": "Need GCP developers who can build scalable Google Cloud applications, data platforms, and AI services?"
+        }
+      },
+      {
+        "role": "AWS Developers",
+        "url": "/aws-developer",
+        "technology": "aws",
+        "page": {
+          "hero": { "eyebrow": "AWS Cloud Engineering Partner", "title": "Hire AWS developers", "description": "Hire AWS developers to build cloud-native applications, serverless workflows, secure infrastructure, data systems, DevOps pipelines, and scalable backend platforms." },
+          "panel": { "label": "AWS delivery overview", "metrics": [{ "label": "Compute", "value": "EC2 / Lambda" }, { "label": "Data", "value": "RDS / S3" }, { "label": "Ops", "value": "CI/CD" }, { "label": "Security", "value": "IAM / VPC" }], "flow": ["AWS Audit", "2-Week POC", "Build + Secure", "Scale"] },
+          "expertise": { "eyebrow": "AWS Expertise", "title": "AWS engineers for serverless systems, cloud infrastructure, backend hosting, data workloads, and DevOps automation.", "description": "Code Curo AWS developers build production systems using Lambda, ECS, EC2, RDS, S3, API Gateway, CloudFront, IAM, VPC, CloudWatch, and infrastructure-as-code workflows.", "items": [{ "eyebrow": "Cloud Apps", "title": "Lambda, ECS, EC2, API Gateway, CloudFront, and backend services", "text": "Deploy reliable application workloads with the right AWS compute and delivery model." }, { "eyebrow": "Infrastructure", "title": "VPC, IAM, secrets, load balancing, Terraform, and environment setup", "text": "Create secure, repeatable cloud infrastructure that teams can operate confidently." }, { "eyebrow": "Data + Storage", "title": "S3, RDS, DynamoDB, Redshift, queues, events, and backup workflows", "text": "Support application data, analytics, and operational workflows with AWS-native services." }, { "eyebrow": "Operations", "title": "CI/CD, monitoring, logging, cost optimization, and reliability improvements", "text": "Keep AWS workloads observable, scalable, and easier to release." }] },
+          "onboarding": { "eyebrow": "Hire Cloud Developers", "title": "Easy onboarding process", "description": "Hire dedicated AWS developers for migrations, app hosting, serverless workflows, infrastructure, and platform support.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review AWS profiles and validate architecture, security, serverless, networking, and DevOps experience." }, { "title": "2 Weeks Free POC", "text": "Start with a Lambda workflow, ECS deployment, Terraform module, monitoring setup, or migration slice." }, { "title": "Easy Onboard", "text": "Add selected AWS developers to your cloud accounts, repositories, sprint tools, and release process." }] },
+          "whyTitle": "An AWS partner for scalable infrastructure, secure services, cloud cost visibility, and production operations.",
+          "why": [{ "title": "Right-Sized Architecture", "text": "We choose AWS services based on workload needs, team maturity, cost, and operational complexity." }, { "title": "Security First", "text": "IAM, network boundaries, secrets, encryption, and environment separation are part of delivery." }, { "title": "Automation Friendly", "text": "Infrastructure-as-code and CI/CD keep releases repeatable and less fragile." }, { "title": "Long-Term Support", "text": "AWS work can grow into DevOps, backend, data, QA, and monitoring support." }],
+          "projectsTitle": "AWS project examples for serverless products, SaaS hosting, data workflows, and secure cloud operations.",
+          "projectsDescription": "These examples focus on AWS-specific cloud delivery.",
+          "projects": [{ "type": "Serverless", "title": "Claims Processing Workflow", "description": "Built Lambda functions, SQS queues, S3 document storage, audit trails, and retry handling." }, { "type": "SaaS", "title": "ECS Multi-Service Platform", "description": "Deployed APIs, worker services, load balancing, autoscaling, CloudWatch alerts, and CI/CD." }, { "type": "Data", "title": "S3 to Redshift Pipeline", "description": "Created ingestion jobs, schema validation, transformation steps, and analytics-ready warehouse tables." }, { "type": "Security", "title": "Cloud Account Hardening", "description": "Improved IAM policies, VPC boundaries, secrets handling, logging, backup rules, and compliance checks." }],
+          "plans": [{ "price": "$22/hour", "title": "Junior AWS Engineer", "experience": "1-3 Years Experienced" }, { "price": "$30/hour", "title": "Mid-Level AWS Engineer", "experience": "3-5 Years Experienced" }, { "price": "$38/hour", "title": "Senior AWS Engineer", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Developer", "title": "Build your dream AWS team", "description": "Choose AWS expertise for serverless apps, infrastructure, data workflows, security, and scalable cloud operations." },
+          "finalCta": "Need AWS developers who can build, secure, monitor, and scale your cloud platform?"
+        }
+      },
+      {
+        "role": "Azure Developers",
+        "url": "/azure-developer",
+        "technology": "azure",
+        "page": {
+          "hero": { "eyebrow": "Microsoft Cloud Engineering Partner", "title": "Hire Azure developers", "description": "Hire Azure developers to build enterprise cloud applications, data platforms, DevOps workflows, AI integrations, and secure Microsoft ecosystem solutions." },
+          "panel": { "label": "Azure delivery overview", "metrics": [{ "label": "Compute", "value": "App Service" }, { "label": "Data", "value": "Azure SQL" }, { "label": "AI", "value": "Azure AI" }, { "label": "DevOps", "value": "Pipelines" }], "flow": ["Azure Review", "2-Week POC", "Build Services", "Operate"] },
+          "expertise": { "eyebrow": "Azure Expertise", "title": "Azure engineers for enterprise apps, cloud migrations, data platforms, DevOps automation, and AI-enabled workflows.", "description": "Code Curo Azure developers build solutions with App Service, Functions, AKS, Azure SQL, Blob Storage, Service Bus, Azure DevOps, Entra ID, and Azure AI services.", "items": [{ "eyebrow": "Enterprise Apps", "title": "App Service, Functions, AKS, APIs, integrations, and .NET-friendly hosting", "text": "Build secure cloud applications that fit Microsoft-heavy enterprise environments." }, { "eyebrow": "Identity + Security", "title": "Entra ID, role access, Key Vault, networking, monitoring, and governance", "text": "Create Azure systems with clear access controls and operational visibility." }, { "eyebrow": "Data + AI", "title": "Azure SQL, Synapse, Data Factory, Blob Storage, and Azure AI", "text": "Support analytics, automation, document intelligence, and AI workflows on Azure." }, { "eyebrow": "DevOps", "title": "Azure DevOps, pipelines, IaC, release gates, and environment management", "text": "Improve release consistency across development, staging, and production environments." }] },
+          "onboarding": { "eyebrow": "Hire Cloud Developers", "title": "Easy onboarding process", "description": "Hire dedicated Azure developers for enterprise cloud apps, migrations, DevOps, data, and AI services.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review Azure profiles and validate Microsoft cloud, security, DevOps, data, and architecture experience." }, { "title": "2 Weeks Free POC", "text": "Start with an Azure Function, App Service deployment, DevOps pipeline, data flow, or identity integration." }, { "title": "Easy Onboard", "text": "Add selected Azure developers to your subscriptions, repositories, cloud governance, and sprint workflow." }] },
+          "whyTitle": "An Azure partner for enterprise cloud delivery, Microsoft integrations, secure identity, and operational maturity.",
+          "why": [{ "title": "Enterprise Fit", "text": "We align Azure builds with Microsoft identity, governance, DevOps, data, and security patterns." }, { "title": "Modernization Support", "text": "Our developers can move legacy workloads into managed Azure services and cleaner release workflows." }, { "title": "Data and AI Ready", "text": "Azure work can connect naturally with analytics, document intelligence, and AI-enabled automation." }, { "title": "Clear Operations", "text": "We support monitoring, pipelines, secrets, scaling, and environment management." }],
+          "projectsTitle": "Azure project examples for enterprise apps, identity, document automation, analytics, and DevOps pipelines.",
+          "projectsDescription": "These examples are Azure-specific and separate from AWS and GCP project examples.",
+          "projects": [{ "type": "Enterprise", "title": "Azure App Service Portal", "description": "Built customer portal hosting, Entra ID login, Azure SQL integration, logging, and release pipelines." }, { "type": "Automation", "title": "Document Intelligence Workflow", "description": "Created invoice extraction, validation screens, Blob Storage, queue processing, and review states." }, { "type": "Data", "title": "Data Factory Reporting Hub", "description": "Delivered source ingestion, transformations, SQL marts, pipeline alerts, and Power BI-ready datasets." }, { "type": "DevOps", "title": "Azure Release Modernization", "description": "Built YAML pipelines, approval gates, Key Vault integration, environment variables, and rollback flows." }],
+          "plans": [{ "price": "$22/hour", "title": "Junior Azure Engineer", "experience": "1-3 Years Experienced" }, { "price": "$30/hour", "title": "Mid-Level Azure Engineer", "experience": "3-5 Years Experienced" }, { "price": "$38/hour", "title": "Senior Azure Engineer", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Developer", "title": "Build your dream Azure team", "description": "Choose Azure expertise for enterprise apps, Microsoft integrations, DevOps, data platforms, and AI services." },
+          "finalCta": "Need Azure developers who can build secure Microsoft cloud applications and enterprise workflows?"
+        }
+      },
+      {
+        "role": "Data Analyst",
+        "url": "/data-analyst",
+        "technology": "data-analyst",
+        "page": {
+          "hero": { "eyebrow": "Analytics and BI Partner", "title": "Hire data analysts", "description": "Hire data analysts to turn raw business data into dashboards, reports, KPI systems, product insights, forecasting views, and decision-ready analysis." },
+          "panel": { "label": "Data analysis overview", "metrics": [{ "label": "BI", "value": "Dashboards" }, { "label": "SQL", "value": "Analytics" }, { "label": "KPIs", "value": "Metrics" }, { "label": "Insights", "value": "Reports" }], "flow": ["Metric Review", "2-Week POC", "Build Reports", "Improve"] },
+          "expertise": { "eyebrow": "Data Analyst Expertise", "title": "Analysts for dashboards, business reporting, product analytics, KPI design, and decision support.", "description": "Code Curo data analysts help teams define metrics, write SQL, build dashboards, analyze trends, prepare reports, and communicate useful business insights.", "items": [{ "eyebrow": "Dashboards", "title": "Power BI, Looker, Tableau, Metabase, Excel, and reporting views", "text": "Create clear dashboards for leadership, sales, finance, operations, and product teams." }, { "eyebrow": "SQL Analysis", "title": "Cohorts, funnels, segmentation, retention, and business performance queries", "text": "Answer practical questions with reliable, well-explained data analysis." }, { "eyebrow": "KPI Design", "title": "Metric definitions, reporting logic, data dictionaries, and stakeholder alignment", "text": "Make reporting consistent so teams trust and understand the numbers." }, { "eyebrow": "Decision Support", "title": "Trend analysis, forecasting support, variance checks, and executive summaries", "text": "Translate data into recommendations, risks, and next steps." }] },
+          "onboarding": { "eyebrow": "Hire Data Analysts", "title": "Easy onboarding process", "description": "Hire dedicated data analysts for dashboard delivery, reporting cleanup, product insights, and business analysis.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review analyst profiles and validate SQL, BI tools, communication, business thinking, and domain fit." }, { "title": "2 Weeks Free POC", "text": "Start with one dashboard, KPI cleanup, funnel analysis, or executive reporting pack." }, { "title": "Easy Onboard", "text": "Move selected analysts into your BI tools, data sources, stakeholder meetings, and reporting cadence." }] },
+          "whyTitle": "A data analysis partner for clear dashboards, trusted metrics, and decisions your teams can act on.",
+          "why": [{ "title": "Business Clarity", "text": "We focus on the questions teams need answered, not only chart production." }, { "title": "Readable Reporting", "text": "Dashboards are structured for scanning, comparison, ownership, and regular use." }, { "title": "Metric Discipline", "text": "We document definitions and logic so reporting stays consistent across teams." }, { "title": "Cross-Team Fit", "text": "Analysts can work with data engineers, product managers, finance, sales, and operations." }],
+          "projectsTitle": "Data analyst project examples for dashboards, funnels, finance reporting, and operational insights.",
+          "projectsDescription": "These examples focus on analysis and BI, not data engineering pipeline work.",
+          "projects": [{ "type": "SaaS", "title": "Retention Cohort Dashboard", "description": "Built cohort views, churn breakdowns, account segments, and product usage insights." }, { "type": "Finance", "title": "Monthly Revenue Pack", "description": "Created MRR, expansion, contraction, collection, and variance reporting for leadership." }, { "type": "Marketing", "title": "Campaign Funnel Analysis", "description": "Analyzed acquisition channels, conversion steps, CAC trends, and qualified lead quality." }, { "type": "Operations", "title": "Support Performance Dashboard", "description": "Built SLA views, backlog trends, response times, escalation patterns, and team scorecards." }],
+          "plans": [{ "price": "$16/hour", "title": "Junior Data Analyst", "experience": "1-3 Years Experienced" }, { "price": "$22/hour", "title": "Mid-Level Data Analyst", "experience": "3-5 Years Experienced" }, { "price": "$28/hour", "title": "Senior Data Analyst", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Analyst", "title": "Build your dream data analysis team", "description": "Choose data analyst expertise for dashboards, reporting, KPI systems, SQL analysis, and business insights." },
+          "finalCta": "Need data analysts who can turn business questions into clear dashboards and useful decisions?"
+        }
+      },
+      {
+        "role": "MLOps Engineers",
+        "url": "/mlops-engineer",
+        "technology": "mlops",
+        "page": {
+          "hero": { "eyebrow": "Production ML Engineering Partner", "title": "Hire MLOps engineers", "description": "Hire MLOps engineers to deploy, monitor, version, automate, and scale machine learning systems with reliable pipelines, model serving, and production governance." },
+          "panel": { "label": "MLOps delivery overview", "metrics": [{ "label": "Pipelines", "value": "CI/CD ML" }, { "label": "Serving", "value": "Model APIs" }, { "label": "Tracking", "value": "Experiments" }, { "label": "Ops", "value": "Monitoring" }], "flow": ["ML Review", "2-Week POC", "Automate", "Monitor"] },
+          "expertise": { "eyebrow": "MLOps Expertise", "title": "MLOps engineers for model deployment, experiment tracking, training pipelines, monitoring, and reliable AI operations.", "description": "Code Curo MLOps engineers help teams productionize AI and ML systems with automated pipelines, model registries, serving infrastructure, observability, and governance workflows.", "items": [{ "eyebrow": "Model Deployment", "title": "Model APIs, batch scoring, containers, autoscaling, and release strategies", "text": "Serve ML models reliably for applications, dashboards, and automated workflows." }, { "eyebrow": "Pipelines", "title": "Training workflows, feature pipelines, CI/CD, validation, and retraining", "text": "Automate repeatable model delivery from data preparation to production release." }, { "eyebrow": "Tracking", "title": "Experiment tracking, model registry, versioning, metrics, and lineage", "text": "Make model changes traceable, comparable, and easier to approve." }, { "eyebrow": "Monitoring", "title": "Drift checks, quality metrics, logs, alerts, and human review loops", "text": "Keep production models observable and responsive to real-world data changes." }] },
+          "onboarding": { "eyebrow": "Hire MLOps Engineers", "title": "Easy onboarding process", "description": "Hire dedicated MLOps engineers for model deployment, AI platform automation, monitoring, and ML infrastructure maturity.", "steps": [{ "title": "Profile Selection & Interview", "text": "Review MLOps profiles and validate ML infrastructure, cloud, DevOps, monitoring, and model-serving experience." }, { "title": "2 Weeks Free POC", "text": "Start with a model API, training pipeline, registry setup, monitoring dashboard, or CI/CD workflow." }, { "title": "Easy Onboard", "text": "Add selected MLOps engineers to your cloud, ML repositories, model lifecycle, and release process." }] },
+          "whyTitle": "An MLOps partner for turning AI prototypes into monitored, versioned, production-ready model systems.",
+          "why": [{ "title": "Production Reliability", "text": "We design ML systems for repeatability, monitoring, rollback, and operational ownership." }, { "title": "Model Lifecycle Discipline", "text": "Experiments, versions, approvals, deployments, and metrics stay traceable." }, { "title": "Cloud and DevOps Fit", "text": "MLOps work connects naturally with CI/CD, containers, Kubernetes, data pipelines, and cloud monitoring." }, { "title": "AI Team Enablement", "text": "We help data scientists and product engineers ship models with less manual release friction." }],
+          "projectsTitle": "MLOps project examples for model serving, training automation, monitoring, and AI platform operations.",
+          "projectsDescription": "These examples are dedicated to ML operations rather than model research or BI reporting.",
+          "projects": [{ "type": "Serving", "title": "Realtime Fraud Model API", "description": "Deployed low-latency model endpoints, version routing, request logs, and rollback-ready releases." }, { "type": "Training", "title": "Automated Retraining Pipeline", "description": "Built scheduled training, validation gates, artifact storage, registry updates, and approval steps." }, { "type": "Monitoring", "title": "Model Drift Dashboard", "description": "Created feature drift checks, prediction quality metrics, alerts, and investigation views." }, { "type": "Platform", "title": "ML Experiment Workspace", "description": "Set up experiment tracking, dataset versioning, model comparison, and team access controls." }],
+          "plans": [{ "price": "$24/hour", "title": "Junior MLOps Engineer", "experience": "1-3 Years Experienced" }, { "price": "$32/hour", "title": "Mid-Level MLOps Engineer", "experience": "3-5 Years Experienced" }, { "price": "$42/hour", "title": "Senior MLOps Engineer", "experience": "5+ Years Experienced" }],
+          "cta": { "eyebrow": "Hire the Right Engineer", "title": "Build your dream MLOps team", "description": "Choose MLOps expertise for model deployment, training automation, monitoring, registries, and production AI systems." },
+          "finalCta": "Need MLOps engineers who can productionize models with automation, monitoring, and release control?"
+        }
+      }
     ]
   },
   "technologies": [
